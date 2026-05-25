@@ -2,6 +2,14 @@ body {
     background-color: #f4f7f6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+#welcome-container img {
+    max-width: 85%; /* Permite que ela ocupe uma área maior do card */
+    height: auto;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.06)); /* Realça os contornos do brasão */
+}
+
 .card-flashcard {
     border: none;
     border-radius: 15px;
@@ -19,33 +27,36 @@ body {
     border-color: #adb5bd;
     transform: translateX(5px);
 }
+
+/* Ajuste de contraste para o feedback visual de acertos e erros */
 .correct-answer {
-    background-color: #50e4a2 !important; /* Verde claro de sucesso */
+    background-color: #09ea2b !important; /* Verde claro utilitário */
     border-color: #a3cfbb !important;
-    color: #000000 !important;
-    font-style: bold;
-    font-weight: 700;
+    color: #f5f6f6 !important;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 .wrong-answer {
-    background-color: #f8d7da !important; /* Vermelho claro de erro */
+    background-color: #f8d7da !important; /* Vermelho claro utilitário */
     border-color: #f5c2c7 !important;
     color: #842029 !important;
     font-weight: 600;
 }
+
 .justification-box {
     border-left: 5px solid #0d6efd;
     background-color: #e7f1ff;
     border-radius: 4px;
 }
 .microscope-viewport {
-    background-color: #f8f9fa; /* Cinza bem claro, padrão Bootstrap */
-    border: 2px solid #e2e8f0; /* Borda suave */
+    background-color: #f8f9fa; /* Fundo cinza claro profissional */
+    border: 2px solid #e2e8f0;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 2px 8px rgba(0,0,0,0.04); /* Sombra interna sutil */
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.04);
     padding: 10px;
 }
 .microscope-img {
