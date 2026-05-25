@@ -1,0 +1,782 @@
+[
+    {
+        "id": 1,
+        "urlImagem": "images/parasito001-Trichuris trichiura..png",
+        "enunciado": "Analise a estrutura centralizada na lâmina microscópica. Apresenta formato elíptico e alongado com a presença proeminente de dois tampões polares mucilaginosos e transparentes nas extremidades, assemelhando-se a um limão. Qual é o diagnóstico?",
+        "opcoes": [
+            "Ovo de Enterobius vermicularis",
+            "Ovo de Trichuris trichiura",
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo de Schistosoma mansoni"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O formato simétrico de bandeja ou limão associado aos nítidos tampões polares mucilaginosos salientes nas duas extremidades define a morfologia clássica do ovo de Trichuris trichiura."
+    },
+    {
+        "id": 2,
+        "urlImagem": "images/parasito002-ovo infértil de Ascaris.png",
+        "enunciado": "Examine o ovo de nematódeo presente na lâmina sob aumento de 40x. Ele mostra-se consideravelmente alongado, elíptico e com uma membrana externa mamilonada bastante irregular. Seu interior é preenchido por grânulos refractários dispersos, sem massa celular organizada. Trata-se de um:",
+        "opcoes": [
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo infértil de Ascaris lumbricoides",
+            "Ovo de Fasciola hepatica",
+            "Ovo de Diphyllobothrium latum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os ovos inférteis de Ascaris lumbricoides são mais compridos, estreitos e bizarros. Como não houve fertilização, eles não desenvolvem a massa embrionária central organizada, contendo apenas grânulos amorfos."
+    },
+    {
+        "id": 3,
+        "urlImagem": "images/parasito003-ovo fértil de Ascaris lumbricoides.png",
+        "enunciado": "Observe os critérios morfológicos desta estrutura arredondada: apresenta uma cápsula espessa envolvida por uma evidente membrana mamilonada (irregular e rugosa) de coloração castanha. No centro, nota-se uma massa única e compacta de células germinativas. Qual é o diagnóstico?",
+        "opcoes": [
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo decorticado de Ascaris lumbricoides",
+            "Ovo de Taenia solium",
+            "Ovo de Hymenolepis nana"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A cápsula espessa com o córtex mamilonado rugoso externo (impregnado pelos pigmentos biliares intestinais) abrigando uma massa celular germinativa compacta é o padrão patognomônico do ovo fértil de Ascaris lumbricoides."
+    },
+    {
+        "id": 4,
+        "urlImagem": "images/parasito004-Diphyllobothrium latum .png",
+        "enunciado": "Durante a análise de uma lâmina fecal, o laboratório identificou um ovo ovoide de coloração castanho-amarelada, medindo cerca de 60-70 µm, com uma parede lisa e apresentando uma estrutura de 'tampa' bem nítida em um de seus polos (opérculo). Trata-se de um ovo de:",
+        "opcoes": [
+            "Taenia solium",
+            "Schistosoma mansoni",
+            "Diphyllobothrium latum",
+            "Hymenolepis nana"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "Os ovos de Diphyllobothrium latum (a tênia do peixe) são caracteristicamente ovoides, operculados (possuem o opérculo, uma portinha polar de ejeção) e contêm um embrião imaturo no momento da eliminação fecal."
+    },
+    {
+        "id": 5,
+        "urlImagem": "images/parasito006-arva rabditóide de Strongyloides stercoralis.png",
+        "enunciado": "Focalizando a forma larval ativa presente nesta amostra fresca de fezes, nota-se um nematóide alongado que exibe vestíbulo bucal curto, esôfago rhabditóide e um primórdio genital nítido e altamente visível em seu terço médio. Trata-se de uma:",
+        "opcoes": [
+            "Larva de Ancylostoma duodenale",
+            "Larva de Necator americanus",
+            "Larva rhabditóide de Strongyloides stercoralis",
+            "Larva filarióide de Strongyloides stercoralis"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "A larva rhabditóide de Strongyloides stercoralis diferencia-se das larvas de ancilostomídeos precisamente por esses dois biomarcadores práticos na triagem do EPF: o vestíbulo bucal muito curto e o primórdio genital volumoso e visível."
+    },
+    {
+        "id": 6,
+        "urlImagem": "images/parasito007-ovo fértil de Ascaris lumbricoides.png",
+        "enunciado": "Análise este ovo fértil específico. Caso ele passe por um processo mecânico de lavagem ou falha de secreção onde ocorra a perda completa da sua camada proteica mamilonada externa, tornando a sua superfície externa 100% lisa e transparente, ele receberá a denominação técnica de:",
+        "opcoes": [
+            "Ovo infértil",
+            "Ovo decorticado",
+            "Ovo embrionado",
+            "Mórula hialina"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O termo 'decorticado' refere-se especificamente ao ovo fértil de Ascaris lumbricoides que não possui ou perdeu o córtex mamilonado rugoso protetor, expondo a sua parede interna lisa."
+    },
+    {
+        "id": 7,
+        "urlImagem": "images/parasito008-ovo Hymenolepis nana.png",
+        "enunciado": "Observe a estrutura transparente e ovalada centralizada nesta lâmina de objetiva de 40x. Nota-se uma membrana dupla fina e hialina, separada por um espaço claro de onde emergem pequenos filamentos polares flexíveis que sustentam uma oncosfera interna com pequenos ganchos. Trata-se de um ovo de:",
+        "opcoes": [
+            "Hymenolepis nana",
+            "Taenia solium",
+            "Diphyllobothrium latum",
+            "Enterobius vermicularis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Ovos de Hymenolepis nana (tênia anã) caracterizam-se por serem transparentes, possuírem membrana interna com duas protuberâncias polares de onde nascem de 4 a 8 filamentos filiformes flexíveis que preenchem o espaço intermembranar."
+    },
+    {
+        "id": 8,
+        "urlImagem": "images/parasito009-ovo de Schistosoma mansoni.png",
+        "enunciado": "Examine a estrutura volumosa capturada no microscópio. Trata-se de um ovo alongado, oval, de grandes dimensões, contendo um miracídio totalmente formado em seu interior e exibindo um espículo lateral agudo e pontiagudo muito evidente. Qual o diagnóstico?",
+        "opcoes": [
+            "Ovo de Fasciola hepatica",
+            "Ovo de Trichuris trichiura",
+            "Ovo de Schistosoma mansoni",
+            "Ovo de Taenia saginata"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "O formato ovalado grande associado à presença obrigatória daquela espícula pontiaguda lateral (espículo) voltada para trás é a marca registrada inequívoca do Schistosoma mansoni."
+    },
+    {
+        "id": 9,
+        "urlImagem": "images/parasito010-Cercariae de Schistosoma mansoni .png",
+        "enunciado": "Ao analisar amostras biológicas coletadas de coleções de água doce em regiões endêmicas, identificou-se a forma evolutiva de um trematódeo dotada de corpo alongado e uma cauda caracteristicamente bifurcada (cauda em 'Y'). Esta estrutura representa qual fase do ciclo do Schistosoma mansoni?",
+        "opcoes": [
+            "Miracídio",
+            "Esporocisto",
+            "Cercária",
+            "Metacercária"
+        ],
+        "indexCorreto": 3,
+        "justificativa": "A cercária é a forma larvária infectante do Schistosoma mansoni que emerge do caramujo (hospedeiro intermediário). Sua morfologia é inconfundível devido à presença da cauda bifurcada (furcocercária) que auxilia na natação ativa até o hospedeiro definitivo."
+    },
+    {
+        "id": 10,
+        "urlImagem": "images/parasito011-ovo Taenia solium.png",
+        "enunciado": "Observe a estrutura geométrica estritamente esférica centralizada na imagem abaixo. Apresenta dimensões reduzidas e uma parede espessa escura dotada de estriações radiais proeminentes (lembrando uma engrenagem), contendo três pares de ganchos internos (embrião hexacanto). Este achado representa um ovo de:",
+        "opcoes": [
+            "Ascaris lumbricoides",
+            "Taenia solium (ou Taenia saginata)",
+            "Hymenolepis nana",
+            "Trichuris trichiura"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os ovos pertencentes ao gênero Taenia possuem essa casca protetora radialmente estriada muito marcante. Microscopicamente, os ovos de T. solium e T. saginata são idênticos, sendo o diagnóstico laboratorial liberado genericamente como 'Ovo de Taenia spp.'."
+    },
+    {
+        "id": 11,
+        "urlImagem": null,
+        "enunciado": "11) [Teórica - Fundamentos] Ao realizar a triagem inicial de uma lâmina de fezes pelo método de sedimentação espontânea (Hoffman, Pons e Janer), qual o procedimento correto com relação ao uso das lentes do microscópio óptico para mapear os ovos pesados de helmintos?",
+        "opcoes": [
+            "Focar direto na objetiva de 100x com óleo de imersão para ver detalhes de parede",
+            "Iniciar a varredura sistemática utilizando a objetiva de 10x, com condensador baixo para aumentar o contraste",
+            "Utilizar apenas a objetiva de 40x com iluminação máxima e diafragma totalmente aberto",
+            "Realizar a leitura total na objetiva de 4x com o filtro de luz azul ativado"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A varredura completa da lâmina deve começar na objetiva de 10x (menor aumento). Baixar levemente o condensador e fechar parcialmente o diafragma de íris aumenta o contraste de refração, tornando os ovos hialinos muito mais visíveis contra os detritos fecais."
+    },
+    {
+        "id": 12,
+        "urlImagem": "images/sugestao_trofozoito_giardia.png",
+        "enunciado": "Em uma amostra de fezes diarreicas recém-coletadas, observou-se uma forma evolutiva ativa, simétrica, com formato de gota ou pera, apresentando dois núcleos que se assemelham a olhos e múltiplos flagelos com movimentos característicos em 'folha caante'. Trata-se de:",
+        "opcoes": [
+            "Trofozoíto de Giardia lamblia",
+            "Cisto de Giardia lamblia",
+            "Trofozoíto de Entamoeba histolytica",
+            "Trofozoíto de Trichomonas vaginalis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os trofozoítos de Giardia lamblia habitam o intestino delgado e possuem essa morfologia bilateralmente simétrica em formato de pera, com dois núcleos proeminentes (disco suctorial) e motilidade em queda de folha."
+    },
+    {
+        "id": 13,
+        "urlImagem": "images/sugestao_ovo_ascaris_infertil.png",
+        "enunciado": "Examine a estrutura alongada e elíptica centralizada na lâmina (aumento de 40x). Sua parede mamilonada externa mostra-se muito delgada e bizarra, e seu interior está completamente preenchido por grânulos refractários brilhantes dispersos, sem nenhuma massa embrionária organizada. Trata-se de um:",
+        "opcoes": [
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo infértil de Ascaris lumbricoides",
+            "Ovo de Diphyllobothrium latum",
+            "Artefato alimentar vegetal"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os ovos inférteis de Ascaris lumbricoides são produzidos por fêmeas que não foram fecundadas. Eles são mais compridos, estreitos e não possuem a massa celular germinativa central estruturada, contendo apenas grânulos amorfos."
+    },
+    {
+        "id": 14,
+        "urlImagem": null,
+        "enunciado": "Durante a migração das larvas de Ascaris lumbricoides pelos alvéolos pulmonares (Ciclo de Loos), qual o achado imunopatológico e clínico característico que o paciente pode manifestar na triagem médica?",
+        "opcoes": [
+            "Síndrome de Loeffler (tosse, febre baixa e eosinofilia sanguínea elevada)",
+            "Sinal de Romaña (edema palpebral unilateral)",
+            "Síndrome de Larva Migrans Visceral crônica",
+            "Insuficiência renal aguda por depósito de imunocomplexos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A passagem das larvas pelos pulmões desencadeia uma reação inflamatória de hipersensibilidade alveolar temporária conhecida como Síndrome de Loeffler, marcada por tosse, infiltrados pulmonares migratórios e marcante eosinofilia."
+    },
+    {
+        "id": 15,
+        "urlImagem": "images/sugestao_proglote_taenia.png",
+        "enunciado": "Um paciente levou ao laboratório um fragmento esbranquiçado e achatado liberado espontaneamente em suas roupas íntimas. Após a clarificação com ácido acético, o analista contou mais de 15 ramificações uterinas principais, finas e dicotômicas. Esse achado morfológico diagnostica:",
+        "opcoes": [
+            "Proglote grávida de Taenia saginata",
+            "Proglote grávida de Taenia solium",
+            "Escólex de Taenia solium",
+            "Fragmento de Diphyllobothrium latum"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As proglotes grávidas de Taenia saginata são mais longas do que largas, possuem liberação ativa e espontânea fora da defecação, e apresentam mais de 15 ramificações uterinas finas e dicotômicas (ramificadas em duas)."
+    },
+    {
+        "id": 16,
+        "urlImagem": null,
+        "enunciado": "A ingestão acidental de ovos viáveis de qual destes parasitas pode fazer com que o ser humano atue como hospedeiro intermediário anômalo, desenvolvendo larvas nos tecidos musculares e no sistema nervoso central (neurocisticercose)?",
+        "opcoes": [
+            "Taenia solium",
+            "Taenia saginata",
+            "Ascaris lumbricoides",
+            "Hymenolepis diminuta"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A cisticercose humana ocorre estritamente pela ingestão de ovos de Taenia solium (por heteroinfecção ou autoinfecção). Os ovos de Taenia saginata não conseguem se desenvolver em cisticercos no tecido humano."
+    },
+    {
+        "id": 17,
+        "urlImagem": "images/sugestao_cisto_endolimax.png",
+        "enunciado": "Ao corar uma lâmina com Lugol, observou-se um cisto muito pequeno (cerca de 6-8 µm), de formato oval, contendo exatamente 4 núcleos puntiformes cuja cromatina se concentra em um grande cariossomo central, sem corpos cromatóides. Trata-se de:",
+        "opcoes": [
+            "Endolimax nana",
+            "Entamoeba histolytica",
+            "Entamoeba coli",
+            "Giardia lamblia"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Endolimax nana é um protozoário comensal não patogênico muito comum, cujos cistos pequenos e ovais possuem tipicamente 4 núcleos com cariossomos grandes e proeminentes ('olhos de ave')."
+    },
+    {
+        "id": 18,
+        "urlImagem": null,
+        "enunciado": "Qual a principal justificativa laboratorial para recomendar que o diagnóstico de Enterobius vermicularis seja feito pelo método da fita adesiva transparente (Método de Graham) e não pelo exame parasitológico de fezes tradicional?",
+        "opcoes": [
+            "As fêmeas realizam a postura dos ovos diretamente na região cutânea perianal e raramente os ovos são misturados ao bolo fecal.",
+            "Os ovos de Enterobius são destruídos pelos ácidos gástricos e intestinais antes de saírem.",
+            "Os ovos flutuam e exigem o contato com plásticos para aderirem.",
+            "As fezes normais inibem a coloração desses ovos ao microscópio."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As fêmeas grávidas migram à noite para a região perianal externa para fazer a postura dos ovos na pele. Por não serem eliminados no lúmen intestinal junto com as fezes, o EPF comum dá falso-negativo em mais de 90% dos casos."
+    },
+    {
+        "id": 19,
+        "urlImagem": "images/sugestao_larva_filarioide_strongyloides.png",
+        "enunciado": "Em uma amostra de secreção pulmonar (escarro) de um paciente imunossuprimido em unidade de terapia intensiva, isolou-se uma larva longa, muito ativa, com esôfago cilíndrico longo ocupando cerca de metade do corpo e cauda com um entalhe nítido (bifurcada). Esta é a:",
+        "opcoes": [
+            "Larva filarióide (L3) de Strongyloides stercoralis",
+            "Larva rhabditóide (L1) de Strongyloides stercoralis",
+            "Larva de Ancylostoma duodenale",
+            "Larva de Wuchereria bancrofti"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A larva filarióide (L3) é a forma infectante do Strongyloides stercoralis. Em pacientes imunossuprimidos, ocorre o ciclo de hiperinfecção com migração massiva dessas larvas para os pulmões, sendo identificadas pela cauda entalhada."
+    },
+    {
+        "id": 20,
+        "urlImagem": null,
+        "enunciado": "O diagnóstico de giardíase pode apresentar períodos de negatividade devido à eliminação intermitente de cistos nas fezes do hospedeiro. Para mitigar esse problema biológico na rotina laboratorial, qual a conduta recomendada?",
+        "opcoes": [
+            "Coletar de 3 a 4 amostras de fezes em dias alternados ou consecutivos utilizando conservantes químicos.",
+            "Realizar a coleta estritamente de fezes diarreicas provocadas por laxantes.",
+            "Substituir o exame microscópico por uma biópsia retal obrigatória.",
+            "Realizar a coloração exclusiva pelo método de Gram em alta temperatura."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Devido à eliminação irregular e em surtos dos cistos de Giardia lamblia, a coleta seriada de múltiplas amostras aumenta drasticamente a sensibilidade do diagnóstico clínico."
+    },
+    {
+        "id": 21,
+        "urlImagem": "images/sugestao_trofozoito_e_histolytica.png",
+        "enunciado": "Ao analisar um esfregaço de fezes diarreicas disentéricas corado pela Hematoxilina Férrica, observou-se um trofozoíto com núcleo único contendo cromatina periférica regular, cariossomo central e a presença marcante de hemácias fagocitadas em seu citoplasma (eritrofagocitose). O diagnóstico é:",
+        "opcoes": [
+            "Entamoeba histolytica (forma invasiva)",
+            "Entamoeba coli (forma comensal)",
+            "Endolimax nana (forma ativa)",
+            "Dientamoeba fragilis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A fagocitose de hemácias (eritrofagocitose) é o principal marcador morfológico de atividade patogênica invasiva da Entamoeba histolytica, diferenciando-a visualmente da morfologicamente idêntica Entamoeba dispar."
+    },
+    {
+        "id": 22,
+        "urlImagem": null,
+        "enunciado": "O método de Kato-Katz (sedimentação quantitativa por tela e esfregaço em espatulação com glicerina e verde malaquita) é a metodologia padrão recomendada pela Organização Mundial da Saúde para o diagnóstico de qual parasita de interesse epidemiológico?",
+        "opcoes": [
+            "Schistosoma mansoni (ovos em alta escala)",
+            "Strongyloides stercoralis (larvas delicadas)",
+            "Giardia lamblia (cistos pequenos)",
+            "Enterobius vermicularis (ovos aderentes)"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O método de Kato-Katz permite a contagem exata de ovos por grama de fezes (OPG), sendo ideal para levantamentos epidemiológicos de esquistossomose e geo-helmintos como Ascaris e Trichuris."
+    },
+    {
+        "id": 23,
+        "urlImagem": "images/sugestao_cisto_iodamoeba.png",
+        "enunciado": "Identifique o protozoário a partir da seguinte descrição de seu cisto: formato irregular ou arredondado (10-12 µm), núcleo único com cariossomo grande rodeado por grânulos, e uma enorme estrutura citoplasmática que se cora intensamente em castanho-escuro pelo Lugol (vacúolo de glicogênio iodófilo).",
+        "opcoes": [
+            "Iodamoeba bütschlii",
+            "Endolimax nana",
+            "Entamoeba coli",
+            "Chilomastix mesnili"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O cisto de Iodamoeba bütschlii possui uma massa de glicogênio muito desenvolvida e compacta que reage fortemente com o iodo do Lugol, adquirindo uma cor castanha marcante (massa iodófila)."
+    },
+    {
+        "id": 24,
+        "urlImagem": null,
+        "enunciado": "Qual o mecanismo de ação patogênica primário pelo qual os trofozoítos de Giardia lamblia provocam a síndrome de má-absorção intestinal, esteatorreia (gordura nas fezes) e perda de peso severa no hospedeiro?",
+        "opcoes": [
+            "Adesão mecânica na mucosa do duodeno por meio do disco suctorial, formando um 'tapete' que bloqueia fisicamente a absorção de nutrientes.",
+            "Perfuração profunda da parede intestinal com migração sistêmica para a veia porta.",
+            "Secreção de toxinas citolíticas que destroem as microvilosidades do cólon transverso.",
+            "Espoliação sanguínea direta provocando anemia ferropriva severa."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os trofozoítos se fixam nos enterócitos do duodeno e jejuno pelo disco ventral (suctorial). A multiplicação em massa gera uma barreira mecânica que atrofia as microvilosidades e impede a absorção de lipídios e vitaminas."
+    },
+    {
+        "id": 25,
+        "urlImagem": "images/sugestao_scolex_taenia.png",
+        "enunciado": "Em uma análise de peças anatômicas parasitárias eliminadas pós-tratamento, identificou-se um escólex (cabeça de verme) de formato quadrangular que apresentava 4 ventosas circulares bulbosas, porém com total ausência de ganchos ou rostro (coroa de acúleos). Trata-se de:",
+        "opcoes": [
+            "Taenia saginata",
+            "Taenia solium",
+            "Diphyllobothrium latum",
+            "Hymenolepis nana"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O escólex de Taenia saginata é inerme, ou seja, possui apenas as 4 ventosas de fixação e carece de rostro e ganchos. A Taenia solium possui o escólex armado com uma coroa de ganchos quitinosos."
+    },
+    {
+        "id": 26,
+        "urlImagem": "images/sugestao_larva_ancilostomideo.png",
+        "enunciado": "No diagnóstico diferencial de larvas encontradas nas fezes pelo método de Rugai, o analista observou uma larva rhabditóide com vestíbulo bucal longo (canal que liga a boca ao esôfago) e primórdio genital muito pequeno, praticamente imperceptível. Essa morfologia aponta para:",
+        "opcoes": [
+            "Larva de Ancilostomídeo",
+            "Larva rhabditóide de Strongyloides stercoralis",
+            "Larva filarióide de Strongyloides stercoralis",
+            "Larva de Enterobius vermicularis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Ao contrário do Strongyloides stercoralis (que tem vestíbulo curto e primórdio genital grande), as larvas rhabditóides de ancilostomídeos possuem o vestíbulo bucal longo e o primórdio genital rudimentar, quase invisível na microscopia óptica comum."
+    },
+    {
+        "id": 27,
+        "urlImagem": null,
+        "enunciado": "A ingestão de carne bovina crua ou mal cozida contendo cisticercos viáveis (Cysticercus bovis) faz com que o ser humano desenvolva qual infecção e atue em qual papel no ciclo biológico do parasita?",
+        "opcoes": [
+            "Teníase por Taenia saginata / Hospedeiro definitivo",
+            "Cisticercose por Taenia saginata / Hospedeiro intermediário",
+            "Teníase por Taenia solium / Hospedeiro definitivo",
+            "Cisticercose por Taenia solium / Hospedeiro intermediário"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O gado bovino é o hospedeiro intermediário da Taenia saginata. Quando o homem ingere o cisticerco presente na carne do boi, a larva se fixa na mucosa intestinal e se desenvolve no verme adulto, caracterizando a teníase (homem como hospedeiro definitivo)."
+    },
+    {
+        "id": 28,
+        "urlImagem": "images/sugestao_ovo_ascaris_corticao.png",
+        "enunciado": "Durante uma triagem rotineira pelo método de Hoffman, observou-se um ovo perfeitamente esférico, de coloração amarelada, com uma massa de células compacta no interior e uma casca externa espessa, porém completamente desprovida de rugosidades ou mamelões. Trata-se de um ovo fértil de Ascaris lumbricoides conhecido como:",
+        "opcoes": [
+            "Decorticado",
+            "Infértil típico",
+            "Embrionado ativo",
+            "Hiperparasitado"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os ovos férteis de Ascaris lumbricoides que perdem ou não chegam a desenvolver a sua camada albuminoide mamilonada externa são chamados de ovos decorticados. Eles mantêm a parede interna lisa e transparente."
+    },
+    {
+        "id": 29,
+        "urlImagem": null,
+        "enunciado": "Qual o principal mecanismo de transmissão pelo qual o ser humano adquire a estrongiloidíase (infecção por Strongyloides stercoralis) na rotina epidemiológica?",
+        "opcoes": [
+            "Penetração ativa de larvas filarióides (L3) na pele, geralmente pelos pés descalços em contato com solo contaminado.",
+            "Ingestão de ovos embrionados presentes em águas e alimentos contaminados.",
+            "Ingestão de carne de porco crua contendo larvas encistadas.",
+            "Picada de insetos hematófagos vetores da família Simuliidae."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A estrongiloidíase é uma geo-helmintíase cuja infecção primária ocorre por via transcutânea. As larvas filarióides (fase infectante) presentes no solo penetram ativamente na pele do hospedeiro."
+    },
+    {
+        "id": 30,
+        "urlImagem": "images/sugestao_cisto_e_hartmanni.png",
+        "enunciado": "Ao realizar a micrometria de um cisto esférico corado por Lugol, o analista observou que a estrutura possuía exatamente 4 núcleos e barra cromatóide com pontas rombas, porém seu diâmetro total mediu apenas 7 µm (menor que 10 µm). O diagnóstico correto é:",
+        "opcoes": [
+            "Entamoeba hartmanni",
+            "Entamoeba histolytica",
+            "Endolimax nana",
+            "Entamoeba coli"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Entamoeba hartmanni é morfologicamente idêntica à Entamoeba histolytica em número de núcleos (até 4) e formato de corpos cromatóides, porém diferencia-se estritamente pelo tamanho reduzido (cistos menores que 10 µm), sendo considerada uma ameba comensal."
+    },
+    {
+        "id": 31,
+        "urlImagem": null,
+        "enunciado": "O prurido anal noturno, principal sintoma clínico da enterobíase (oxiuríase), está diretamente associado a qual evento biológico executado pelo parasita?",
+        "opcoes": [
+            "Migração mecânica das fêmeas grávidas até a região perianal para a postura de ovos, fixando-se e liberando substâncias irritantes.",
+            "Perfuração das paredes do ceco pelas larvas durante a eclosão.",
+            "Eliminação massiva de proglotes grávidas ativas pelo esfíncter anal.",
+            "Fixação dos machos adultos através de espículos copulatórios na mucosa retal."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Durante a noite, a diminuição dos movimentos peristálticos estimula as fêmeas de Enterobius vermicularis a migrarem para o exterior do ânus, realizando a postura dos ovos na região perianal, o que causa uma reação inflamatória local e prurido intenso."
+    },
+    {
+        "id": 32,
+        "urlImagem": "images/sugestao_cristais_charcot_leyden.png",
+        "enunciado": "Em um exame microscópico de fezes de um paciente com forte suspeita de amebíase invasiva ou estrongiloidíase severa, observou-se a presença de estruturas cristalinas delgadas, em formato de agulha ou losango bípide, derivadas da desintegração de eosinófilos. Essas estruturas são chamadas de:",
+        "opcoes": [
+            "Cristais de Charcot-Leyden",
+            "Cristais de Oxalato de Cálcio",
+            "Fibras vegetais digeridas",
+            "Cristais de Fosfato Triplo"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os cristais de Charcot-Leyden são subprodutos da quebra de eosinófilos e indicam a ocorrência de uma resposta imunitária local intensa ou processos alérgicos/parasitários graves no trato intestinal."
+    },
+    {
+        "id": 33,
+        "urlImagem": null,
+        "enunciado": "Qual o destino fisiológico das proglotes grávidas de Taenia solium após se desprenderem do estróbilo no intestino grosso do hospedeiro humano?",
+        "opcoes": [
+            "São eliminadas passivamente junto com as fezes, em blocos de 3 a 5 anéis, pois não possuem musculatura para saída ativa espontânea.",
+            "Saem ativamente e individualmente pelo ânus, forçando o esfíncter fora do momento da defecação.",
+            "Sofrem lise completa no estômago devido ao suco gástrico durante o refluxo.",
+            "Migram para os ductos biliares provocando icterícia obstrutiva severa."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Diferente da Taenia saginata (que sai ativamente forçando o esfíncter anal), as proglotes de Taenia solium são menos musculosas e saem de forma passiva, misturadas e arrastadas pelo bolo fecal."
+    },
+    {
+        "id": 34,
+        "urlImagem": "images/sugestao_cisto_blastocystis.png",
+        "enunciado": "Identifique o organismo presente na lâmina (aumento de 40x): apresenta formato arredondado (10-15 µm) composto por uma enorme área central clara que empurra o citoplasma e os pequenos núcleos para a periferia da célula, mimetizando uma estrutura vacuolar. Trata-se de:",
+        "opcoes": [
+            "Blastocystis spp. (forma vacuolar)",
+            "Cisto de Entamoeba coli",
+            "Cisto de Giardia lamblia",
+            "Artefato de gota de lipídio"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Blastocystis spp. é um organismo polimórfico comum no trato intestinal humano. A sua forma vacuolar é a mais identificada na rotina de laboratório, caracterizada por esse grande vacúolo central que ocupa até 90% da célula."
+    },
+    {
+        "id": 35,
+        "urlImagem": null,
+        "enunciado": "A reinfecção contínua por Enterobius vermicularis em crianças pequenos, provocada pelo ato de coçar a região perianal devido ao prurido e levar os dedos diretamente à boca, reiniciando o ciclo biológico, recebe o nome técnico de:",
+        "opcoes": [
+            "Autoinfecção externa (ou ciclo ânus-boca)",
+            "Autoinfecção interna crônica",
+            "Heteroinfecção passiva",
+            "Retroinfecção retal"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A autoinfecção externa ocorre quando o próprio hospedeiro transporta os ovos infectantes da região perianal para a boca através das mãos contaminadas, perpetuando a verminose sem necessidade de um vetor externo."
+    },
+    {
+        "id": 36,
+        "urlImagem": "images/sugestao_ovo_hookworm_larvado.png",
+        "enunciado": "Em uma amostra de fezes coletada há mais de 24 horas e mantida sem refrigeração adequada, o analista observou um ovo de casca muito fina e transparente, porém seu conteúdo interno já não era uma mórula, mas sim uma larva completamente formada prestes a eclodir. Este achado pode ser confundido com:",
+        "opcoes": [
+            "Ovos de Ancilostomídeos em evolução avançada",
+            "Ovos férteis típicos de Ascaris",
+            "Cistos maduros de Entamoeba coli",
+            "Ovos de Trichuris trichiura"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Se as fezes contendo ovos de ancilostomídeos ficarem muito tempo em temperatura ambiente, o embrião (mórula) continua o seu desenvolvimento rapidamente, transformando-se em larva dentro do ovo antes da eclosão na bancada."
+    },
+    {
+        "id": 37,
+        "urlImagem": null,
+        "enunciado": "A Síndrome de Hiperinfecção por Strongyloides stercoralis é uma complicação sistêmica gravíssima que acomete principalmente pacientes imunossuprimidos (em uso de corticosteroides ou com HTLV-1). Qual a base biológica desse quadro?",
+        "opcoes": [
+            "Aceleração drástica do processo de autoinfecção interna, transformando milhares de larvas rhabditóides em filarióides na mucosa intestinal, gerando migração em massa para pulmões e SNC.",
+            "Multiplicação por fissão binária dos vermes adultos no lúmen do cólon transverso.",
+            "Eclosão massiva de ovos com liberação de toxinas necróticas diretamente na corrente sanguínea portal.",
+            "Perfuração do estômago pelos vermes adultos provocando peritonite bacteriana química."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Na imunossupressão, os mecanismos celulares de controle falham e o ciclo de autoinfecção interna torna-se descontrolado. Larvas filarióides invadem a parede do intestino em alta escala e migram sistemicamente, carregando bactérias entéricas e causando sepse."
+    },
+    {
+        "id": 38,
+        "urlImagem": "images/sugestao_ovo_hymenolepis_diminuta.png",
+        "enunciado": "Observe a estrutura da imagem (40x): apresenta formato arredondado, coloração amarelada, membrana dupla e uma oncosfera interna. Diferente do ovo de Hymenolepis nana, este exemplar é maior e não apresenta nenhum filamento polar emergindo dos polos da membrana interna. Trata-se de:",
+        "opcoes": [
+            "Ovo de Hymenolepis diminuta",
+            "Ovo de Hymenolepis nana",
+            "Ovo de Taenia solium",
+            "Ovo fértil decorticado de Ascaris"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os ovos de Hymenolepis diminuta (tênia do rato) são maiores que os de H. nana, possuem coloração amarelada/castanha e a sua membrana interna é desprovida de filamentos polares, servindo como importante critério de diferenciação visual."
+    },
+    {
+        "id": 39,
+        "urlImagem": null,
+        "enunciado": "No contexto da biologia parasitária, como é denominado o período que decorre entre o momento da infecção do hospedeiro pela forma infectante até o momento em que o parasita atinge a maturidade sexual e passa a ser detectado por seus ovos ou larvas nos exames laboratoriais?",
+        "opcoes": [
+            "Período pré-patente",
+            "Período de incubação",
+            "Período de latência clínica",
+            "Período patente"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O período pré-patente representa o tempo que o parasita leva para se desenvolver e começar a reprodução no hospedeiro. Durante esse intervalo, o exame de fezes resultará negativo, mesmo com o paciente infectado."
+    },
+    {
+        "id": 40,
+        "urlImagem": "images/sugestao_trofozoito_e_coli.png",
+        "enunciado": "Ao analisar uma preparação de fezes amolecidas via exame a fresco com solução salina, observou-se um trofozoíto grande (30 µm), com citoplasma altamente vacuolado repleto de bactérias e detritos fagocitados (sem hemácias), exibindo pseudópodes curtos e lentos. O diagnóstico aponta para:",
+        "opcoes": [
+            "Trofozoíto de Entamoeba coli",
+            "Trofozoíto de Entamoeba histolytica",
+            "Trofozoíto de Giardia lamblia",
+            "Trofozoíto de Iodamoeba bütschlii"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os trofozoítos de Entamoeba coli possuem movimentação lenta, sem direcionalidade nítida, e seu citoplasma é tipicamente sujo e vacuolado devido à fagocitose de bactérias e amido, sem apresentar eritrofagocitose (comum na E. histolytica)."
+    },
+    {
+        "id": 41,
+        "urlImagem": null,
+        "enunciado": "11) [Teórica - Amebíase] A Entamoeba histolytica destrói os tecidos do hospedeiro por meio de um processo invasivo mecânico-químico. Qual o nome das enzimas secretadas por este protozoário que degradam a matriz extracelular, permitindo a formação das úlceras em 'botão de camisa'?",
+        "opcoes": [
+            "Cisteína-proteinases (ou proteases líticas)",
+            "Amilases pancreáticas",
+            "Lipases citoplasmáticas",
+            "Penicilinases bacterianas"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A patogenia da E. histolytica depende da secreção de cisteína-proteinases e de peptídeos formadores de poros (amoebaporos). Essas moléculas destroem as células epiteliais e quebram as barreiras de colágeno da mucosa intestinal, gerando necrose e ulcerações profundas."
+    },
+    {
+        "id": 42,
+        "urlImagem": "images/sugestao_trofozoito_endolimax.png",
+        "enunciado": "12) Durante o exame de fezes amolecidas coradas pela Hematoxilina Férrica, o técnico identificou um pequeno trofozoíto (8 µm) cujo núcleo não possuía cromatina periférica, exibindo apenas um cariossomo central volumoso e irregular conectado por delicados filamentos. O diagnóstico correto é:",
+        "opcoes": [
+            "Trofozoíto de Endolimax nana",
+            "Trofozoíto de Entamoeba histolytica",
+            "Trofozoíto de Iodamoeba bütschlii",
+            "Trofozoíto de Giardia lamblia"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os trofozoítos de Endolimax nana são caracterizados pelo tamanho diminuto e por um núcleo desprovido de cromatina na membrana interna, apresentando um cariossomo central muito grande que ocupa grande parte do espaço nuclear."
+    },
+    {
+        "id": 43,
+        "urlImagem": null,
+        "enunciado": "13) [Teórica - Enterobíase] Os ovos eliminados pelas fêmeas de Enterobius vermicularis na região perianal tornam-se infectantes para o ambiente e para outros hospedeiros após quanto tempo, em média?",
+        "opcoes": [
+            "Cerca de 4 a 6 horas (rápida maturação em condições de oxigenação externa)",
+            "Exatamente 21 dias no solo úmido",
+            "Cerca de 3 meses em condições anaeróbicas",
+            "Imediatamente ao sair do útero da fêmea, sem necessidade de oxigênio"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os ovos de Enterobius vermicularis são eliminados já parcialmente embrionados. Em contato com o oxigênio e a temperatura da região perianal, a larva interna se desenvolve e atinge o estágio infectante (L3) em pouquíssimas horas, favorecendo a rápida disseminação familiar."
+    },
+    {
+        "id": 44,
+        "urlImagem": "images/sugestao_ascaris_adulto.png",
+        "enunciado": "14) Paciente infantil dá entrada na emergência pediátrica com quadro clínico de dor abdominal aguda severa, vômitos fecaloides, distensão abdominal e ausência de eliminação de gases e fezes. A radiografia revela o sinal de 'miolo de pão' devido a um novelo de vermes. Qual a complicação mecânica associada ao Ascaris lumbricoides?",
+        "opcoes": [
+            "Obstrução ou oclusão intestinal mecânica por alta carga parasitária",
+            "Perfuração gástrica por ação química ácida",
+            "Diverticulite aguda purulenta",
+            "Apendicite obstrutiva por larvas microscópicas"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Em infecções massivas por Ascaris lumbricoides, o grande tamanho dos vermes adultos (que podem medir até 30 cm) propicia o seu entrelaçamento no lúmen do intestino delgado. Isso forma um bolo mecânico que obstrui a passagem do bolo fecal, exigindo intervenção cirúrgica ou farmacológica imediata."
+    },
+    {
+        "id": 45,
+        "urlImagem": null,
+        "enunciado": "15) [Teórica - Teníase] Qual a estrutura anatômica presente na porção anterior do corpo (escólex) da Taenia solium que a diferencia categoricamente da Taenia saginata?",
+        "opcoes": [
+            "Rostro (ou rolo) armado com uma coroa dupla de ganchos quitinosos",
+            "Fendas longitudinais de sucção chamadas bótria",
+            "Total ausência de ventosas funcionais",
+            "Uma ventosa única central dotada de dentes calcários"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A Taenia solium possui um escólex 'armado', contendo além das 4 ventosas um rostro com ganchos que auxiliam na fixação profunda na mucosa do intestino delgado. A Taenia saginata é 'inerme', possuindo apenas as ventosas."
+    },
+    {
+        "id": 46,
+        "urlImagem": null,
+        "enunciado": "16) [Teórica - Estrongiloidíase] No ciclo biológico heterogônico (ou de vida livre) do Strongyloides stercoralis, as larvas rhabditóides eliminadas no solo sofrem transformações e dão origem a quais estruturas no ambiente?",
+        "opcoes": [
+            "Vermes adultos (machos e fêmeas) de vida livre que se reproduzem sexualmente no solo.",
+            "Apenas fêmeas partenogenéticas que produzem ovos sem necessidade de machos.",
+            "Cistos de parede dupla altamente resistentes à dessecação.",
+            "Larvas filarióides que infectam diretamente vegetais e plantas rasteiras."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O Strongyloides stercoralis possui um ciclo duplo. No ciclo heterogônico, as larvas nas fezes transformam-se em vermes adultos de vida livre no solo. Eles se acasalam, realizam reprodução sexuada e geram novos ovos e larvas no ambiente, aumentando a contaminação do ecossistema."
+    },
+    {
+        "id": 47,
+        "urlImagem": "images/sugestao_cristais_fecais.png",
+        "enunciado": "17) Durante a análise microscópica laboratorial de rotina, o analista deve estar atento para não confundir ovos de helmintos com estruturas inanimadas. Qual o nome dado a resíduos alimentares vegetais e grãos de amido que mimetizam a forma de ovos ou cistos?",
+        "opcoes": [
+            "Artefatos ou pseudoparasitas",
+            "Cistos degenerados inativos",
+            "Ovos inférteis calcificados",
+            "Corpos de inclusão parasitária"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Grãos de pólen, esporos de fungos, fibras vegetais, gotas de gordura e grãos de amido são classificados como artefatos ou pseudoparasitas. Eles exigem conhecimento morfológico refinado do técnico para evitar laudos falsos-positivos."
+    },
+    {
+        "id": 48,
+        "urlImagem": null,
+        "enunciado": "18) [Teórica - Imunologia] Qual classe de imunoglobulinas (anticorpos) e qual tipo celular leucocitário encontram-se caracteristicamente elevados no hemograma e nos testes sorológicos de pacientes que enfrentam infecções por helmintos tecidulares?",
+        "opcoes": [
+            "IgE / Eosinófilos",
+            "IgG / Neutrófilos",
+            "IgM / Linfócitos B",
+            "IgA / Basófilos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A resposta imunitária contra helmintos (especialmente nas fases de migração larvária por tecidos e órgãos) é mediada pelo perfil Th2, induzindo a produção massiva de anticorpos da classe IgE e a ativação/desgranulação de eosinófilos para atacar a parede do verme."
+    },
+    {
+        "id": 49,
+        "urlImagem": "images/sugestao_proglote_solium.png",
+        "enunciado": "19) Uma proglote grávida expelida passivamente nas fezes foi encaminhada para análise. Após coloração, o microscopista observou um tronco uterino central que emitia menos de 12 ramificações principais grossas e de formato dendrítico (em árvore). O diagnóstico aponta para:",
+        "opcoes": [
+            "Taenia solium",
+            "Taenia saginata",
+            "Diphyllobothrium latum",
+            "Hymenolepis nana"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As proglotes grávidas de Taenia solium possuem poucas ramificações uterinas laterais (menos de 12, variando de 7 a 10), que são grossas e ramificadas de forma irregular (arborescente/dendrítica). A T. saginata possui mais de 15 ramificações finas."
+    },
+    {
+        "id": 20,
+        "urlImagem": null,
+        "enunciado": "20) [Teórica - Giardíase] Qual a denominação técnica da estrutura anatômica em formato de ventosa côncava que recobre a porção ventral do trofozoíto de Giardia lamblia, responsável pela sua fixação mecânica nos enterócitos?",
+        "opcoes": [
+            "Disco ventral (ou disco suctorial)",
+            "Axonema flagelar anterior",
+            "Rostelo quitinoso",
+            "Pseudópode hialino"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O disco ventral ou suctorial funciona como uma ventosa potente que gera pressão negativa, permitindo que o trofozoíto se fixe firmemente nas vilosidades do duodeno para absorver nutrientes e resistir ao peristaltismo intestinal."
+    },
+    {
+        "id": 51,
+        "urlImagem": "images/sugestao_ovo_hymenolepis_nana.png",
+        "enunciado": "21) Ao examinar uma amostra fecal pelo método de sedimentação, observou-se um ovo pequeno, oval-esférico, transparente, contendo uma oncosfera central e uma membrana interna dotada de duas protuberâncias polares das quais saíam filamentos delgados. Trata-se de:",
+        "opcoes": [
+            "Hymenolepis nana",
+            "Hymenolepis diminuta",
+            "Taenia solium",
+            "Enterobius vermicularis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Ovos de Hymenolepis nana medem cerca de 40-50 µm, são incolores e hialinos, e sua principal característica diagnóstica diferencial são os filamentos polares flexíveis localizados no espaço entre as duas membranas da casca."
+    },
+    {
+        "id": 52,
+        "urlImagem": null,
+        "enunciado": "22) [Teórica - Terminologia] Como é classificado o vetor que atua estritamente como um meio de transporte físico para o parasita (como uma mosca pousando em fezes e depois no alimento), sem que ocorra nenhuma multiplicação ou desenvolvimento biológico do organismo em seu interior?",
+        "opcoes": [
+            "Vetor mecânico",
+            "Vetor biológico",
+            "Hospedeiro intermediário",
+            "Vetor paratênico"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O vetor mecânico apenas transporta o parasita passivamente em sua superfície corporal (patas, cerdas, aparelho bucal). Se o parasita dependesse do vetor para sofrer transformações ou reproduzir-se, este seria um vetor biológico."
+    },
+    {
+        "id": 53,
+        "urlImagem": "images/sugestao_cisto_e_nanus.png",
+        "enunciado": "23) Um cisto esférico muito pequeno (6 µm) foi encontrado nas fezes de um paciente assintomático. Apresentava parede fina e transparente e exatamente 4 núcleos cujo cariossomo ocupava posição central excêntrica, sem barras cromatóides. Trata-se do comensal:",
+        "opcoes": [
+            "Endolimax nana",
+            "Entamoeba histolytica",
+            "Entamoeba coli",
+            "Enteromonas hominis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os cistos de Endolimax nana são os menores protozoários comensais encontrados na rotina (5-8 µm). O formato ovóide e a presença constante de 4 núcleos puntiformes sem corpos cromatóides selam o diagnóstico bacteriológico."
+    },
+    {
+        "id": 54,
+        "urlImagem": null,
+        "enunciado": "24) [Teórica - Métodos] Qual o fundamento físico-químico que justifica o repouso de no mínimo 2 a 24 horas da mistura de fezes e água no método de Hoffman, Pons e Janer (Lutz) para a concentração de parasitas?",
+        "opcoes": [
+            "Sedimentação espontânea por gravidade (ovos e larvas densos descem ao fundo do cálice de forma natural).",
+            "Flutuação induzida por alteração osmótica provocada pela água destilada.",
+            "Lise completa de detritos alimentares pela ação hidrolítica da água quente.",
+            "Centrifugação mecânica acelerada pela quebra de pontes de hidrogênio."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O método de Hoffman baseia-se na sedimentação espontânea. Como os ovos de helmintos e larvas possuem densidade e peso molecular maiores do que a água, eles se depositam de forma gradual e natural no fundo do cálice cônico."
+    },
+    {
+        "id": 55,
+        "urlImagem": "images/sugestao_ovo_f_hepatica.png",
+        "enunciado": "25) Em uma amostra de fezes de um criador de ovinos, isolou-se um ovo elíptico gigante (140 µm), de coloração amarelo-acastanhada, com parede lisa e um opérculo (tampa) nítido em um dos polos, contendo células vitelinas indistintas. O diagnóstico aponta para:",
+        "opcoes": [
+            "Fasciola hepatica",
+            "Schistosoma mansoni",
+            "Taenia saginata",
+            "Diphyllobothrium latum"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os ovos de Fasciola hepatica são de grande porte, elípticos e operculados. Diferenciam-se dos de Diphyllobothrium latum pelo tamanho marcadamente maior e pelo contexto epidemiológico de contato com o gado ou ingestão de agrião d'água."
+    },
+    {
+        "id": 56,
+        "urlImagem": null,
+        "enunciado": "26) [Teórica - Conceito] Um parasita que possui a capacidade biológica de completar o seu ciclo evolutivo utilizando um único hospedeiro para passar pelas fases larvais e adultas (como o Ascaris lumbricoides) é classificado como um organismo:",
+        "opcoes": [
+            "Monoxênico (ou de ciclo direto)",
+            "Heteroxênico (ou de ciclo indireto)",
+            "Eurixênico complexo",
+            "Estenoxênico estrito"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Parasitas monoxênicos necessitam de apenas um único hospedeiro para completar todo o seu ciclo de vida (infecção, maturação e reprodução). Os heteroxênicos exigem dois ou mais hospedeiros (definitivo e intermediários)."
+    },
+    {
+        "id": 57,
+        "urlImagem": "images/sugestao_cisto_chilomastix.png",
+        "enunciado": "27) Ao focalizar um esfregaço fecal corado pelo método de iron-hematoxylin, identificou-se um cisto com formato de limão ou pera invertida (aprox. 8 µm), contendo núcleo único e uma estrutura fibrilar interna em formato de 'boca de peixe' (citóstoma). Trata-se de:",
+        "opcoes": [
+            "Chilomastix mesnili",
+            "Giardia lamblia",
+            "Endolimax nana",
+            "Enteromonas hominis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Chilomastix mesnili é um flagelado comensal não patogênico. O seu cisto possui um formato de pera ou limão muito característico com uma pequena proeminência polar, abrigando o citóstoma interno em 'boca de peixe'."
+    },
+    {
+        "id": 58,
+        "urlImagem": null,
+        "enunciado": "28) [Teórica - Epidemiologia] No ciclo de transmissão da cisticercose humana por Taenia solium, qual a principal fonte de contaminação e infecção primária para o indivíduo saudável?",
+        "opcoes": [
+            "Ingestão de água ou alimentos (hortaliças, frutas) contaminados com ovos de tênia eliminados nas fezes de um portador humano de teníase.",
+            "Ingestão de carne de porco crua contendo cisticercos calcificados viáveis.",
+            "Penetração ativa de larvas através da pele dos membros inferiores.",
+            "Transmissão direta por meio de perdigotos de pacientes doentes na fase aguda."
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A cisticercose humana ocorre quando o homem ingere os ovos da Taenia solium eliminados no ambiente por outro humano com teníase. Ingerir a carne de porco com a larva causa a teníase (verme adulto no intestino), não a cisticercose tecidular."
+    },
+    {
+        "id": 59,
+        "urlImagem": "images/sugestao_trofozoito_ameba.png",
+        "enunciado": "29) Em uma amostra líquida de abscesso hepático obtida por punção aspirativa, identificou-se a presença de formas trofozoíticas ativas, alongadas, exibindo emissão direcional rápida de pseudópodes hialinos (dediformes). Este achado confirma o diagnóstico de:",
+        "opcoes": [
+            "Abscesso hepático amebiano (Entamoeba histolytica)",
+            "Infecção metastática por Giardia lamblia",
+            "Cisto hidático de Echinococcus granulosus",
+            "Necrose tecidular asséptica bacteriana"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A Entamoeba histolytica pode romper a parede intestinal, migrar pela circulação portal e se alojar no fígado, gerando necrose e abscessos graves. O achado de trofozoítos móveis no líquido aspirado fecha o diagnóstico clínico."
+    },
+    {
+        "id": 60,
+        "urlImagem": null,
+        "enunciado": "30) [Teórica - Fundamentos] Qual o nome do fenômeno parasitológico em que o verme adulto (como o Ascaris lumbricoides) migra erraticamente para fora do seu habitat comum devido a condições adversas (como febre alta do paciente ou uso de medicamentos inadequados), saindo pela boca, nariz ou invadindo o colédoco?",
+        "opcoes": [
+            "Parasitismo errático (ou Ascaris errático)",
+            "Hiperinfecção oportunista",
+            "Ciclo heterogônico atípico",
+            "Autoinfecção interna forçada"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O parasitismo errático ou migração ectópica ocorre quando estímulos adversos irritam o nematóide, forçando-o a abandonar o lúmen intestinal normal e migrar para localizações bizarras (canais biliares, apêndice, vias respiratórias superiores), gerando emergências médicas graves."
+    }
+]
