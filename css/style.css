@@ -1,20 +1,78 @@
-body {
+/* Força a estrutura a ocupar toda a altura da tela */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background-color: #f4f7f6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden; /* Evita a barra de rolagem na tela inteira */
 }
 
-#welcome-container img {
-    max-width: 85%; /* Permite que ela ocupe uma área maior do card */
-    height: auto;
-    margin: 0 auto;
-    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.06)); /* Realça os contornos do brasão */
+/* Container centralizador principal */
+.container-fullscreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente se a tela for gigante */
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
 }
 
+/* Ajuste responsivo do wrapper dos cards */
+.app-wrapper {
+    width: 100%;
+    max-width: 550px; /* Mantém uma leitura elegante */
+    height: 90vh; /* Ocupa a maior parte da altura vertical */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Configuração universal para TODOS os cartões do fluxo */
 .card-flashcard {
     border: none;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Não deixa conteúdo vazar pelas bordas arredondadas */
 }
+
+/* Ajuste proporcional para a logo da Welcome Screen */
+#welcome-container img {
+    max-height: 180px;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.06));
+}
+
+/* Flexibiliza os corpos dos cards para ocupar o espaço disponível */
+.card-body-flex {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Empurra o botão ou rodapé para baixo */
+    overflow: hidden;
+}
+
+/* Área de rolagem inteligente para os tópicos acadêmicos */
+.menu-scroll-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+/* Área de rolagem para as alternativas do quiz (evita quebrar com enunciados longos) */
+.quiz-scroll-container {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+    margin-bottom: 15px;
+}
+
+/* Botões de Opção */
 .btn-option {
     text-align: left;
     border: 2px solid #dee2e6;
@@ -22,22 +80,43 @@ body {
     transition: all 0.2s ease;
     font-weight: 500;
 }
+
 .btn-option:hover:not([disabled]) {
     background-color: #e9ecef;
     border-color: #adb5bd;
     transform: translateX(5px);
 }
 
-/* Ajuste de contraste para o feedback visual de acertos e erros */
+/* Customização sutil das barras de rolagem internas */
+.menu-scroll-container::-webkit-scrollbar,
+.quiz-scroll-container::-webkit-scrollbar {
+    width: 6px;
+}
+.menu-scroll-container::-webkit-scrollbar-track,
+.quiz-scroll-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.menu-scroll-container::-webkit-scrollbar-thumb,
+.quiz-scroll-container::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+}
+.menu-scroll-container::-webkit-scrollbar-thumb:hover,
+.quiz-scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Estilização dos feedbacks visuais */
 .correct-answer {
-    background-color: #09ea2b !important; /* Verde claro utilitário */
+    background-color: #09ea2b !important;
     border-color: #a3cfbb !important;
     color: #f5f6f6 !important;
     font-weight: bold;
     font-size: 1.2rem;
 }
 .wrong-answer {
-    background-color: #f8d7da !important; /* Vermelho claro utilitário */
+    background-color: #f8d7da !important;
     border-color: #f5c2c7 !important;
     color: #842029 !important;
     font-weight: 600;
@@ -48,8 +127,9 @@ body {
     background-color: #e7f1ff;
     border-radius: 4px;
 }
+
 .microscope-viewport {
-    background-color: #f8f9fa; /* Fundo cinza claro profissional */
+    background-color: #f8f9fa;
     border: 2px solid #e2e8f0;
     border-radius: 12px;
     overflow: hidden;
@@ -58,9 +138,24 @@ body {
     align-items: center;
     box-shadow: inset 0 2px 8px rgba(0,0,0,0.04);
     padding: 10px;
+    max-height: 220px; /* Mantém proporções para sobrar espaço para alternativas */
 }
+
 .microscope-img {
-    max-height: 350px;
+    max-height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+/* Estilização do Rodapé de Créditos Desenvolvedor */
+.app-credits-footer {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    color: #000000;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 10px 0 2px 0;
+    opacity: 0.7; /* Suaviza um pouco o preto puro para manter a elegância */
+    letter-spacing: 0.5px;
 }

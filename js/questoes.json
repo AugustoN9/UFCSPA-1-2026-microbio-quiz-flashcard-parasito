@@ -1,782 +1,2243 @@
 [
     {
         "id": 1,
-        "urlImagem": "images/parasito001-Trichuris trichiura..png",
-        "enunciado": "Analise a estrutura centralizada na lâmina microscópica. Apresenta formato elíptico e alongado com a presença proeminente de dois tampões polares mucilaginosos e transparentes nas extremidades, assemelhando-se a um limão. Qual é o diagnóstico?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A associação entre seres vivos de espécies diferentes na qual ambos se beneficiam e a sobrevivência de um depende obrigatoriamente da presença do outro é denominada ___.",
         "opcoes": [
-            "Ovo de Enterobius vermicularis",
-            "Ovo de Trichuris trichiura",
-            "Ovo fértil de Ascaris lumbricoides",
-            "Ovo de Schistosoma mansoni"
+            "Comensalismo",
+            "Mutualismo",
+            "Inquilinismo",
+            "Simbiose Facultativa"
         ],
         "indexCorreto": 1,
-        "justificativa": "O formato simétrico de bandeja ou limão associado aos nítidos tampões polares mucilaginosos salientes nas duas extremidades define a morfologia clássica do ovo de Trichuris trichiura."
+        "justificativa": "O <b>mutualismo</b> é uma relação harmônica obrigatória e interdependente, na qual ambos os parceiros obtêm vantagens metabólicas e estruturais essenciais à vida."
     },
     {
         "id": 2,
-        "urlImagem": "images/parasito002-ovo infértil de Ascaris.png",
-        "enunciado": "Examine o ovo de nematódeo presente na lâmina sob aumento de 40x. Ele mostra-se consideravelmente alongado, elíptico e com uma membrana externa mamilonada bastante irregular. Seu interior é preenchido por grânulos refractários dispersos, sem massa celular organizada. Trata-se de um:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "No ciclo biológico de um parasita, o ser vivo que abriga as suas formas larvárias, assexuadas ou intermediárias de desenvolvimento é classificado como ___.",
         "opcoes": [
-            "Ovo fértil de Ascaris lumbricoides",
-            "Ovo infértil de Ascaris lumbricoides",
-            "Ovo de Fasciola hepatica",
-            "Ovo de Diphyllobothrium latum"
+            "Hospedeiro Definitivo",
+            "Hospedeiro Intermediário",
+            "Hospedeiro Vetorial",
+            "Hospedeiro Paratênico"
         ],
         "indexCorreto": 1,
-        "justificativa": "Os ovos inférteis de Ascaris lumbricoides são mais compridos, estreitos e bizarros. Como não houve fertilização, eles não desenvolvem a massa embrionária central organizada, contendo apenas grânulos amorfos."
+        "justificativa": "O <b>hospedeiro intermediário</b> é aquele que abriga as fases imaturas, larvárias ou em processo de replicação assexuada do parasita."
     },
     {
         "id": 3,
-        "urlImagem": "images/parasito003-ovo fértil de Ascaris lumbricoides.png",
-        "enunciado": "Observe os critérios morfológicos desta estrutura arredondada: apresenta uma cápsula espessa envolvida por uma evidente membrana mamilonada (irregular e rugosa) de coloração castanha. No centro, nota-se uma massa única e compacta de células germinativas. Qual é o diagnóstico?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando um vetor transmite um patógeno de forma puramente mecânica, sem que o organismo sofra qualquer tipo de multiplicação ou evolução dentro dele, diz-se que o vetor é ___.",
         "opcoes": [
-            "Ovo fértil de Ascaris lumbricoides",
-            "Ovo decorticado de Ascaris lumbricoides",
-            "Ovo de Taenia solium",
-            "Ovo de Hymenolepis nana"
+            "Biológico",
+            "Mecânico",
+            "Reservatório",
+            "Paratênico"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A cápsula espessa com o córtex mamilonado rugoso externo (impregnado pelos pigmentos biliares intestinais) abrigando uma massa celular germinativa compacta é o padrão patognomônico do ovo fértil de Ascaris lumbricoides."
+        "indexCorreto": 1,
+        "justificativa": "O <b>vetor mecânico</b> funciona apenas como um veículo físico de transporte do parasita (ex: moscas transportando cistos nas patas), sem interação biológica."
     },
     {
         "id": 4,
-        "urlImagem": "images/parasito004-Diphyllobothrium latum .png",
-        "enunciado": "Durante a análise de uma lâmina fecal, o laboratório identificou um ovo ovoide de coloração castanho-amarelada, medindo cerca de 60-70 µm, com uma parede lisa e apresentando uma estrutura de 'tampa' bem nítida em um de seus polos (opérculo). Trata-se de um ovo de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O conceito epidemiológico que define o surgimento abrupto de uma doença que se espalha por várias regiões geográficas continentais ou globais é chamado de ___.",
         "opcoes": [
-            "Taenia solium",
-            "Schistosoma mansoni",
-            "Diphyllobothrium latum",
-            "Hymenolepis nana"
+            "Endemia",
+            "Surto Isolado",
+            "Epidemia Local",
+            "Pandemia"
         ],
-        "indexCorreto": 2,
-        "justificativa": "Os ovos de Diphyllobothrium latum (a tênia do peixe) são caracteristicamente ovoides, operculados (possuem o opérculo, uma portinha polar de ejeção) e contêm um embrião imaturo no momento da eliminação fecal."
+        "indexCorreto": 3,
+        "justificativa": "A <b>pandemia</b> caracteriza-se por uma distribuição geográfica muito ampla de uma doença infecciosa, atingindo múltiplos continentes de forma simultânea."
     },
     {
         "id": 5,
-        "urlImagem": "images/parasito006-arva rabditóide de Strongyloides stercoralis.png",
-        "enunciado": "Focalizando a forma larval ativa presente nesta amostra fresca de fezes, nota-se um nematóide alongado que exibe vestíbulo bucal curto, esôfago rhabditóide e um primórdio genital nítido e altamente visível em seu terço médio. Trata-se de uma:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Um parasita classificado como ___ é aquele que consegue completar todo o seu ciclo biológico evolutivo parasitando apenas uma única espécie de hospedeiro.",
         "opcoes": [
-            "Larva de Ancylostoma duodenale",
-            "Larva de Necator americanus",
-            "Larva rhabditóide de Strongyloides stercoralis",
-            "Larva filarióide de Strongyloides stercoralis"
+            "Heteroxênico",
+            "Monoxênico",
+            "Estenoxênico",
+            "Eurixênico"
         ],
-        "indexCorreto": 2,
-        "justificativa": "A larva rhabditóide de Strongyloides stercoralis diferencia-se das larvas de ancilostomídeos precisamente por esses dois biomarcadores práticos na triagem do EPF: o vestíbulo bucal muito curto e o primórdio genital volumoso e visível."
+        "indexCorreto": 1,
+        "justificativa": "Parasitas <b>monoxênicos</b> (ou de ciclo direto) necessitam de apenas um hospedeiro para passar pelas fases jovem e adulta (ex: <i>Ascaris lumbricoides</i>)."
     },
     {
         "id": 6,
-        "urlImagem": "images/parasito007-ovo fértil de Ascaris lumbricoides.png",
-        "enunciado": "Análise este ovo fértil específico. Caso ele passe por um processo mecânico de lavagem ou falha de secreção onde ocorra a perda completa da sua camada proteica mamilonada externa, tornando a sua superfície externa 100% lisa e transparente, ele receberá a denominação técnica de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O período decorrente entre a penetração ou infecção pelo parasita no hospedeiro e a primeira detecção viável de suas formas de dispersão (ovos, larvas, cistos) nos exames laboratoriais é denominado ___.",
         "opcoes": [
-            "Ovo infértil",
-            "Ovo decorticado",
-            "Ovo embrionado",
-            "Mórula hialina"
+            "Período de Incubação",
+            "Período Pré-patente",
+            "Período Clínico",
+            "Janela Imunológica"
         ],
         "indexCorreto": 1,
-        "justificativa": "O termo 'decorticado' refere-se especificamente ao ovo fértil de Ascaris lumbricoides que não possui ou perdeu o córtex mamilonado rugoso protetor, expondo a sua parede interna lisa."
+        "justificativa": "O <b>período pré-patente</b> compreende o tempo biológico que o parasita leva para se instalar, amadurecer e começar a eliminar formas diagnósticas no hospedeiro."
     },
     {
         "id": 7,
-        "urlImagem": "images/parasito008-ovo Hymenolepis nana.png",
-        "enunciado": "Observe a estrutura transparente e ovalada centralizada nesta lâmina de objetiva de 40x. Nota-se uma membrana dupla fina e hialina, separada por um espaço claro de onde emergem pequenos filamentos polares flexíveis que sustentam uma oncosfera interna com pequenos ganchos. Trata-se de um ovo de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando um animal doméstico ou silvestre mantém um parasita viável na natureza, servindo de fonte de infecção crônica para a população humana, esse animal atua epidemiologicamente como ___.",
         "opcoes": [
-            "Hymenolepis nana",
-            "Taenia solium",
-            "Diphyllobothrium latum",
-            "Enterobius vermicularis"
+            "Hospedeiro Vetorial",
+            "Vetor Mecânico",
+            "Reservatório",
+            "Hospedeiro Acidental"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Ovos de Hymenolepis nana (tênia anã) caracterizam-se por serem transparentes, possuírem membrana interna com duas protuberâncias polares de onde nascem de 4 a 8 filamentos filiformes flexíveis que preenchem o espaço intermembranar."
+        "indexCorreto": 2,
+        "justificativa": "O <b>reservatório</b> é um hospedeiro não-humano que abriga e assegura a manutenção e a circulação contínua de um parasita em determinado ecossistema."
     },
     {
         "id": 8,
-        "urlImagem": "images/parasito009-ovo de Schistosoma mansoni.png",
-        "enunciado": "Examine a estrutura volumosa capturada no microscópio. Trata-se de um ovo alongado, oval, de grandes dimensões, contendo um miracídio totalmente formado em seu interior e exibindo um espículo lateral agudo e pontiagudo muito evidente. Qual o diagnóstico?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Doenças infecciosas ou parasitárias que são transmitidas naturalmente entre animais vertebrados e seres humanos são denominadas tecnicamente de ___.",
         "opcoes": [
-            "Ovo de Fasciola hepatica",
-            "Ovo de Trichuris trichiura",
-            "Ovo de Schistosoma mansoni",
-            "Ovo de Taenia saginata"
+            "Antroponoses",
+            "Zoonoses",
+            "Fitonoses",
+            "Anfixenoses"
         ],
-        "indexCorreto": 2,
-        "justificativa": "O formato ovalado grande associado à presença obrigatória daquela espícula pontiaguda lateral (espículo) voltada para trás é a marca registrada inequívoca do Schistosoma mansoni."
+        "indexCorreto": 1,
+        "justificativa": "As <b>zoonoses</b> são patologias cujos agentes etiológicos circulam entre animais e podem ser transmitidos acidental ou habitualmente ao homem."
     },
     {
         "id": 9,
-        "urlImagem": "images/parasito010-Cercariae de Schistosoma mansoni .png",
-        "enunciado": "Ao analisar amostras biológicas coletadas de coleções de água doce em regiões endêmicas, identificou-se a forma evolutiva de um trematódeo dotada de corpo alongado e uma cauda caracteristicamente bifurcada (cauda em 'Y'). Esta estrutura representa qual fase do ciclo do Schistosoma mansoni?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A ação espoliativa de um parasita sobre o hospedeiro ocorre especificamente quando ele ___.",
         "opcoes": [
-            "Miracídio",
-            "Esporocisto",
-            "Cercária",
-            "Metacercária"
+            "Destrói tecidos por compressão mecânica",
+            "Absorve ou consome nutrientes e sangue do hospedeiro",
+            "Induz reações alérgicas agudas por toxinas",
+            "Bloqueia fisicamente os canais e ductos de órgãos"
         ],
-        "indexCorreto": 3,
-        "justificativa": "A cercária é a forma larvária infectante do Schistosoma mansoni que emerge do caramujo (hospedeiro intermediário). Sua morfologia é inconfundível devido à presença da cauda bifurcada (furcocercária) que auxilia na natação ativa até o hospedeiro definitivo."
+        "indexCorreto": 1,
+        "justificativa": "A <b>action espoliativa</b> baseia-se na espoliação (roubo) de nutrientes, sangue ou fluidos teciduais essenciais ao equilíbrio do hospedeiro."
     },
     {
         "id": 10,
-        "urlImagem": "images/parasito011-ovo Taenia solium.png",
-        "enunciado": "Observe a estrutura geométrica estritamente esférica centralizada na imagem abaixo. Apresenta dimensões reduzidas e uma parede espessa escura dotada de estriações radiais proeminentes (lembrando uma engrenagem), contendo três pares de ganchos internos (embrião hexacanto). Este achado representa um ovo de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O parasitismo em que o agente parasita vive estritamente na superfície externa do corpo do seu hospedeiro (como pele ou pelos) é classificado como ___.",
         "opcoes": [
-            "Ascaris lumbricoides",
-            "Taenia solium (ou Taenia saginata)",
-            "Hymenolepis nana",
-            "Trichuris trichiura"
+            "Endoparasitismo",
+            "Ectoparasitismo",
+            "Parasitismo Errático",
+            "Parasitismo Hiperbárico"
         ],
         "indexCorreto": 1,
-        "justificativa": "Os ovos pertencentes ao gênero Taenia possuem essa casca protetora radialmente estriada muito marcante. Microscopicamente, os ovos de T. solium e T. saginata são idênticos, sendo o diagnóstico laboratorial liberado genericamente como 'Ovo de Taenia spp.'."
+        "justificativa": "O <b>ectoparasitismo</b> é caracterizado pela fixação externa do parasita no corpo do hospedeiro (ex: piolhos, carrapatos e ácaros da sarna)."
     },
     {
         "id": 11,
-        "urlImagem": null,
-        "enunciado": "11) [Teórica - Fundamentos] Ao realizar a triagem inicial de uma lâmina de fezes pelo método de sedimentação espontânea (Hoffman, Pons e Janer), qual o procedimento correto com relação ao uso das lentes do microscópio óptico para mapear os ovos pesados de helmintos?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual termo epidemiológico define a proporção de indivíduos de uma população que apresentam uma determinada infecção parasitária em um ponto específico do tempo?",
         "opcoes": [
-            "Focar direto na objetiva de 100x com óleo de imersão para ver detalhes de parede",
-            "Iniciar a varredura sistemática utilizando a objetiva de 10x, com condensador baixo para aumentar o contraste",
-            "Utilizar apenas a objetiva de 40x com iluminação máxima e diafragma totalmente aberto",
-            "Realizar a leitura total na objetiva de 4x com o filtro de luz azul ativado"
+            "Incidência acumulada",
+            "Prevalência",
+            "Letalidade geral",
+            "Morbidade patogênica"
         ],
         "indexCorreto": 1,
-        "justificativa": "A varredura completa da lâmina deve começar na objetiva de 10x (menor aumento). Baixar levemente o condensador e fechar parcialmente o diafragma de íris aumenta o contraste de refração, tornando os ovos hialinos muito mais visíveis contra os detritos fecais."
+        "justificativa": "A <b>prevalência</b> mede o estoque de casos (antigos e novos) existentes em um dado momento na comunidade, refletindo a cronicidade da parasitose."
     },
     {
         "id": 12,
-        "urlImagem": "images/sugestao_trofozoito_giardia.png",
-        "enunciado": "Em uma amostra de fezes diarreicas recém-coletadas, observou-se uma forma evolutiva ativa, simétrica, com formato de gota ou pera, apresentando dois núcleos que se assemelham a olhos e múltiplos flagelos com movimentos característicos em 'folha caante'. Trata-se de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A resposta inflamatória crônica organizada pelo sistema imune para isolar ovos ou larvas que ele não consegue destruir facilmente é chamada de ___.",
         "opcoes": [
-            "Trofozoíto de Giardia lamblia",
-            "Cisto de Giardia lamblia",
-            "Trofozoíto de Entamoeba histolytica",
-            "Trofozoíto de Trichomonas vaginalis"
+            "Granuloma",
+            "Abscesso Piogênico",
+            "Placa de Peyer",
+            "Cápsula Fibrosa"
         ],
         "indexCorreto": 0,
-        "justificativa": "Os trofozoítos de Giardia lamblia habitam o intestino delgado e possuem essa morfologia bilateralmente simétrica em formato de pera, com dois núcleos proeminentes (disco suctorial) e motilidade em queda de folha."
+        "justificativa": "O <b>granuloma</b> (como o formado ao redor dos ovos de <i>Schistosoma mansoni</i>) é composto por macrófagos modificados e eosinófilos para bloquear o antígeno parasito."
     },
     {
         "id": 13,
-        "urlImagem": "images/sugestao_ovo_ascaris_infertil.png",
-        "enunciado": "Examine a estrutura alongada e elíptica centralizada na lâmina (aumento de 40x). Sua parede mamilonada externa mostra-se muito delgada e bizarra, e seu interior está completamente preenchido por grânulos refractários brilhantes dispersos, sem nenhuma massa embrionária organizada. Trata-se de um:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual processo biológico celular caracteriza-se pelo aumento do volume de uma célula individual do hospedeiro, frequentemente induzido pelo estresse metabólico ou mecânico de um parasita?",
         "opcoes": [
-            "Ovo fértil de Ascaris lumbricoides",
-            "Ovo infértil de Ascaris lumbricoides",
-            "Ovo de Diphyllobothrium latum",
-            "Artefato alimentar vegetal"
+            "Hiperplasia tecidual",
+            "Hipertrofia celular",
+            "Metaplasia escamosa",
+            "Neoplasia maligna"
         ],
         "indexCorreto": 1,
-        "justificativa": "Os ovos inférteis de Ascaris lumbricoides são produzidos por fêmeas que não foram fecundadas. Eles são mais compridos, estreitos e não possuem a massa celular germinativa central estruturada, contendo apenas grânulos amorfos."
+        "justificativa": "A <b>hipertrofia</b> corresponde ao ganho de volume da célula (como hemácias parasitadas por certas espécies de <i>Plasmodium</i>), sem replicação mitótica."
     },
     {
         "id": 14,
-        "urlImagem": null,
-        "enunciado": "Durante a migração das larvas de Ascaris lumbricoides pelos alvéolos pulmonares (Ciclo de Loos), qual o achado imunopatológico e clínico característico que o paciente pode manifestar na triagem médica?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O mecanismo de transmissão em que as formas infectantes eliminadas nas fezes reentram no mesmo hospedeiro pela via oral por contaminação das mãos ou unhas denomina-se ___.",
         "opcoes": [
-            "Síndrome de Loeffler (tosse, febre baixa e eosinofilia sanguínea elevada)",
-            "Sinal de Romaña (edema palpebral unilateral)",
-            "Síndrome de Larva Migrans Visceral crônica",
-            "Insuficiência renal aguda por depósito de imunocomplexos"
+            "Autoinfecção externa",
+            "Autoinfecção interna",
+            "Heteroinfecção indireta",
+            "Transmissão transplacentária"
         ],
         "indexCorreto": 0,
-        "justificativa": "A passagem das larvas pelos pulmões desencadeia uma reação inflamatória de hipersensibilidade alveolar temporária conhecida como Síndrome de Loeffler, marcada por tosse, infiltrados pulmonares migratórios e marcante eosinofilia."
+        "justificativa": "A <b>autoinfecção externa</b> (ciclo ano-bão-mão-boca) é comum em crianças infectadas por enterobíase ou giardíase por falhas de higiene pessoal."
     },
     {
         "id": 15,
-        "urlImagem": "images/sugestao_proglote_taenia.png",
-        "enunciado": "Um paciente levou ao laboratório um fragmento esbranquiçado e achatado liberado espontaneamente em suas roupas íntimas. Após a clarificação com ácido acético, o analista contou mais de 15 ramificações uterinas principais, finas e dicotômicas. Esse achado morfológico diagnostica:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual indicador epidemiológico expressa o número de casos novos de uma determinada parasitose que surgem em uma população em risco ao longo de um período?",
         "opcoes": [
-            "Proglote grávida de Taenia saginata",
-            "Proglote grávida de Taenia solium",
-            "Escólex de Taenia solium",
-            "Fragmento de Diphyllobothrium latum"
+            "Taxa de Prevalência",
+            "Incidência",
+            "Mortalidade proporcional",
+            "Densidade vetorial"
         ],
-        "indexCorreto": 0,
-        "justificativa": "As proglotes grávidas de Taenia saginata são mais longas do que largas, possuem liberação ativa e espontânea fora da defecação, e apresentam mais de 15 ramificações uterinas finas e dicotômicas (ramificadas em duas)."
+        "indexCorreto": 1,
+        "justificativa": "A <b>incidência</b> é o indicador dinâmico que mede o surgimento e a velocidade de propagação de novos casos de uma infecção na comunidade."
     },
     {
         "id": 16,
-        "urlImagem": null,
-        "enunciado": "A ingestão acidental de ovos viáveis de qual destes parasitas pode fazer com que o ser humano atue como hospedeiro intermediário anômalo, desenvolvendo larvas nos tecidos musculares e no sistema nervoso central (neurocisticercose)?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Um parasita classificado como ___ é aquele que necessita obrigatoriamente viver associado ao hospedeiro para completar seu ciclo vital e metabólico.",
         "opcoes": [
-            "Taenia solium",
-            "Taenia saginata",
-            "Ascaris lumbricoides",
-            "Hymenolepis diminuta"
+            "Facultativo",
+            "Obrigatório",
+            "Acidental",
+            "Errático"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A cisticercose humana ocorre estritamente pela ingestão de ovos de Taenia solium (por heteroinfecção ou autoinfecção). Os ovos de Taenia saginata não conseguem se desenvolver em cisticercos no tecido humano."
+        "indexCorreto": 1,
+        "justificativa": "Parasitas <b>obrigatórios</b> evolutivamente perderam genes metabólicos vitais, tornando-se dependentes da exploração fisiológica de seus hospedeiros."
     },
     {
         "id": 17,
-        "urlImagem": "images/sugestao_cisto_endolimax.png",
-        "enunciado": "Ao corar uma lâmina com Lugol, observou-se um cisto muito pequeno (cerca de 6-8 µm), de formato oval, contendo exatamente 4 núcleos puntiformes cuja cromatina se concentra em um grande cariossomo central, sem corpos cromatóides. Trata-se de:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual termo define a ocorrência estável, previsível e contínua de uma infecção parasitária restrita a limites espaciais e geográficos específicos ao longo dos anos?",
         "opcoes": [
-            "Endolimax nana",
-            "Entamoeba histolytica",
-            "Entamoeba coli",
-            "Giardia lamblia"
+            "Surto Epidêmico",
+            "Endemia",
+            "Sazonalidade Crítica",
+            "Vulnerabilidade Pandêmica"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Endolimax nana é um protozoário comensal não patogênico muito comum, cujos cistos pequenos e ovais possuem tipicamente 4 núcleos com cariossomos grandes e proeminentes ('olhos de ave')."
+        "indexCorreto": 1,
+        "justificativa": "A <b>endemia</b> representa o equilíbrio ecológico e epidemiológico estável de uma infecção em determinada área sem explosão abrupta de notificações."
     },
     {
         "id": 18,
-        "urlImagem": null,
-        "enunciado": "Qual a principal justificativa laboratorial para recomendar que o diagnóstico de Enterobius vermicularis seja feito pelo método da fita adesiva transparente (Método de Graham) e não pelo exame parasitológico de fezes tradicional?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O bloqueio físico ou mecânico provocado pelo acúmulo físico ou fixação do parasita em ductos, vasos ou cavidades do hospedeiro constitui uma ação ___.",
         "opcoes": [
-            "As fêmeas realizam a postura dos ovos diretamente na região cutânea perianal e raramente os ovos são misturados ao bolo fecal.",
-            "Os ovos de Enterobius são destruídos pelos ácidos gástricos e intestinais antes de saírem.",
-            "Os ovos flutuam e exigem o contato com plásticos para aderirem.",
-            "As fezes normais inibem a coloração desses ovos ao microscópio."
+            "Espoliativa direta",
+            "Obstrutiva",
+            "Histolítica enzimática",
+            "Tóxica sistêmica"
         ],
-        "indexCorreto": 0,
-        "justificativa": "As fêmeas grávidas migram à noite para a região perianal externa para fazer a postura dos ovos na pele. Por não serem eliminados no lúmen intestinal junto com as fezes, o EPF comum dá falso-negativo em mais de 90% dos casos."
+        "indexCorreto": 1,
+        "justificativa": "A <b>ação obstrutiva</b> é a interferência mecânica crônica gerada por massas parasitárias, como o novelo de vermes na oclusão intestinal."
     },
     {
         "id": 19,
-        "urlImagem": "images/sugestao_larva_filarioide_strongyloides.png",
-        "enunciado": "Em uma amostra de secreção pulmonar (escarro) de um paciente imunossuprimido em unidade de terapia intensiva, isolou-se uma larva longa, muito ativa, com esôfago cilíndrico longo ocupando cerca de metade do corpo e cauda com um entalhe nítido (bifurcada). Esta é a:",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A capacidade inerente de um parasita de induzir lesões anatômicas ou alterações funcionais que resultam em doença clínica visível no hospedeiro é chamada de ___.",
         "opcoes": [
-            "Larva filarióide (L3) de Strongyloides stercoralis",
-            "Larva rhabditóide (L1) de Strongyloides stercoralis",
-            "Larva de Ancylostoma duodenale",
-            "Larva de Wuchereria bancrofti"
+            "Infectividade",
+            "Patogenicidade",
+            "Imunogenicidade",
+            "Virulência letal"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A larva filarióide (L3) é a forma infectante do Strongyloides stercoralis. Em pacientes imunossuprimidos, ocorre o ciclo de hiperinfecção com migração massiva dessas larvas para os pulmões, sendo identificadas pela cauda entalhada."
+        "indexCorreto": 1,
+        "justificativa": "A <b>patogenicidade</b> é o atributo biológico qualitativo de produzir sinais e sintomas clínicos após o estabelecimento da infecção."
     },
     {
         "id": 20,
-        "urlImagem": null,
-        "enunciado": "O diagnóstico de giardíase pode apresentar períodos de negatividade devido à eliminação intermitente de cistos nas fezes do hospedeiro. Para mitigar esse problema biológico na rotina laboratorial, qual a conduta recomendada?",
+        "topico": "introducao",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando um parasita é localizado em um órgão ou tecido totalmente diferente daquele que constitui o seu habitat biológico e anatômico padrão, ele é denominado ___.",
         "opcoes": [
-            "Coletar de 3 a 4 amostras de fezes em dias alternados ou consecutivos utilizando conservantes químicos.",
-            "Realizar a coleta estritamente de fezes diarreicas provocadas por laxantes.",
-            "Substituir o exame microscópico por uma biópsia retal obrigatória.",
-            "Realizar a coloração exclusiva pelo método de Gram em alta temperatura."
+            "Parasita Obrigatório",
+            "Parasita Errático",
+            "Parasita Facultativo",
+            "Parasita Acidental"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Devido à eliminação irregular e em surtos dos cistos de Giardia lamblia, a coleta seriada de múltiplas amostras aumenta drasticamente a sensibilidade do diagnóstico clínico."
+        "indexCorreto": 1,
+        "justificativa": "O termo <b>parasita errático</b> (ou migração ectópica) descreve anomalias de trajeto biológico que desviam o verme de seu sítio colonizador nativo."
     },
     {
         "id": 21,
-        "urlImagem": "images/sugestao_trofozoito_e_histolytica.png",
-        "enunciado": "Ao analisar um esfregaço de fezes diarreicas disentéricas corado pela Hematoxilina Férrica, observou-se um trofozoíto com núcleo único contendo cromatina periférica regular, cariossomo central e a presença marcante de hemácias fagocitadas em seu citoplasma (eritrofagocitose). O diagnóstico é:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-cisto-ameba.png",
+        "enunciado": "Examine a estrutura arredondada de 10-15 µm corada pelo lugol. Apresenta parede cística nítida e exibe exatamente **4 núcleos** com cariossomos centralizados e corpos cromatóides alongados. Trata-se de um cisto de ___.",
         "opcoes": [
-            "Entamoeba histolytica (forma invasiva)",
-            "Entamoeba coli (forma comensal)",
-            "Endolimax nana (forma ativa)",
-            "Dientamoeba fragilis"
+            "Entamoeba coli",
+            "Entamoeba histolytica",
+            "Endolimax nana",
+            "Iodamoeba bütschlii"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A fagocitose de hemácias (eritrofagocitose) é o principal marcador morfológico de atividade patogênica invasiva da Entamoeba histolytica, diferenciando-a visualmente da morfologicamente idêntica Entamoeba dispar."
+        "indexCorreto": 1,
+        "justificativa": "O cisto maduro de <b>Entamoeba histolytica</b> possui de **1 a 4 núcleos** esféricos característicos, diferenciando-se da <i>E. coli</i> que pode apresentar até 8 núcleos."
     },
     {
         "id": 22,
-        "urlImagem": null,
-        "enunciado": "O método de Kato-Katz (sedimentação quantitativa por tela e esfregaço em espatulação com glicerina e verde malaquita) é a metodologia padrão recomendada pela Organização Mundial da Saúde para o diagnóstico de qual parasita de interesse epidemiológico?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-trofozoito-giardia.png",
+        "enunciado": "Durante o exame de fezes diarreicas a fresco, observa-se um protozoário flagelado com formato de gota ou pera, simetria bilateral, dois núcleos idênticos que lembram 'olhos' e motilidade em 'folha caindo'. Trata-se do trofozoíto de ___.",
         "opcoes": [
-            "Schistosoma mansoni (ovos em alta escala)",
-            "Strongyloides stercoralis (larvas delicadas)",
-            "Giardia lamblia (cistos pequenos)",
-            "Enterobius vermicularis (ovos aderentes)"
+            "Chilomastix mesnili",
+            "Giardia lamblia",
+            "Trichomonas hominis",
+            "Entamoeba histolytica"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O método de Kato-Katz permite a contagem exata de ovos por grama de fezes (OPG), sendo ideal para levantamentos epidemiológicos de esquistossomose e geo-helmintos como Ascaris e Trichuris."
+        "indexCorreto": 1,
+        "justificativa": "O trofozoíto de <b>Giardia lamblia</b> exibe uma morfologia piriforme característica, dotado de dois núcleos e um disco ventral adesivo para fixação na mucosa."
     },
     {
         "id": 23,
-        "urlImagem": "images/sugestao_cisto_iodamoeba.png",
-        "enunciado": "Identifique o protozoário a partir da seguinte descrição de seu cisto: formato irregular ou arredondado (10-12 µm), núcleo único com cariossomo grande rodeado por grânulos, e uma enorme estrutura citoplasmática que se cora intensamente em castanho-escuro pelo Lugol (vacúolo de glicogênio iodófilo).",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-cisto-giardia.png",
+        "enunciado": "Focalizando a lâmina fecal sob aumento de 40x, identifica-se uma estrutura ovalada, medindo cerca de 8-12 µm, contendo de 2 a 4 núcleos agrupados em um dos polos e fibrilas internas (axonemas) visíveis em diagonal. Qual o diagnóstico?",
         "opcoes": [
+            "Cisto de Endolimax nana",
+            "Cisto de Giardia lamblia",
+            "Cisto de Iodamoeba bütschlii",
+            "Cisto de Entamoeba coli"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os cistos de <b>Giardia lamblia</b> são ovais e contêm **axonemas e restos de flagelos** internos dispostos de forma diagonal, além de 4 núcleos na fase madura."
+    },
+    {
+        "id": 24,
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-cisto-ecoli.png",
+        "enunciado": "Examine este cisto esférico volumoso (15-25 µm) corado pelo iodo. Foi possível contar com precisão **8 núcleos** em planos focais diferentes. Trata-se de um cisto de ___.",
+        "opcoes": [
+            "Entamoeba histolytica",
+            "Entamoeba coli",
+            "Endolimax nana",
+            "Balantidium coli"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O cisto maduro de <b>Entamoeba coli</b> caracteriza-se pelo tamanho avantajado e pela presença de **8 núcleos**, sendo considerado um protozoário comensal não-patogênico."
+    },
+    {
+        "id": 25,
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A principal via epidemiológica de transmissão e infecção humana por protozoários intestinais como a amebíase e a giardíase ocorre através do mecanismo ___.",
+        "opcoes": [
+            "Inalação de bioaerossóis",
+            "Fecal-oral (ingestão de água ou alimentos com cistos)",
+            "Penetração ativa de larvas na pele",
+            "Picada de insetos hematófagos"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A transmissão clássica dá-se pela ingestão de **cistos viáveis** eliminados nas fezes que contaminam a água e alimentos consumidos sem higienização."
+    },
+    {
+        "id": 26,
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-iodamoeba.png",
+        "enunciado": "Observe o cisto ovalado de 10 µm que apresenta um único núcleo e uma **vacúolo de glicogênio gigante** e arredondado que cora intensamente em castanho-escuro pelo lugol. Este achado é patognomônico de ___.",
+        "opcoes": [
+            "Endolimax nana",
             "Iodamoeba bütschlii",
+            "Entamoeba hartmanni",
+            "Blastocystis hominis"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>Iodamoeba bütschlii</b> recebe esse nome devido ao seu volumoso vacúolo de glicogênio (massa iodófila) que reage fortemente com o iodo do lugol."
+    },
+    {
+        "id": 27,
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-endolimax.png",
+        "enunciado": "Identifica-se um cisto minúsculo (6-8 µm), de formato oval, contendo **4 núcleos pontiformes** cujos cariossomos são grandes e sem cromatina periférica na parede. Trata-se de ___.",
+        "opcoes": [
+            "Entamoeba histolytica",
             "Endolimax nana",
             "Entamoeba coli",
             "Chilomastix mesnili"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O cisto de Iodamoeba bütschlii possui uma massa de glicogênio muito desenvolvida e compacta que reage fortemente com o iodo do Lugol, adquirindo uma cor castanha marcante (massa iodófila)."
-    },
-    {
-        "id": 24,
-        "urlImagem": null,
-        "enunciado": "Qual o mecanismo de ação patogênica primário pelo qual os trofozoítos de Giardia lamblia provocam a síndrome de má-absorção intestinal, esteatorreia (gordura nas fezes) e perda de peso severa no hospedeiro?",
-        "opcoes": [
-            "Adesão mecânica na mucosa do duodeno por meio do disco suctorial, formando um 'tapete' que bloqueia fisicamente a absorção de nutrientes.",
-            "Perfuração profunda da parede intestinal com migração sistêmica para a veia porta.",
-            "Secreção de toxinas citolíticas que destroem as microvilosidades do cólon transverso.",
-            "Espoliação sanguínea direta provocando anemia ferropriva severa."
-        ],
-        "indexCorreto": 0,
-        "justificativa": "Os trofozoítos se fixam nos enterócitos do duodeno e jejuno pelo disco ventral (suctorial). A multiplicação em massa gera uma barreira mecânica que atrofia as microvilosidades e impede a absorção de lipídios e vitaminas."
-    },
-    {
-        "id": 25,
-        "urlImagem": "images/sugestao_scolex_taenia.png",
-        "enunciado": "Em uma análise de peças anatômicas parasitárias eliminadas pós-tratamento, identificou-se um escólex (cabeça de verme) de formato quadrangular que apresentava 4 ventosas circulares bulbosas, porém com total ausência de ganchos ou rostro (coroa de acúleos). Trata-se de:",
-        "opcoes": [
-            "Taenia saginata",
-            "Taenia solium",
-            "Diphyllobothrium latum",
-            "Hymenolepis nana"
-        ],
-        "indexCorreto": 0,
-        "justificativa": "O escólex de Taenia saginata é inerme, ou seja, possui apenas as 4 ventosas de fixação e carece de rostro e ganchos. A Taenia solium possui o escólex armado com uma coroa de ganchos quitinosos."
-    },
-    {
-        "id": 26,
-        "urlImagem": "images/sugestao_larva_ancilostomideo.png",
-        "enunciado": "No diagnóstico diferencial de larvas encontradas nas fezes pelo método de Rugai, o analista observou uma larva rhabditóide com vestíbulo bucal longo (canal que liga a boca ao esôfago) e primórdio genital muito pequeno, praticamente imperceptível. Essa morfologia aponta para:",
-        "opcoes": [
-            "Larva de Ancilostomídeo",
-            "Larva rhabditóide de Strongyloides stercoralis",
-            "Larva filarióide de Strongyloides stercoralis",
-            "Larva de Enterobius vermicularis"
-        ],
-        "indexCorreto": 0,
-        "justificativa": "Ao contrário do Strongyloides stercoralis (que tem vestíbulo curto e primórdio genital grande), as larvas rhabditóides de ancilostomídeos possuem o vestíbulo bucal longo e o primórdio genital rudimentar, quase invisível na microscopia óptica comum."
-    },
-    {
-        "id": 27,
-        "urlImagem": null,
-        "enunciado": "A ingestão de carne bovina crua ou mal cozida contendo cisticercos viáveis (Cysticercus bovis) faz com que o ser humano desenvolva qual infecção e atue em qual papel no ciclo biológico do parasita?",
-        "opcoes": [
-            "Teníase por Taenia saginata / Hospedeiro definitivo",
-            "Cisticercose por Taenia saginata / Hospedeiro intermediário",
-            "Teníase por Taenia solium / Hospedeiro definitivo",
-            "Cisticercose por Taenia solium / Hospedeiro intermediário"
-        ],
-        "indexCorreto": 0,
-        "justificativa": "O gado bovino é o hospedeiro intermediário da Taenia saginata. Quando o homem ingere o cisticerco presente na carne do boi, a larva se fixa na mucosa intestinal e se desenvolve no verme adulto, caracterizando a teníase (homem como hospedeiro definitivo)."
+        "indexCorreto": 1,
+        "justificativa": "O cisto de <b>Endolimax nana</b> é um dos menores encontrados na rotina laboratorial e caracteriza-se por seus 4 núcleos com cariossomos proeminentes em 'mancha'."
     },
     {
         "id": 28,
-        "urlImagem": "images/sugestao_ovo_ascaris_corticao.png",
-        "enunciado": "Durante uma triagem rotineira pelo método de Hoffman, observou-se um ovo perfeitamente esférico, de coloração amarelada, com uma massa de células compacta no interior e uma casca externa espessa, porém completamente desprovida de rugosidades ou mamelões. Trata-se de um ovo fértil de Ascaris lumbricoides conhecido como:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a forma evolutiva e biológica dos protozoários intestinais encarregada de resistir às intempéries do meio externo e atuar como a unidade infectante no hospedeiro?",
         "opcoes": [
-            "Decorticado",
-            "Infértil típico",
-            "Embrionado ativo",
-            "Hiperparasitado"
+            "Trofozoíto",
+            "Cisto",
+            "Oocisto esporulado",
+            "Taquizoíto"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os ovos férteis de Ascaris lumbricoides que perdem ou não chegam a desenvolver a sua camada albuminoide mamilonada externa são chamados de ovos decorticados. Eles mantêm a parede interna lisa e transparente."
+        "indexCorreto": 1,
+        "justificativa": "O <b>cisto</b> possui uma parede celular espessa e rígida que o protege contra a dessecação externa e contra a acidez gástrica do estômago."
     },
     {
         "id": 29,
-        "urlImagem": null,
-        "enunciado": "Qual o principal mecanismo de transmissão pelo qual o ser humano adquire a estrongiloidíase (infecção por Strongyloides stercoralis) na rotina epidemiológica?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma vegetativa, metabolicamente ativa e reprodutiva dos protozoários ameboides, que se coloniza no intestino grosso e pode invadir tecidos, denomina-se ___.",
         "opcoes": [
-            "Penetração ativa de larvas filarióides (L3) na pele, geralmente pelos pés descalços em contato com solo contaminado.",
-            "Ingestão de ovos embrionados presentes em águas e alimentos contaminados.",
-            "Ingestão de carne de porco crua contendo larvas encistadas.",
-            "Picada de insetos hematófagos vetores da família Simuliidae."
+            "Esquizonte",
+            "Trofozoíto",
+            "Cisto",
+            "Merozoíto"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A estrongiloidíase é uma geo-helmintíase cuja infecção primária ocorre por via transcutânea. As larvas filarióides (fase infectante) presentes no solo penetram ativamente na pele do hospedeiro."
+        "indexCorreto": 1,
+        "justificativa": "O <b>trofozoíto</b> é a forma móvel e ativa que se alimenta e se multiplica por fissão binária na luz do trato intestinal do hospedeiro."
     },
     {
         "id": 30,
-        "urlImagem": "images/sugestao_cisto_e_hartmanni.png",
-        "enunciado": "Ao realizar a micrometria de um cisto esférico corado por Lugol, o analista observou que a estrutura possuía exatamente 4 núcleos e barra cromatóide com pontas rombas, porém seu diâmetro total mediu apenas 7 µm (menor que 10 µm). O diagnóstico correto é:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-kinyoun.png",
+        "enunciado": "Na análise de fezes de paciente imunocomprometido submetidas à coloração ácido-resistente de **Kinyoun**, observam-se oocistos esféricos (4-6 µm) corados intensamente em **vermelho-brilhante** contra fundo azul. O diagnóstico é de ___.",
         "opcoes": [
-            "Entamoeba hartmanni",
+            "Giardia lamblia",
+            "Cryptosporidium spp.",
             "Entamoeba histolytica",
-            "Endolimax nana",
-            "Entamoeba coli"
+            "Balantidium coli"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Entamoeba hartmanni é morfologicamente idêntica à Entamoeba histolytica em número de núcleos (até 4) e formato de corpos cromatóides, porém diferencia-se estritamente pelo tamanho reduzido (cistos menores que 10 µm), sendo considerada uma ameba comensal."
+        "indexCorreto": 1,
+        "justificativa": "O <b>Cryptosporidium spp.</b> é um coccídeo oportunista cujos oocistos são **álcool-ácido resistentes**, retendo o corante fucsina na coloração de Kinyoun ou Ziehl-Neelsen."
     },
     {
         "id": 31,
-        "urlImagem": null,
-        "enunciado": "O prurido anal noturno, principal sintoma clínico da enterobíase (oxiuríase), está diretamente associado a qual evento biológico executado pelo parasita?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A manifestação clínica grave provocada pela invasão tecidual da Entamoeba histolytica na parede intestinal, resultando em ulcerações profundas e fezes com muco e sangue, é chamada de ___.",
         "opcoes": [
-            "Migração mecânica das fêmeas grávidas até a região perianal para a postura de ovos, fixando-se e liberando substâncias irritantes.",
-            "Perfuração das paredes do ceco pelas larvas durante a eclosão.",
-            "Eliminação massiva de proglotes grávidas ativas pelo esfíncter anal.",
-            "Fixação dos machos adultos através de espículos copulatórios na mucosa retal."
+            "Esteatorreia crônica",
+            "Disenteria amebiana",
+            "Lienteria mecânica",
+            "Obstrução biliar amebiana"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Durante a noite, a diminuição dos movimentos peristálticos estimula as fêmeas de Enterobius vermicularis a migrarem para o exterior do ânus, realizando a postura dos ovos na região perianal, o que causa uma reação inflamatória local e prurido intenso."
+        "indexCorreto": 1,
+        "justificativa": "A <b>disenteria amebiana</b> ocorre devido ao processo inflamatório e ulcerativo destrutivo na mucosa do cólon, levando à evacuação de sangue e muco."
     },
     {
         "id": 32,
-        "urlImagem": "images/sugestao_cristais_charcot_leyden.png",
-        "enunciado": "Em um exame microscópico de fezes de um paciente com forte suspeita de amebíase invasiva ou estrongiloidíase severa, observou-se a presença de estruturas cristalinas delgadas, em formato de agulha ou losango bípide, derivadas da desintegração de eosinófilos. Essas estruturas são chamadas de:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-balantidium.png",
+        "enunciado": "Examine este protozoário ciliado gigante (maior que 50 µm) isolado em amostra fecal de suinocultor. Ele exibe um macronúcleo volumoso em formato de **rim ou feijão**. Trata-se de ___.",
         "opcoes": [
-            "Cristais de Charcot-Leyden",
-            "Cristais de Oxalato de Cálcio",
-            "Fibras vegetais digeridas",
-            "Cristais de Fosfato Triplo"
+            "Entamoeba coli",
+            "Balantidium coli",
+            "Isospora belli",
+            "Giardia lamblia"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os cristais de Charcot-Leyden são subprodutos da quebra de eosinófilos e indicam a ocorrência de uma resposta imunitária local intensa ou processos alérgicos/parasitários graves no trato intestinal."
+        "indexCorreto": 1,
+        "justificativa": "O <b>Balantidium coli</b> é o maior protozoário a parasitar o homem. Sua característica marcante na morfologia é o **macronúcleo reniforme**."
     },
     {
         "id": 33,
-        "urlImagem": null,
-        "enunciado": "Qual o destino fisiológico das proglotes grávidas de Taenia solium após se desprenderem do estróbilo no intestino grosso do hospedeiro humano?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O principal habitat biológico e sítio anatômico de fixação onde os trofozoítos de Giardia lamblia se colonizam e se multiplicam por fissão binária é o ___.",
         "opcoes": [
-            "São eliminadas passivamente junto com as fezes, em blocos de 3 a 5 anéis, pois não possuem musculatura para saída ativa espontânea.",
-            "Saem ativamente e individualmente pelo ânus, forçando o esfíncter fora do momento da defecação.",
-            "Sofrem lise completa no estômago devido ao suco gástrico durante o refluxo.",
-            "Migram para os ductos biliares provocando icterícia obstrutiva severa."
+            "Ceco e Cólon Ascendente",
+            "Intestino Delgado (Duodeno e Jejuno)",
+            "Reto e Cólon Sigmoide",
+            "Estômago e Antro Gástrico"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Diferente da Taenia saginata (que sai ativamente forçando o esfíncter anal), as proglotes de Taenia solium são menos musculosas e saem de forma passiva, misturadas e arrastadas pelo bolo fecal."
+        "indexCorreto": 1,
+        "justificativa": "A <i>Giardia lamblia</i> habita a luz do **intestino delgado**, fixando-se nas microvilosidades por meio do seu disco suctor para absorver nutrientes."
     },
     {
         "id": 34,
-        "urlImagem": "images/sugestao_cisto_blastocystis.png",
-        "enunciado": "Identifique o organismo presente na lâmina (aumento de 40x): apresenta formato arredondado (10-15 µm) composto por uma enorme área central clara que empurra o citoplasma e os pequenos núcleos para a periferia da célula, mimetizando uma estrutura vacuolar. Trata-se de:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A síndrome de má-absorção intestinal crônica induzida por infecções massivas de Giardia lamblia, gerando diarreia de aspecto gorduroso e brilhante, é denominada clinicamente de ___.",
         "opcoes": [
-            "Blastocystis spp. (forma vacuolar)",
-            "Cisto de Entamoeba coli",
-            "Cisto de Giardia lamblia",
-            "Artefato de gota de lipídio"
+            "Melena",
+            "Esteatorreia",
+            "Disenteria mucosa",
+            "Lienteria purulenta"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Blastocystis spp. é um organismo polimórfico comum no trato intestinal humano. A sua forma vacuolar é a mais identificada na rotina de laboratório, caracterizada por esse grande vacúolo central que ocupa até 90% da célula."
+        "indexCorreto": 1,
+        "justificativa": "A <b>esteatorreia</b> é a eliminação de gordura não absorvida nas fezes, decorrente do 'tapete' formado pelos trofozoítos que bloqueia as microvilosidades jejunais."
     },
     {
         "id": 35,
-        "urlImagem": null,
-        "enunciado": "A reinfecção contínua por Enterobius vermicularis em crianças pequenos, provocada pelo ato de coçar a região perianal devido ao prurido e levar os dedos diretamente à boca, reiniciando o ciclo biológico, recebe o nome técnico de:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-cystoisospora.png",
+        "enunciado": "Focaliza-se um oocisto consideravelmente alongado e elíptico (20-30 µm), hialino, contendo em seu interior uma única massa celular granulosa (esporoblasto). Qual o provável diagnóstico?",
         "opcoes": [
-            "Autoinfecção externa (ou ciclo ânus-boca)",
-            "Autoinfecção interna crônica",
-            "Heteroinfecção passiva",
-            "Retroinfecção retal"
+            "Cryptosporidium spp.",
+            "Cystoisospora belli",
+            "Balantidium coli",
+            "Blastocystis hominis"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A autoinfecção externa ocorre quando o próprio hospedeiro transporta os ovos infectantes da região perianal para a boca através das mãos contaminadas, perpetuando a verminose sem necessidade de um vetor externo."
+        "indexCorreto": 1,
+        "justificativa": "Os oocistos de <b>Cystoisospora belli</b> possuem formato oval-alongado com parede dupla e lisa bem nítida, contendo um ou dois esporoblastos internos."
     },
     {
         "id": 36,
-        "urlImagem": "images/sugestao_ovo_hookworm_larvado.png",
-        "enunciado": "Em uma amostra de fezes coletada há mais de 24 horas e mantida sem refrigeração adequada, o analista observou um ovo de casca muito fina e transparente, porém seu conteúdo interno já não era uma mórula, mas sim uma larva completamente formada prestes a eclodir. Este achado pode ser confundido com:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Durante uma investigação diagnóstica, a distinção morfológica microscópica entre os trofozoítos de Entamoeba histolytica e Entamoeba dispar baseia-se estritamente na visualização de ___.",
         "opcoes": [
-            "Ovos de Ancilostomídeos em evolução avançada",
-            "Ovos férteis típicos de Ascaris",
-            "Cistos maduros de Entamoeba coli",
-            "Ovos de Trichuris trichiura"
+            "Diferença no número de núcleos celulares",
+            "Eritrócitos fagocitados no citoplasma (eritrofagocitose)",
+            "Tamanho absoluto dos cistos maduros",
+            "Preservação do vacúolo contrátil apical"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Se as fezes contendo ovos de ancilostomídeos ficarem muito tempo em temperatura ambiente, o embrião (mórula) continua o seu desenvolvimento rapidamente, transformando-se em larva dentro do ovo antes da eclosão na bancada."
+        "indexCorreto": 1,
+        "justificativa": "Ambas as espécies são idênticas morfologicamente. Contudo, o achado de trofozoítos contendo **glóbulos vermelhos fagocitados** define a atividade invasiva da <i>E. histolytica</i>."
     },
     {
         "id": 37,
-        "urlImagem": null,
-        "enunciado": "A Síndrome de Hiperinfecção por Strongyloides stercoralis é uma complicação sistêmica gravíssima que acomete principalmente pacientes imunossuprimidos (em uso de corticosteroides ou com HTLV-1). Qual a base biológica desse quadro?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-blastocystis.png",
+        "enunciado": "Observe uma estrutura esférica de 8-12 µm que apresenta uma **enorme área clara central** que ocupa cerca de 90% da célula, empurrando o citoplasma e os pequenos núcleos para a periferia. Trata-se da forma vacuolar de ___.",
         "opcoes": [
-            "Aceleração drástica do processo de autoinfecção interna, transformando milhares de larvas rhabditóides em filarióides na mucosa intestinal, gerando migração em massa para pulmões e SNC.",
-            "Multiplicação por fissão binária dos vermes adultos no lúmen do cólon transverso.",
-            "Eclosão massiva de ovos com liberação de toxinas necróticas diretamente na corrente sanguínea portal.",
-            "Perfuração do estômago pelos vermes adultos provocando peritonite bacteriana química."
+            "Endolimax nana",
+            "Blastocystis hominis",
+            "Entamoeba hartmanni",
+            "Chilomastix mesnili"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Na imunossupressão, os mecanismos celulares de controle falham e o ciclo de autoinfecção interna torna-se descontrolado. Larvas filarióides invadem a parede do intestino em alta escala e migram sistemicamente, carregando bactérias entéricas e causando sepse."
+        "indexCorreto": 1,
+        "justificativa": "A forma vacuolar é a morfologia mais comum observada na rotina microscópica para o <b>Blastocystis hominis</b>, caracterizada por esse grande vacúolo central."
     },
     {
         "id": 38,
-        "urlImagem": "images/sugestao_ovo_hymenolepis_diminuta.png",
-        "enunciado": "Observe a estrutura da imagem (40x): apresenta formato arredondado, coloração amarelada, membrana dupla e uma oncosfera interna. Diferente do ovo de Hymenolepis nana, este exemplar é maior e não apresenta nenhum filamento polar emergindo dos polos da membrana interna. Trata-se de:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual dos métodos de processamento parasitológico abaixo baseia-se no princípio da sedimentação espontânea em água, sendo amplamente aplicado na rotina de triagem laboratorial para protozoários?",
         "opcoes": [
-            "Ovo de Hymenolepis diminuta",
-            "Ovo de Hymenolepis nana",
-            "Ovo de Taenia solium",
-            "Ovo fértil decorticado de Ascaris"
+            "Método de Faust",
+            "Método de Hoffman, Pons e Janer (Lutz)",
+            "Método de Rugai",
+            "Método de Willis"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os ovos de Hymenolepis diminuta (tênia do rato) são maiores que os de H. nana, possuem coloração amarelada/castanha e a sua membrana interna é desprovida de filamentos polares, servindo como importante critério de diferenciação visual."
+        "indexCorreto": 1,
+        "justificativa": "O <b>método de Hoffman (ou Lutz)</b> utiliza a sedimentação espontânea por gravidade, sendo excelente para concentrar cistos de protozoários e ovos de helmintos pesados."
     },
     {
         "id": 39,
-        "urlImagem": null,
-        "enunciado": "No contexto da biologia parasitária, como é denominado o período que decorre entre o momento da infecção do hospedeiro pela forma infectante até o momento em que o parasita atinge a maturidade sexual e passa a ser detectado por seus ovos ou larvas nos exames laboratoriais?",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Protozoários intestinais comensais como Endolimax nana e Entamoeba coli exigem qual tipo de conduta clínica e terapêutica quando identificados no laudo laboratorial?",
         "opcoes": [
-            "Período pré-patente",
-            "Período de incubação",
-            "Período de latência clínica",
-            "Período patente"
+            "Prescrição imediata de antiparasitários de amplo espectro",
+            "Nenhuma intervenção terapêutica, pois não provocam doença (comensais)",
+            "Isolamento sanitário obrigatório do paciente",
+            "Repetição do exame por biópsia de cólon"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O período pré-patente representa o tempo que o parasita leva para se desenvolver e começar a reprodução no hospedeiro. Durante esse intervalo, o exame de fezes resultará negativo, mesmo com o paciente infectado."
+        "indexCorreto": 1,
+        "justificativa": "Por serem organismos **comensais**, eles apenas coabitam o lúmen intestinal sem agredir a mucosa, indicando somente que o paciente ingeriu água ou alimentos contaminados com fezes."
     },
     {
         "id": 40,
-        "urlImagem": "images/sugestao_trofozoito_e_coli.png",
-        "enunciado": "Ao analisar uma preparação de fezes amolecidas via exame a fresco com solução salina, observou-se um trofozoíto grande (30 µm), com citoplasma altamente vacuolado repleto de bactérias e detritos fagocitados (sem hemácias), exibindo pseudópodes curtos e lentos. O diagnóstico aponta para:",
+        "topico": "protozoarios_int",
+        "urlImagem": "images/lamina-cyclospora.png",
+        "enunciado": "Ao utilizar a microscopia de fluorescência sob luz ultravioleta (UV) direta, oocistos de um determinado coccídeo intestinal diarreico emitem uma **autofluorescência azul-esverdeada** brilhante natural. Trata-se de ___.",
         "opcoes": [
-            "Trofozoíto de Entamoeba coli",
-            "Trofozoíto de Entamoeba histolytica",
-            "Trofozoíto de Giardia lamblia",
-            "Trofozoíto de Iodamoeba bütschlii"
+            "Cryptosporidium spp.",
+            "Cyclospora cayetanensis",
+            "Giardia lamblia",
+            "Iodamoeba bütschlii"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os trofozoítos de Entamoeba coli possuem movimentação lenta, sem direcionalidade nítida, e seu citoplasma é tipicamente sujo e vacuolado devido à fagocitose de bactérias e amido, sem apresentar eritrofagocitose (comum na E. histolytica)."
+        "indexCorreto": 1,
+        "justificativa": "Os oocistos de <b>Cyclospora cayetanensis</b> possuem uma parede que exibe propriedade de **autofluorescência** sob radiação UV, servindo como uma triagem laboratorial rápida."
     },
     {
         "id": 41,
-        "urlImagem": null,
-        "enunciado": "11) [Teórica - Amebíase] A Entamoeba histolytica destrói os tecidos do hospedeiro por meio de um processo invasivo mecânico-químico. Qual o nome das enzimas secretadas por este protozoário que degradam a matriz extracelular, permitindo a formação das úlceras em 'botão de camisa'?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O nematódeo intestinal cuja fêmea adulta realiza a oviposição típica na região perianal do hospedeiro, principalmente durante o período noturno, é o ___.",
         "opcoes": [
-            "Cisteína-proteinases (ou proteases líticas)",
-            "Amilases pancreáticas",
-            "Lipases citoplasmáticas",
-            "Penicilinases bacterianas"
+            "Ascaris lumbricoides",
+            "Enterobius vermicularis",
+            "Strongyloides stercoralis",
+            "Ancylostoma duodenale"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A patogenia da E. histolytica depende da secreção de cisteína-proteinases e de peptídeos formadores de poros (amoebaporos). Essas moléculas destroem as células epiteliais e quebram as barreiras de colágeno da mucosa intestinal, gerando necrose e ulcerações profundas."
+        "indexCorreto": 1,
+        "justificativa": "A fêmea do <b>Enterobius vermicularis</b> migra para a região **perianal** à noite para depositar seus ovos na pele, o que gera o prurido anal patognomônico da enterobíase."
     },
     {
         "id": 42,
-        "urlImagem": "images/sugestao_trofozoito_endolimax.png",
-        "enunciado": "12) Durante o exame de fezes amolecidas coradas pela Hematoxilina Férrica, o técnico identificou um pequeno trofozoíto (8 µm) cujo núcleo não possuía cromatina periférica, exibindo apenas um cariossomo central volumoso e irregular conectado por delicados filamentos. O diagnóstico correto é:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a denominação técnica do ciclo de migração sistêmica percorrido pelas larvas de Ascaris lumbricoides e Ancilostomídeos, passando pelo fígado, coração e pulmões do hospedeiro antes de atingirem o intestino?",
         "opcoes": [
-            "Trofozoíto de Endolimax nana",
-            "Trofozoíto de Entamoeba histolytica",
-            "Trofozoíto de Iodamoeba bütschlii",
-            "Trofozoíto de Giardia lamblia"
+            "Ciclo de Loss",
+            "Ciclo de Ross",
+            "Ciclo Heterogônico",
+            "Ciclo Autoinfectivo"
         ],
         "indexCorreto": 0,
-        "justificativa": "Os trofozoítos de Endolimax nana são caracterizados pelo tamanho diminuto e por um núcleo desprovido de cromatina na membrana interna, apresentando um cariossomo central muito grande que ocupa grande parte do espaço nuclear."
+        "justificativa": "O <b>Ciclo de Loss</b> descreve a migração cardiopulmonar obrigatória que certas larvas de nematódeos realizam antes de se estabelecerem como vermes adultos na luz intestinal."
     },
     {
         "id": 43,
-        "urlImagem": null,
-        "enunciado": "13) [Teórica - Enterobíase] Os ovos eliminados pelas fêmeas de Enterobius vermicularis na região perianal tornam-se infectantes para o ambiente e para outros hospedeiros após quanto tempo, em média?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A penetração ativa de larvas filarióides na pele humana através do contato direto com o solo contaminado é o mecanismo clássico de transmissão da ___.",
         "opcoes": [
-            "Cerca de 4 a 6 horas (rápida maturação em condições de oxigenação externa)",
-            "Exatamente 21 dias no solo úmido",
-            "Cerca de 3 meses em condições anaeróbicas",
-            "Imediatamente ao sair do útero da fêmea, sem necessidade de oxigênio"
+            "Ascaridíase",
+            "Enterobíase",
+            "Estrongiloidíase",
+            "Teníase tecidual"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os ovos de Enterobius vermicularis são eliminados já parcialmente embrionados. Em contato com o oxigênio e a temperatura da região perianal, a larva interna se desenvolve e atinge o estágio infectante (L3) em pouquíssimas horas, favorecendo a rápida disseminação familiar."
+        "indexCorreto": 2,
+        "justificativa": "A larva filarióide (L3) infectante de <b>Strongyloides stercoralis</b> possui capacidade lítica para romper o tecido cutâneo íntegro do hospedeiro humano."
     },
     {
         "id": 44,
-        "urlImagem": "images/sugestao_ascaris_adulto.png",
-        "enunciado": "14) Paciente infantil dá entrada na emergência pediátrica com quadro clínico de dor abdominal aguda severa, vômitos fecaloides, distensão abdominal e ausência de eliminação de gases e fezes. A radiografia revela o sinal de 'miolo de pão' devido a um novelo de vermes. Qual a complicação mecânica associada ao Ascaris lumbricoides?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o sinal clínico pulmonar caracterizado por tosse, febre, eosinofilia periférica elevada e infiltrado pulmonar migratório induzido pela passagem larvária nos alvéolos?",
         "opcoes": [
-            "Obstrução ou oclusão intestinal mecânica por alta carga parasitária",
-            "Perfuração gástrica por ação química ácida",
-            "Diverticulite aguda purulenta",
-            "Apendicite obstrutiva por larvas microscópicas"
+            "Síndrome de Romaña",
+            "Síndrome de Loeffler",
+            "Sinal de Winterbottom",
+            "Tríade de Sabin"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Em infecções massivas por Ascaris lumbricoides, o grande tamanho dos vermes adultos (que podem medir até 30 cm) propicia o seu entrelaçamento no lúmen do intestino delgado. Isso forma um bolo mecânico que obstrui a passagem do bolo fecal, exigindo intervenção cirúrgica ou farmacológica imediata."
+        "indexCorreto": 1,
+        "justificativa": "A <b>Síndrome de Loeffler</b> é uma reação inflamatória e de hipersensibilidade alveolar causada pela presença física de larvas migratórias no parênquima pulmonar."
     },
     {
         "id": 45,
-        "urlImagem": null,
-        "enunciado": "15) [Teórica - Teníase] Qual a estrutura anatômica presente na porção anterior do corpo (escólex) da Taenia solium que a diferencia categoricamente da Taenia saginata?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os vermes pertencentes à família Ancylostomatidae provocam um quadro grave de espoliação crônica no hospedeiro, levando o paciente a desenvolver principalmente ___.",
         "opcoes": [
-            "Rostro (ou rolo) armado com uma coroa dupla de ganchos quitinosos",
-            "Fendas longitudinais de sucção chamadas bótria",
-            "Total ausência de ventosas funcionais",
-            "Uma ventosa única central dotada de dentes calcários"
+            "Anemia ferropriva",
+            "Obstrução biliar mecânica",
+            "Hipertensão portal",
+            "Miosite inflamatória"
         ],
         "indexCorreto": 0,
-        "justificativa": "A Taenia solium possui um escólex 'armado', contendo além das 4 ventosas um rostro com ganchos que auxiliam na fixação profunda na mucosa do intestino delgado. A Taenia saginata é 'inerme', possuindo apenas as ventosas."
+        "justificativa": "Os ancilostomídeos fixam-se à mucosa intestinal por meio de placas ou dentes quitinosos, sugando sangue e secretando anticoagulantes, o que resulta em **anemia ferropriva**."
     },
     {
         "id": 46,
-        "urlImagem": null,
-        "enunciado": "16) [Teórica - Estrongiloidíase] No ciclo biológico heterogônico (ou de vida livre) do Strongyloides stercoralis, as larvas rhabditóides eliminadas no solo sofrem transformações e dão origem a quais estruturas no ambiente?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O método diagnóstico de escolha baseado na aplicação de uma fita adesiva transparente na região perianal para a pesquisa microscópica de ovos de Enterobius vermicularis é o método de ___.",
         "opcoes": [
-            "Vermes adultos (machos e fêmeas) de vida livre que se reproduzem sexualmente no solo.",
-            "Apenas fêmeas partenogenéticas que produzem ovos sem necessidade de machos.",
-            "Cistos de parede dupla altamente resistentes à dessecação.",
-            "Larvas filarióides que infectam diretamente vegetais e plantas rasteiras."
+            "Hoffman, Pons e Janer",
+            "Graham (Fita Adesiva)",
+            "Rugai e colaboradores",
+            "Kato-Katz"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O Strongyloides stercoralis possui um ciclo duplo. No ciclo heterogônico, as larvas nas fezes transformam-se em vermes adultos de vida livre no solo. Eles se acasalam, realizam reprodução sexuada e geram novos ovos e larvas no ambiente, aumentando a contaminação do ecossistema."
+        "indexCorreto": 1,
+        "justificativa": "O método de <b>Graham (ou da fita gomada)</b> é o padrão-ouro para o diagnóstico de <i>E. vermicularis</i>, já que os ovos raramente são encontrados em exames de fezes convencionais."
     },
     {
         "id": 47,
-        "urlImagem": "images/sugestao_cristais_fecais.png",
-        "enunciado": "17) Durante a análise microscópica laboratorial de rotina, o analista deve estar atento para não confundir ovos de helmintos com estruturas inanimadas. Qual o nome dado a resíduos alimentares vegetais e grãos de amido que mimetizam a forma de ovos ou cistos?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O parasitismo grave em que larvas de Strongyloides stercoralis sofrem metamorfose prematura dentro do lúmen intestinal, invadem a mucosa retal e reinfectam o paciente sem passar pelo meio externo chama-se ___.",
         "opcoes": [
-            "Artefatos ou pseudoparasitas",
-            "Cistos degenerados inativos",
-            "Ovos inférteis calcificados",
-            "Corpos de inclusão parasitária"
+            "Autoinfecção interna",
+            "Autoinfecção externa",
+            "Superinfecção mecânica",
+            "Heteroinfecção direta"
         ],
         "indexCorreto": 0,
-        "justificativa": "Grãos de pólen, esporos de fungos, fibras vegetais, gotas de gordura e grãos de amido são classificados como artefatos ou pseudoparasitas. Eles exigem conhecimento morfológico refinado do técnico para evitar laudos falsos-positivos."
+        "justificativa": "A <b>autoinfecção interna</b> permite que a estrongiloidíase se perpetue por décadas no mesmo indivíduo, podendo evoluir para formas disseminadas graves em imunocomprometidos."
     },
     {
         "id": 48,
-        "urlImagem": null,
-        "enunciado": "18) [Teórica - Imunologia] Qual classe de imunoglobulinas (anticorpos) e qual tipo celular leucocitário encontram-se caracteristicamente elevados no hemograma e nos testes sorológicos de pacientes que enfrentam infecções por helmintos tecidulares?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual técnica laboratorial parasitológica fundamenta-se no termotrofismo e hidrotrofismo positivo das larvas de Strongyloides stercoralis para concentrá-las em água aquecida?",
         "opcoes": [
-            "IgE / Eosinófilos",
-            "IgG / Neutrófilos",
-            "IgM / Linfócitos B",
-            "IgA / Basófilos"
+            "Método de Willis",
+            "Método de Baermann-Morais (ou Rugai)",
+            "Centrifugo-flutuação de Faust",
+            "Sedimentação de Lutz"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A resposta imunitária contra helmintos (especialmente nas fases de migração larvária por tecidos e órgãos) é mediada pelo perfil Th2, induzindo a produção massiva de anticorpos da classe IgE e a ativação/desgranulação de eosinófilos para atacar a parede do verme."
+        "indexCorreto": 1,
+        "justificativa": "Os métodos de <b>Baermann-Morais</b> e de <b>Rugai</b> expõem a amostra fecal à água morna; atraídas pelo calor e pela umidade, as larvas vivas migram e sedimentam no fundo do frasco."
     },
     {
         "id": 49,
-        "urlImagem": "images/sugestao_proglote_solium.png",
-        "enunciado": "19) Uma proglote grávida expelida passivamente nas fezes foi encaminhada para análise. Após coloração, o microscopista observou um tronco uterino central que emitia menos de 12 ramificações principais grossas e de formato dendrítico (em árvore). O diagnóstico aponta para:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O verme nematódeo que exibe formato característico de 'chicote', apresentando a porção anterior delgada e a posterior mais espessa, colonizando o intestino grosso (ceco), é o ___.",
         "opcoes": [
-            "Taenia solium",
-            "Taenia saginata",
-            "Diphyllobothrium latum",
-            "Hymenolepis nana"
+            "Ascaris lumbricoides",
+            "Trichuris trichiura",
+            "Ancylostoma duodenale",
+            "Necator americanus"
         ],
-        "indexCorreto": 0,
-        "justificativa": "As proglotes grávidas de Taenia solium possuem poucas ramificações uterinas laterais (menos de 12, variando de 7 a 10), que são grossas e ramificadas de forma irregular (arborescente/dendrítica). A T. saginata possui mais de 15 ramificações finas."
+        "indexCorreto": 1,
+        "justificativa": "O <b>Trichuris trichiura</b> possui morfologia delgada na extremidade anterior (que penetra na mucosa do cólon) e espessa na extremidade posterior, assemelhando-se a um chicote."
     },
     {
-        "id": 20,
-        "urlImagem": null,
-        "enunciado": "20) [Teórica - Giardíase] Qual a denominação técnica da estrutura anatômica em formato de ventosa côncava que recobre a porção ventral do trofozoíto de Giardia lamblia, responsável pela sua fixação mecânica nos enterócitos?",
+        "id": 50,
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Nas infecções maciças por Trichuris trichiura em crianças desnutridas, o enfraquecimento da musculatura retal associado ao peristaltismo exacerbado pode induzir o quadro clínico de ___.",
         "opcoes": [
-            "Disco ventral (ou disco suctorial)",
-            "Axonema flagelar anterior",
-            "Rostelo quitinoso",
-            "Pseudópode hialino"
+            "Prolapso retal",
+            "Volvo intestinal",
+            "Perfuração do apêndice",
+            "Estenose pilórica"
         ],
         "indexCorreto": 0,
-        "justificativa": "O disco ventral ou suctorial funciona como uma ventosa potente que gera pressão negativa, permitindo que o trofozoíto se fixe firmemente nas vilosidades do duodeno para absorver nutrientes e resistir ao peristaltismo intestinal."
+        "justificativa": "O <b>prolapso retal</b> é uma complicação clássica da tricuríase grave, provocada pela fixação crônica de milhares de vermes na mucosa do reto."
     },
     {
         "id": 51,
-        "urlImagem": "images/sugestao_ovo_hymenolepis_nana.png",
-        "enunciado": "21) Ao examinar uma amostra fecal pelo método de sedimentação, observou-se um ovo pequeno, oval-esférico, transparente, contendo uma oncosfera central e uma membrana interna dotada de duas protuberâncias polares das quais saíam filamentos delgados. Trata-se de:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A distinção prática laboratorial entre a larva rhabditóide de Strongyloides stercoralis e uma larva de ancilostomídeo nas fezes baseia-se na presença, em Strongyloides, de um ___.",
         "opcoes": [
-            "Hymenolepis nana",
-            "Hymenolepis diminuta",
-            "Taenia solium",
-            "Enterobius vermicularis"
+            "Esôfago do tipo filarióide longo",
+            "Vestíbulo bucal curto e primórdio genital volumoso",
+            "Vestíbulo bucal longo e cauda bifurcada",
+            "Bulbo esofágico proeminente com dentes"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Ovos de Hymenolepis nana medem cerca de 40-50 µm, são incolores e hialinos, e sua principal característica diagnóstica diferencial são os filamentos polares flexíveis localizados no espaço entre as duas membranas da casca."
+        "indexCorreto": 1,
+        "justificativa": "A larva rhabditóide de <i>S. stercoralis</i> possui **vestíbulo bucal muito curto** e um **primórdio genital nítido**, enquanto a larva de ancilostomídeo apresenta vestíbulo bucal longo."
     },
     {
         "id": 52,
-        "urlImagem": null,
-        "enunciado": "22) [Teórica - Terminologia] Como é classificado o vetor que atua estritamente como um meio de transporte físico para o parasita (como uma mosca pousando em fezes e depois no alimento), sem que ocorra nenhuma multiplicação ou desenvolvimento biológico do organismo em seu interior?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o principal método qualitativo e quantitativo preconizado pela OMS para o diagnóstico laboratorial de geohelmintoses, utilizando um tamis metálico e uma lâmina de celofane impregnada com glicerina e verde de malaquita?",
         "opcoes": [
-            "Vetor mecânico",
-            "Vetor biológico",
-            "Hospedeiro intermediário",
-            "Vetor paratênico"
+            "Método de Faust",
+            "Método de Kato-Katz",
+            "Método de Hoffman",
+            "Método de Rugai"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O vetor mecânico apenas transporta o parasita passivamente em sua superfície corporal (patas, cerdas, aparelho bucal). Se o parasita dependesse do vetor para sofrer transformações ou reproduzir-se, este seria um vetor biológico."
+        "indexCorreto": 1,
+        "justificativa": "O método de <b>Kato-Katz</b> permite calcular a carga parasitária expressa em Ovos por Grama de fezes (OPG), fundamental para estudos epidemiológicos."
     },
     {
         "id": 53,
-        "urlImagem": "images/sugestao_cisto_e_nanus.png",
-        "enunciado": "23) Um cisto esférico muito pequeno (6 µm) foi encontrado nas fezes de um paciente assintomático. Apresentava parede fina e transparente e exatamente 4 núcleos cujo cariossomo ocupava posição central excêntrica, sem barras cromatóides. Trata-se do comensal:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A migração errática de larvas de nematódeos de cães e gatos (como o Ancylostoma braziliense) na pele de seres humanos, gerando túneis cutâneos eritematosos e pruriginosos, caracteriza a ___.",
         "opcoes": [
-            "Endolimax nana",
-            "Entamoeba histolytica",
-            "Entamoeba coli",
-            "Enteromonas hominis"
+            "Larva Migrans Visceral",
+            "Larva Migrans Cutânea (ou Bicho Geográfico)",
+            "Filariose Linfática",
+            "Estrongiloidíase Disseminada"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Os cistos de Endolimax nana são os menores protozoários comensais encontrados na rotina (5-8 µm). O formato ovóide e a presença constante de 4 núcleos puntiformes sem corpos cromatóides selam o diagnóstico bacteriológico."
+        "indexCorreto": 1,
+        "justificativa": "Como o ser humano é um hospedeiro acidental, as larvas do parasita do cão não conseguem invadir a circulação profunda e ficam restritas à epiderme, gerando a **larva migrans cutânea**."
     },
     {
         "id": 54,
-        "urlImagem": null,
-        "enunciado": "24) [Teórica - Métodos] Qual o fundamento físico-químico que justifica o repouso de no mínimo 2 a 24 horas da mistura de fezes e água no método de Hoffman, Pons e Janer (Lutz) para a concentração de parasitas?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O nematódeo transmitido pela picada de mosquitos vetores (como o Culex quinquefasciatus), cujos vermes adultos habitam e bloqueiam os vasos linfáticos humanos, chama-se ___.",
         "opcoes": [
-            "Sedimentação espontânea por gravidade (ovos e larvas densos descem ao fundo do cálice de forma natural).",
-            "Flutuação induzida por alteração osmótica provocada pela água destilada.",
-            "Lise completa de detritos alimentares pela ação hidrolítica da água quente.",
-            "Centrifugação mecânica acelerada pela quebra de pontes de hidrogênio."
+            "Onchocerca volvulus",
+            "Wuchereria bancrofti",
+            "Mansonella ozzardi",
+            "Trichinella spiralis"
         ],
-        "indexCorreto": 0,
-        "justificativa": "O método de Hoffman baseia-se na sedimentação espontânea. Como os ovos de helmintos e larvas possuem densidade e peso molecular maiores do que a água, eles se depositam de forma gradual e natural no fundo do cálice cônico."
+        "indexCorreto": 1,
+        "justificativa": "A <b>Wuchereria bancrofti</b> é o agente etiológico da filariose linfática (elefantíase), cujos adultos causam estase e linfedema obstrutivo crônico."
     },
     {
         "id": 55,
-        "urlImagem": "images/sugestao_ovo_f_hepatica.png",
-        "enunciado": "25) Em uma amostra de fezes de um criador de ovinos, isolou-se um ovo elíptico gigante (140 µm), de coloração amarelo-acastanhada, com parede lisa e um opérculo (tampa) nítido em um dos polos, contendo células vitelinas indistintas. O diagnóstico aponta para:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "As microfilárias de Wuchereria bancrofti circulantes no sangue periférico humano exibem uma propriedade epidemiológica caracterizada por sua maior concentração na corrente sanguínea entre as 22h e as 2h, fenômeno denominado ___.",
         "opcoes": [
-            "Fasciola hepatica",
-            "Schistosoma mansoni",
-            "Taenia saginata",
-            "Diphyllobothrium latum"
+            "Periodicidade noturna",
+            "Quimiotaxia térmica",
+            "Ciclo heterogônico atípico",
+            "Sincronia alveolar"
         ],
         "indexCorreto": 0,
-        "justificativa": "Os ovos de Fasciola hepatica são de grande porte, elípticos e operculados. Diferenciam-se dos de Diphyllobothrium latum pelo tamanho marcadamente maior e pelo contexto epidemiológico de contato com o gado ou ingestão de agrião d'água."
+        "justificativa": "A **periodicidade noturna** das microfilárias coincide biologicamente com o horário de maior atividade hematófaga do mosquito vetor <i>Culex</i>."
     },
     {
         "id": 56,
-        "urlImagem": null,
-        "enunciado": "26) [Teórica - Conceito] Um parasita que possui a capacidade biológica de completar o seu ciclo evolutivo utilizando um único hospedeiro para passar pelas fases larvais e adultas (como o Ascaris lumbricoides) é classificado como um organismo:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A ingestão acidental de ovos embrionados de Toxocara canis, nematódeo comum em cães, pode levar ao desvio larvário sistêmico em tecidos e órgãos humanos, caracterizando a síndrome de ___.",
         "opcoes": [
-            "Monoxênico (ou de ciclo direto)",
-            "Heteroxênico (ou de ciclo indireto)",
-            "Eurixênico complexo",
-            "Estenoxênico estrito"
+            "Larva Migrans Cutânea",
+            "Larva Migrans Visceral",
+            "Oclusão Intestinal Mecânica",
+            "Dermatite Serpiginosa"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Parasitas monoxênicos necessitam de apenas um único hospedeiro para completar todo o seu ciclo de vida (infecção, maturação e reprodução). Os heteroxênicos exigem dois ou mais hospedeiros (definitivo e intermediários)."
+        "indexCorreto": 1,
+        "justificativa": "Na <b>Larva Migrans Visceral (Toxocaríase)</b>, as larvas migram por fegado, pulmões e olhos do homem (hospedeiro paratênico), desencadeando intensas reações granulomatosas."
     },
     {
         "id": 57,
-        "urlImagem": "images/sugestao_cisto_chilomastix.png",
-        "enunciado": "27) Ao focalizar um esfregaço fecal corado pelo método de iron-hematoxylin, identificou-se um cisto com formato de limão ou pera invertida (aprox. 8 µm), contendo núcleo único e uma estrutura fibrilar interna em formato de 'boca de peixe' (citóstoma). Trata-se de:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o hospedeiro definitivo biológico e o habitat anatômico padrão dos espécimes adultos de Ascaris lumbricoides?",
         "opcoes": [
-            "Chilomastix mesnili",
-            "Giardia lamblia",
-            "Endolimax nana",
-            "Enteromonas hominis"
+            "O cão / Tecido subcutâneo",
+            "O ser humano / Lúmen do intestino delgado",
+            "O porco / Mucosa do estômago",
+            "O caramujo / Sistema porta-hepático"
         ],
-        "indexCorreto": 0,
-        "justificativa": "Chilomastix mesnili é um flagelado comensal não patogênico. O seu cisto possui um formato de pera ou limão muito característico com uma pequena proeminência polar, abrigando o citóstoma interno em 'boca de peixe'."
+        "indexCorreto": 1,
+        "justificativa": "O ser humano é o único hospedeiro definitivo do <i>Ascaris lumbricoides</i>, cujos adultos habitam livres na luz do **intestino delgado**, alimentando-se do quimo intestinal."
     },
     {
         "id": 58,
-        "urlImagem": null,
-        "enunciado": "28) [Teórica - Epidemiologia] No ciclo de transmissão da cisticercose humana por Taenia solium, qual a principal fonte de contaminação e infecção primária para o indivíduo saudável?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A ingestão de carne de porco crua ou malcozida contendo larvas encistadas em células musculares estriadas modificadas é a via de transmissão da ___.",
         "opcoes": [
-            "Ingestão de água ou alimentos (hortaliças, frutas) contaminados com ovos de tênia eliminados nas fezes de um portador humano de teníase.",
-            "Ingestão de carne de porco crua contendo cisticercos calcificados viáveis.",
-            "Penetração ativa de larvas através da pele dos membros inferiores.",
-            "Transmissão direta por meio de perdigotos de pacientes doentes na fase aguda."
+            "Ancilostomíase severa",
+            "Triquinose (Trichinella spiralis)",
+            "Enterobíase sistêmica",
+            "Filariose linfática"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A cisticercose humana ocorre quando o homem ingere os ovos da Taenia solium eliminados no ambiente por outro humano com teníase. Ingerir a carne de porco com a larva causa a teníase (verme adulto no intestino), não a cisticercose tecidular."
+        "indexCorreto": 1,
+        "justificativa": "A <b>triquinose</b> é provocada pela <i>Trichinella spiralis</i>. Suas larvas invadem as fibras musculares do hospedeiro e transformam-nas em células-enfermeiras encistadas."
     },
     {
         "id": 59,
-        "urlImagem": "images/sugestao_trofozoito_ameba.png",
-        "enunciado": "29) Em uma amostra líquida de abscesso hepático obtida por punção aspirativa, identificou-se a presença de formas trofozoíticas ativas, alongadas, exibindo emissão direcional rápida de pseudópodes hialinos (dediformes). Este achado confirma o diagnóstico de:",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual espécie de ancilostomídeo possui dois pares de dentes quitinosos cortantes e curvos na sua cápsula bucal, sendo amplamente prevalente nas regiões tropicais das Américas?",
         "opcoes": [
-            "Abscesso hepático amebiano (Entamoeba histolytica)",
-            "Infecção metastática por Giardia lamblia",
-            "Cisto hidático de Echinococcus granulosus",
-            "Necrose tecidular asséptica bacteriana"
+            "Ancylostoma duodenale",
+            "Necator americanus",
+            "Ancylostoma caninum",
+            "Strongyloides stercoralis"
         ],
-        "indexCorreto": 0,
-        "justificativa": "A Entamoeba histolytica pode romper a parede intestinal, migrar pela circulação portal e se alojar no fígado, gerando necrose e abscessos graves. O achado de trofozoítos móveis no líquido aspirado fecha o diagnóstico clínico."
+        "indexCorreto": 1,
+        "justificativa": "O <b>Necator americanus</b> caracteriza-se por apresentar **lâminas cortantes** na sua cápsula bucal em vez de dentes, sendo o principal agente da ancilostomíase no Brasil."
     },
     {
         "id": 60,
-        "urlImagem": null,
-        "enunciado": "30) [Teórica - Fundamentos] Qual o nome do fenômeno parasitológico em que o verme adulto (como o Ascaris lumbricoides) migra erraticamente para fora do seu habitat comum devido a condições adversas (como febre alta do paciente ou uso de medicamentos inadequados), saindo pela boca, nariz ou invadindo o colédoco?",
+        "topico": "nematoideos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando um lote maciço de Ascaris lumbricoides se enovela no intestino de uma criança, obstruindo totalmente a passagem das fezes, o quadro é classificado como ___.",
         "opcoes": [
-            "Parasitismo errático (ou Ascaris errático)",
-            "Hiperinfecção oportunista",
-            "Ciclo heterogônico atípico",
-            "Autoinfecção interna forçada"
+            "Suboclusão por bolo de Ascaris",
+            "Perfuração peritoneal inflamatória",
+            "Ciclo de Loss ectópico",
+            "Infarto mesentérico bacteriano"
         ],
         "indexCorreto": 0,
-        "justificativa": "O parasitismo errático ou migração ectópica ocorre quando estímulos adversos irritam o nematóide, forçando-o a abandonar o lúmen intestinal normal e migrar para localizações bizarras (canais biliares, apêndice, vias respiratórias superiores), gerando emergências médicas graves."
+        "justificativa": "O **bolo de Ascaris** é uma emergência cirúrgica provocada pelo acúmulo físico de dezenas de vermes que bloqueiam mecanicamente a luz intestinal."
+    },
+    {
+        "id": 61,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A estrutura anatômica anterior dos cestódeos, adaptada exclusivamente para a fixação na mucosa intestinal do hospedeiro por meio de ventosas ou ganchos, chama-se ___.",
+        "opcoes": [
+            "Proglote",
+            "Escólex",
+            "Estróbilo",
+            "Oncosfera"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>escólex</b> é a 'cabeça' do verme achatado (tênia), funcionando puramente como um órgão de fixação e ancoragem na parede do intestino."
+    },
+    {
+        "id": 62,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os segmentos corporais individuais das tênias que contêm órgãos reprodutores masculinos e femininos completos, capazes de realizar a autofecundação, denominam-se ___.",
+        "opcoes": [
+            "Cisticercos",
+            "Proglotes",
+            "Estróbilos",
+            "Escólices"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Cada **proglote** funciona como uma unidade reprodutiva independente. À medida que amadurecem e ficam cheias de ovos, desprendem-se do estróbilo e saem nas fezes."
+    },
+    {
+        "id": 63,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A ingestão de carne de boi crua ou malcozida contendo a forma larvar viável (Cysticercus bovis) ativa o desenvolvimento intestinal humano da ___.",
+        "opcoes": [
+            "Taenia solium",
+            "Taenia saginata",
+            "Hymenolepis nana",
+            "Echinococcus granulosus"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O gado bovino é o hospedeiro intermediário da <b>Taenia saginata</b>. A ingestão da sua carne com cisticercos leva ao desenvolvimento do verme adulto no homem."
+    },
+    {
+        "id": 64,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual espécie de Taenia apresenta um escólex dotado de quatro ventosas musculares e um rostro coroado por ganchos quitinosos (escólex armado)?",
+        "opcoes": [
+            "Taenia saginata",
+            "Taenia solium",
+            "Hymenolepis diminuta",
+            "Diphyllobothrium latum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>Taenia solium</b> (tênia do porco) possui escólex armado com ganchos, ao contrário da <i>Taenia saginata</i>, que possui escólex inerme (apenas com ventosas)."
+    },
+    {
+        "id": 65,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O mecanismo patogênico de infecção humana que desencadeia a cisticercose ocorre exclusivamente pela ingestão acidental de ovos viáveis de ___.",
+        "opcoes": [
+            "Taenia saginata",
+            "Taenia solium",
+            "Hymenolepis nana",
+            "Diphyllobothrium latum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Apenas os ovos de <b>Taenia solium</b> são capazes de eclodir no estômago humano, liberando a oncosfera que migra e forma cisticercos nos tecidos (cisticercose)."
+    },
+    {
+        "id": 66,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A eclosão dos ovos de Taenia solium no estômago humano libera uma larva dotada de seis ganchos que atravessa a mucosa intestinal, denominada tecnicamente de ___.",
+        "opcoes": [
+            "Miracídio",
+            "Oncosfera (ou Embrião Hexacanto)",
+            "Cercária",
+            "Cisticercoide"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>oncosfera ou embrião hexacanto</b> utiliza os seus ganchos para perfurar os vasos sanguíneos intestinais e ganhar a circulação sistêmica."
+    },
+    {
+        "id": 67,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando os cisticercos de Taenia solium se alojam no sistema nervoso central do paciente, provocando dores de cabeça e crises epiléticas, a condição é chamada de ___.",
+        "opcoes": [
+            "Teníase cerebral",
+            "Neurocisticercose",
+            "Hidatidose cortical",
+            "Esquistossomose encefálica"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>neurocisticercose</b> é a complicação tecidual mais grave da infecção por ovos de <i>T. solium</i>, sendo uma causa importante de epilepsia adquirida."
+    },
+    {
+        "id": 68,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O menor cestódeo a parasitar o intestino humano, que dispensa hospedeiro intermediário obrigatório (ciclo monoxênico opcional), é o ___.",
+        "opcoes": [
+            "Hymenolepis diminuta",
+            "Hymenolepis nana",
+            "Taenia solium",
+            "Echinococcus granulosus"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>Hymenolepis nana</b> (tênia anã) pode cumprir todo o seu ciclo diretamente no homem; os ovos ingeridos eclodem e evoluem para adultos no mesmo intestino."
+    },
+    {
+        "id": 69,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A distinção laboratorial definitiva entre proglotes grávidas de Taenia solium e Taenia saginata baseia-se na contagem do número de ___.",
+        "opcoes": [
+            "Ventosas e ganchos no escólex",
+            "Ramificações uterinas laterais principais",
+            "Poros genitais bilaterais alternados",
+            "Camadas da parede espessa radial"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A proglote de <i>T. saginata</i> apresenta mais de 15 **ramificações uterinas**, com padrão dicotômico, enquanto a de <i>T. solium</i> tem menos de 13 ramificações."
+    },
+    {
+        "id": 70,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O complexo larvar volumoso que se desenvolve nos órgãos viscerais (como o fígado) de humanos após a ingestão de ovos de Echinococcus granulosus chama-se ___.",
+        "opcoes": [
+            "Cisticerco hialino",
+            "Cisto hidático",
+            "Cercária bifurcada",
+            "Cenuro tecidual"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>cisto hidático</b> (da hidatidose humana) cresce lentamente acumulando fluido compressivo e milhares de escólices prototores no parênquima orgânico."
+    },
+    {
+        "id": 71,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o hospedeiro definitivo biológico e o habitat anatômico dos vermes adultos de Echinococcus granulosus na natureza?",
+        "opcoes": [
+            "O porco / Tecido muscular",
+            "O cão (canídeos) / Intestino delgado",
+            "O homem / Fígado e vias biliares",
+            "O carneiro / Parênquima pulmonar"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O cão é o hospedeiro definitivo do <i>Echinococcus granulosus</i>; o ser humano entra no ciclo como um hospedeiro intermediário acidental ao ingerir os ovos eliminados pelos cães."
+    },
+    {
+        "id": 72,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O cestódeo gigante conhecido como 'tênia do peixe', que infecta humanos que consomem pescado cru em regiões lacustres, chama-se ___.",
+        "opcoes": [
+            "Taenia saginata",
+            "Diphyllobothrium latum",
+            "Hymenolepis nana",
+            "Dipylidium caninum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Diphyllobothrium latum</b> liga-se ao intestino por fendas chamadas bótria e pode causar anemia megaloblástica por espoliar a vitamina B12."
+    },
+    {
+        "id": 73,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Nas infecções crônicas por Diphyllobothrium latum, a espoliação severa de qual vitamina essencial induz o desenvolvimento de anemia megaloblástica no paciente?",
+        "opcoes": [
+            "Vitamina C (Ácido ascórbico)",
+            "Vitamina B12 (Cobalamina)",
+            "Vitamina D (Calciol)",
+            "Vitamina K (Filoquinona)"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <i>Diphyllobothrium latum</i> possui alta afinidade pela **vitamina B12**, absorvendo até 90% da quantidade ingerida pelo hospedeiro e prejudicando a maturação das hemácias."
+    },
+    {
+        "id": 74,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A infecção humana pelo cestódeo Dipylidium caninum ocorre de forma acidental através da ingestão mecânica de ___ contendo a larva cisticercoide.",
+        "opcoes": [
+            "Caramujos de água doce",
+            "Pulgas (Siphonaptera) infectadas",
+            "Peixes de água fria malcozidos",
+            "Carne bovina defumada"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Dipylidium caninum</b> é um parasita de cães e gatos. As crianças infetam-se acidentalmente ao engolir **pulgas** que carregam a larva cisticercoide."
+    },
+    {
+        "id": 75,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "As proglotes maduras eliminadas de Dipylidium caninum possuem motilidade ativa e apresentam um formato característico que se assemelha a uma ___.",
+        "opcoes": [
+            "Semente de melancia / pepino",
+            "Folha de arruda hialina",
+            "Bandeja simétrica de limão",
+            "Engrenagem radial escura"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As proglotes de <i>Dipylidium caninum</i> são alongadas e têm poros genitais duplos, assemelhando-se macroscopicamente a **sementes de pepino**."
+    },
+    {
+        "id": 76,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a denominação biológica dada ao corpo completo das tênias, constituído pela cadeia linear de todas as suas proglotes unidas?",
+        "opcoes": [
+            "Escólex",
+            "Estróbilo",
+            "Rostro",
+            "Oncosfera"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O **estróbilo** é o conjunto do corpo segmentado do cestódeo, que cresce continuamente a partir do pescoço ou zona de proliferação logo abaixo do escólex."
+    },
+    {
+        "id": 77,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os ovos das espécies do gênero Taenia eliminados nas fezes humanas apresentam qual propriedade microscópica diagnóstica obrigatória?",
+        "opcoes": [
+            "Dois tampões polares mucilaginosos transparentes",
+            "Casca espessa escura com estriações radiais (embrióforo)",
+            "Opérculo polar em forma de tampa de ejeção",
+            "Córtex externo mamilonado irregular castanho"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os ovos de <b>Taenia spp.</b> possuem uma casca espessa formada por blocos de queratina com **estriações radiais** muito características, que protegem o embrião hexacanto."
+    },
+    {
+        "id": 78,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A liberação ativa de proglotes inteiras e isoladas através do esfíncter anal humano, mesmo fora do momento da evacuação, é um comportamento típico da infecção por ___.",
+        "opcoes": [
+            "Taenia solium",
+            "Taenia saginata",
+            "Hymenolepis nana",
+            "Diphyllobothrium latum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "As proglotes de <b>Taenia saginata</b> possuem musculatura muito ativa e conseguem forçar a saída pelo ânus, causando grande desconforto e surpresa ao paciente."
+    },
+    {
+        "id": 79,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o termo técnico que descreve o tratamento medicamentoso aplicado especificamente para provocar a morte e a expulsão de vermes planos cestódeos do trato intestinal?",
+        "opcoes": [
+            "Terapêutica antiprotozoária",
+            "Tratamento tenicida / anticestódeo",
+            "Bloqueio larvário sistêmico",
+            "Quimioprofilaxia vetorial"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os fármacos **tenicidas** (como o praziquantel e a niclosamida) atuam destruindo o tegumento do verme ou induzindo paralisia muscular no escólex."
+    },
+    {
+        "id": 80,
+        "topico": "cestodeos",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A hienolepíase por Hymenolepis diminuta difere da infecção por Hymenolepis nana porque a H. diminuta exige obrigatoriamente a participação de um hospedeiro intermediário que é um ___.",
+        "opcoes": [
+            "Caramujo de água doce",
+            "Inseto / Artrópode (como larvas de besouro da farinha)",
+            "Peixe de água doce",
+            "Mamífero ruminante"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>Hymenolepis diminuta</b> é um parasita de roedores. O homem infecta-se ao ingerir acidentalmente **insetos de cereais** (como o caruncho) que albergam a larva cisticercoide."
+    },
+    {
+        "id": 81,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O canal anatômico longitudinal presente no corpo do macho de Schistosoma mansoni, destinado a abrigar a fêmea de forma contínua durante a cópula e oviposição, chama-se ___.",
+        "opcoes": [
+            "Canal ginecóforo",
+            "Sulco acetabular",
+            "Porção ceca terminal",
+            "Poro genital distal"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>canal ginecóforo</b> é uma fenda ventral longitudinal exclusiva do macho de <i>Schistosoma mansoni</i> adaptada para a fixação e cópula com a fêmea."
+    },
+    {
+        "id": 82,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a denominação biológica dada à forma larvar ciliada do Schistosoma mansoni que eclode dos ovos em água doce e penetra ativamente no caramujo hospedeiro intermediário?",
+        "opcoes": [
+            "Cercária",
+            "Miracídio",
+            "Esporocisto",
+            "Oncosfera"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>miracídio</b> é a larva ciliada responsável por rastrear quimiotacticamente e invadir o tecido mole do molusco para dar início à fase assexuada."
+    },
+    {
+        "id": 83,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os moluscos gastrópodes aquáticos que atuam como os hospedeiros intermediários obrigatórios do Schistosoma mansoni no Brasil pertencem ao gênero ___.",
+        "opcoes": [
+            "Biomphalaria",
+            "Lymnaea",
+            "Bulimus",
+            "Triatoma"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O gênero <b>Biomphalaria</b> abriga as espécies de caramujos (como <i>B. glabrata</i>) fundamentais para a manutenção epidemiológica da esquistossomose."
+    },
+    {
+        "id": 84,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a forma evolutiva livre-nadadora do Schistosoma mansoni, dotada de cauda bifurcada, encarregada de abandonar o caramujo e penetrar ativamente na pele humana?",
+        "opcoes": [
+            "Miracídio",
+            "Cercária",
+            "Esquistossômulo",
+            "Metacercária"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>cercária</b> (furcocercária) emerge do molusco e utiliza as suas glândulas de penetração com enzimas líticas para perfurar a pele íntegra do homem."
+    },
+    {
+        "id": 85,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Logo após perder a cauda e penetrar na barreira cutânea do hospedeiro humano, a cercária sofre profundas modificações metabólicas e passa a chamar-se ___.",
+        "opcoes": [
+            "Verme adulto",
+            "Esquistossômulo",
+            "Miracídio tecidular",
+            "Esporocisto secundário"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>esquistossômulo</b> é a fase de transição adaptativa que migra através da circulação venosa e linfática até atingir o sistema porta-hepático."
+    },
+    {
+        "id": 86,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o principal habitat anatômico definitivo onde os vermes adultos de Schistosoma mansoni se alojam e realizam a cópula crônica na espécie humana?",
+        "opcoes": [
+            "Artéria pulmonar profunda",
+            "Veias do sistema porta-hepático e plexo mesentérico inferior",
+            "Vasos linfáticos inguinais",
+            "Lúmen interno do duodeno"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os adultos habitam as <b>veias mesentéricas</b>. As fêmeas nadam contra a corrente sanguínea em direção aos vênulas terminais para depositar os ovos na parede intestinal."
+    },
+    {
+        "id": 87,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A fase aguda da esquistossomose, que ocorre semanas após a exposição a águas contaminadas, associada a febre, hepatosplenomegalia e intensa reação alérgica, é conhecida como febre de ___.",
+        "opcoes": [
+            "Katayama",
+            "Romaña",
+            "Chagas",
+            "Loeffler"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>Febre de Katayama</b> é uma manifestação imunológica aguda decorrente do início da postura de ovos massiva e liberação de antígenos solúveis no sangue."
+    },
+    {
+        "id": 88,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Na fase crônica da esquistossomose, a fixação de ovos no tecido hepático desencadeia uma intensa reação inflamatória granulomatosa que evolui para a fibrose em ___.",
+        "opcoes": [
+            "Tubo de ensaio",
+            "Corda de piano",
+            "Cabo de vassoura / Fibrose de Symmers",
+            "Anel concêntrico hialino"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "A <b>Fibrose Periportal de Symmers</b> (aspecto de cabo de vassoura) ocorre devido à deposição crônica de colagénio nos espaços porta, gerando hipertensão portal severa."
+    },
+    {
+        "id": 89,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A complicação hemodinâmica grave da esquistossomose crônica hepática, decorrente do bloqueio do fluxo portal, que gera circulação colateral e varizes esofágicas, chamamos de ___.",
+        "opcoes": [
+            "Insuficiência renal aguda",
+            "Hipertensão portal com ascite",
+            "Choque anafilático crónico",
+            "Infarto do miocárdio mesentérico"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>hipertensão portal</b> força o sangue a buscar vias colaterais, provocando o surgimento de ascite ('barriga d'água') e o risco de hemorragias digestivas por varizes."
+    },
+    {
+        "id": 90,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A dermatite pruriginosa e eritematosa que surge poucas horas após o banho em coleções de água doce endémicas é provocada pela penetração cutânea de ___.",
+        "opcoes": [
+            "Vermes adultos machos",
+            "Cercárias (Dermatite cercariana)",
+            "Ovos espiculados erráticos",
+            "Miracídios ativados"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A **dermatite cercariana** (ou 'coceira do nadador') é uma reação alérgica local desencadeada no sítio de entrada das cercárias na pele."
+    },
+    {
+        "id": 91,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O método de escolha qualitativo para diagnóstico de esquistossomose em exames de massa, baseado na lavagem e filtração sedimentada de fezes, chama-se método de ___.",
+        "opcoes": [
+            "Kato-Katz",
+            "Faust",
+            "Baermann",
+            "Graham"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O método de <b>Kato-Katz</b> é o padrão recomendado pela OMS para triagem, permitindo a visualização dos ovos espiculados característicos e a contagem de ovos por grama."
+    },
+    {
+        "id": 92,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A expulsão ativa dos ovos de Schistosoma mansoni do interior dos vasos sanguíneos em direção à luz intestinal é auxiliada morfologicamente pela presença de um ___ no ovo.",
+        "opcoes": [
+            "Opérculo polar",
+            "Espículo lateral agudo",
+            "Tampão mucilaginoso duplo",
+            "Córtex mamilonado"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O **espículo lateral** funciona mecanicamente como uma âncora ou espinho que, junto com enzimas secretadas pela larva interna, facilita o rompimento do endotélio venoso."
+    },
+    {
+        "id": 93,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o teste imunológico ou molecular de alta sensibilidade que pesquisa frações de DNA do parasita na urina ou fezes do paciente para diagnóstico em áreas de baixa carga?",
+        "opcoes": [
+            "Reação em Cadeia da Polimerase (PCR)",
+            "Intradermorreação de Montenegro",
+            "Reação de Machado-Guerreiro",
+            "Hemograma automatizado"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>PCR</b> destaca-se em cenários epidemiológicos de baixa transmissão onde a carga de ovos nas fezes é flutuante ou indetetável pela microscopia."
+    },
+    {
+        "id": 94,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Quando um ovo de Schistosoma mansoni é arrastado acidentalmente pelo fluxo sanguíneo em direção inversa, indo parar nos pulmões ou sistema nervoso, ocorre a esquistossomose ___.",
+        "opcoes": [
+            "Intestinal clássica",
+            "Ectópica / Pseudotumoral",
+            "Aguda de Katayama",
+            "Monoxénica reversa"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A forma **ectópica** ocorre quando os ovos se fixam fora do sistema porta-mesentérico, podendo gerar mielite granulomatosa na medula espinal."
+    },
+    {
+        "id": 95,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A principal medida de engenharia sanitária e profilaxia comunitária direcionada ao bloqueio da transmissão da esquistossomose baseia-se no ___.",
+        "opcoes": [
+            "Saneamento básico e destino adequado dos dejetos",
+            "Uso de repelentes corporais à base de DEET",
+            "Vacinação obrigatória em lactentes",
+            "Tratamento de cães erráticos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Evitar que fezes humanas com ovos atinjam coleções de água doce contendo o molusco é a intervenção de **saneamento** mais eficaz para quebrar o ciclo."
+    },
+    {
+        "id": 96,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O fármaco esmagadoramente utilizado em dose única nas campanhas públicas de saúde para o tratamento e eliminação dos vermes de Schistosoma mansoni é o ___.",
+        "opcoes": [
+            "Praziquantel",
+            "Metronidazol",
+            "Albendazol",
+            "Ivermectina"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>Praziquantel</b> altera a permeabilidade ao cálcio no tegumento do verme, induzindo paralisia muscular e vacuolização das superfícies do parasita."
+    },
+    {
+        "id": 97,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A biópsia retal (ou esmagamento de fragmento de mucosa) é uma técnica diagnóstica de reserva aplicada quando ___.",
+        "opcoes": [
+            "O paciente recusa colher sangue",
+            "Os exames repetidos de fezes dão negativo, mas há forte suspeita clínica",
+            "As cercárias estão na fase de migração pulmonar",
+            "O hospedeiro intermediário é um vetor artrópode"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O **oograma na biópsia retal** avalia a presença e a viabilidade (ovos vivos ou calcificados) retidos de forma crónica na submucosa intestinal."
+    },
+    {
+        "id": 98,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O período em que os miracídios se multiplicam assexuadamente dentro do tecido do caramujo, gerando milhares de cercárias clones, constitui uma reprodução do tipo ___.",
+        "opcoes": [
+            "Pedogênese sexuada",
+            "Poliembrionia assexuada",
+            "Fissão binária longitudinal",
+            "Esquizogonia eritrocitária"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A multiplicação dentro do molusco ocorre por ciclos de **esporocistos** que geram larvas geometricamente multiplicadas sem troca de material genético nessa fase."
+    },
+    {
+        "id": 99,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o termo técnico que descreve o isolamento químico ou biológico de coleções de água através do uso de substâncias químicas focadas na eliminação química de caramujos?",
+        "opcoes": [
+            "Inseticidas piretróides",
+            "Moluscocidas / Caramujicidas",
+            "Larvicidas bacterianos",
+            "Fungicidas de contacto"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O uso de **moluscocidas** (como o niclosamida) visa diminuir a densidade populacional de <i>Biomphalaria</i> nas fontes hídricas infetadas."
+    },
+    {
+        "id": 100,
+        "topico": "schistosoma",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Epidemiologicamente, a esquistossomose mansoni é considerada uma doença de forte caráter socioeconómico, estando diretamente classificada pela OMS como uma ___.",
+        "opcoes": [
+            "Doença Tropica Negligenciada (DTN)",
+            "Zoonose emergente de alta letalidade",
+            "Pandemia respiratória sazonal",
+            "Antroponeurose bacteriana transmissível"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As **DTNs** prosperam em condições de vulnerabilidade social e falta de infraestrutura sanitária, afetando populações de países em desenvolvimento."
+    },
+    {
+        "id": 101,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma evolutiva flagelada, alongada e móvel do gênero Leishmania, encontrada colonizando o trato digestivo do inseto vetor, denomina-se ___.",
+        "opcoes": [
+            "Amastigota",
+            "Promastigota",
+            "Epimastigota",
+            "Tripomastigota"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A forma <b>promastigota</b> possui flagelo livre anterior e é a unidade infectante inoculada no hospedeiro vertebrado durante o repasto sanguíneo."
+    },
+    {
+        "id": 102,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma intracelular obrigatória da Leishmania, desprovida de flagelo livre visível, que se multiplica no interior dos macrófagos do hospedeiro vertebrado, chama-se ___.",
+        "opcoes": [
+            "Promastigota",
+            "Amastigota",
+            "Epimastigota",
+            "Tripomastigota"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A forma <b>amastigota</b> é ovalada e reside nos vacúolos parasitóforos dos macrófagos, sendo a fase patogênica tecidual nos tecidos humanos."
+    },
+    {
+        "id": 103,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os insetos vetores responsáveis pela transmissão biológica das leishmanioses pertencem à subfamília Phlebotominae, popularmente conhecidos no Brasil como ___.",
+        "opcoes": [
+            "Mosquitos-palha / Birigui",
+            "Barbeiros ou chupanças",
+            "Mosquitos pregos",
+            "Moscas tsé-tsé"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os **flebotomíneos** (gêneros <i>Lutzomyia</i> e <i>Psychodopygus</i>) são pequenos dípteros cujas fêmeas hematófagas transmitem o protozoário."
+    },
+    {
+        "id": 104,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A manifestação clínica severa da Leishmania infantum, caracterizada por fezes febris longas, perda de peso pancitopenia e hepatoesplenomegalia marcante, é a leishmaniose ___.",
+        "opcoes": [
+            "Cutânea localizada",
+            "Visceral (ou Calazar)",
+            "Mucocutânea espundia",
+            "Difusa anérgica"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>Leishmaniose Visceral</b> ataca os órgãos do sistema fagocítico mononuclear (baço, fígado e medula óssea), comprometendo a imunidade do paciente."
+    },
+    {
+        "id": 105,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma diagnóstica infectante do Trypanosoma cruzi eliminada nas fezes e urina do inseto vetor durante ou logo após a picada hematófaga é o ___.",
+        "opcoes": [
+            "Tripomastigota metacíclico",
+            "Tripomastigota sanguíneo",
+            "Epimastigota",
+            "Amastigota tecidual"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>tripomastigota metacíclico</b> penetra através da lesão da picada ou de mucosas íntegras quando o hospedeiro coça o local."
+    },
+    {
+        "id": 106,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os triatomíneos, insetos hemípteros vetores da Doença de Chagas que abrigam o Trypanosoma cruzi, são conhecidos vulgarmente no Brasil como ___.",
+        "opcoes": [
+            "Mosquitos pregos",
+            "Barbeiros / Chupanças",
+            "Mutucas",
+            "Simúlios / Borrachudos"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os **barbeiros** (gêneros <i>Triatoma</i>, <i>Panstrongylus</i> e <i>Rhodnius</i>) possuem hábitos noturnos e habitam frestas de paredes de casas de taipa."
+    },
+    {
+        "id": 107,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O sinal de alerta oftálmico precoce da Doença de Chagas aguda, caracterizado por edema palpebral unilateral, indolor e com enfartamento ganglionar satélite, chama-se sinal de ___.",
+        "opcoes": [
+            "Romaña",
+            "Winterbottom",
+            "Montenegro",
+            "Kinyoun"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>Sinal de Romaña</b> é a porta de entrada ocular clássica do parasito quando este penetra através da conjuntiva."
+    },
+    {
+        "id": 108,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Na fase crônica da Doença de Chagas, a destruição dos plexos nervosos autônomos mioentéricos de órgãos ocos leva ao surgimento de dilatações patológicas conhecidas como ___.",
+        "opcoes": [
+            "Megacólon e Megaesôfago",
+            "Aneurismas da aorta abdominal",
+            "Varizes gástricas severas",
+            "Granulomas periportais fibrosos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A perda da inervação parassimpática bloqueia o peristaltismo normal, gerando retenção de conteúdo e hipertrofia com dilatação (**Megas** chagasas)."
+    },
+    {
+        "id": 109,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os hospedeiros definitivos biológicos do Toxoplasma gondii, onde ocorre estritamente a fase sexuada do ciclo com produção de oocistas, pertencem à família ___.",
+        "opcoes": [
+            "Canidae (cães e lobos)",
+            "Felidae (gatos e felídeos)",
+            "Muridae (ratos e camundongos)",
+            "Hominidae (seres humanos)"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>felídeos</b> são os únicos hospedeiros definitivos do <i>Toxoplasma gondii</i>. Todos os outros mamíferos e aves funcionam como hospedeiros intermediários."
+    },
+    {
+        "id": 110,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma de replicação rápida e aguda do Toxoplasma gondii, que se dissemina por via sanguínea e invade qualquer célula nucleada durante a fase inicial da infeção, chama-se ___.",
+        "opcoes": [
+            "Bradizoíto",
+            "Taquizoíto",
+            "Oocisto maduro",
+            "Esporozoíto"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>taquizoítos</b> multiplicam-se intensamente por endodiogenia, rompendo células e perpetuando a fase inflamatória aguda da infecção."
+    },
+    {
+        "id": 111,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma latente e de replicação lenta do Toxoplasma gondii, que fica confinada por anos em cistos tecidulares nos músculos e cérebro do hospedeiro, denomina-se ___.",
+        "opcoes": [
+            "Taquizoíto",
+            "Bradizoíto",
+            "Merozoíto",
+            "Trofozoíto"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>bradizoítos</b> permanecem dormentes protegidos pela parede do cisto tecidular, podendo reativar se o hospedeiro sofrer imunossupressão profunda."
+    },
+    {
+        "id": 112,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A tríade clínica clássica da Toxoplasmose Congênita em recém-nascidos infectados por via transplacentária inclui hidrocefalia, calcificações cerebrais e ___.",
+        "opcoes": [
+            "Coriorretinite",
+            "Cardiopatia chagásica",
+            "Prolapso retal agudo",
+            "Anemia ferropriva severa"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>coriorretinite bilateral</b> é a lesão ocular inflamatória destrutiva mais comum na toxoplasmose congénita, comprometendo a visão do neonato."
+    },
+    {
+        "id": 113,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os protozoários esporozoários do gênero Plasmodium, agentes etiológicos da malária humana, realizam o seu ciclo reprodutivo sexuado (esporogonia) no interior de ___.",
+        "opcoes": [
+            "Hemácias do hospedeiro humano",
+            "Fêmeas de mosquitos do gênero Anopheles",
+            "Hepatócitos tecidulares profundos",
+            "Macrófagos esplénicos do baço"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O mosquito <b>Anopheles</b> (mosquito-prego) é o hospedeiro definitivo biológico do <i>Plasmodium</i>, onde ocorre a fertilização e formação de esporozoítos."
+    },
+    {
+        "id": 114,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A forma infectante do Plasmodium inoculada na corrente sanguínea humana através da saliva da fêmea do Anopheles durante o repasto hematófago é o ___.",
+        "opcoes": [
+            "Merozoíto",
+            "Esporozoíto",
+            "Trofozoíto jovem",
+            "Gametócito maduro"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>esporozoítos</b> migram rapidamente da pele para o fígado, invadindo os hepatócitos para iniciar a fase tecidual pré-eritrocitária."
+    },
+    {
+        "id": 115,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "As formas latentes do Plasmodium vivax e Plasmodium ovale que permanecem adormecidas nos hepatócitos por meses, podendo causar recaídas clínicas tardias, chamam-se ___.",
+        "opcoes": [
+            "Esquizontes tissue",
+            "Hipnozoítos",
+            "Merozoíto vacuolar",
+            "Oocineto móvel"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>hipnozoítos</b> entram num estado de dormência metabólica no fígado e são os responsáveis pelas recidivas clínicas típicas da malária por <i>P. vivax</i>."
+    },
+    {
+        "id": 116,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O quadro de febre periódica cíclica da malária (acesso malárico), decorrente da rutura síncrona de milhares de hemácias com libertação de resíduos e toxinas, chama-se ___.",
+        "opcoes": [
+            "Febre terçã ou quartã",
+            "Febre de Katayama",
+            "Curva térmica anérgica",
+            "Crise de Loeffler"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O ciclo de febre ocorre a cada 48 horas (**terçã**, como no <i>P. vivax</i> e <i>P. falciparum</i>) ou 72 horas (**quartã**, como no <i>P. malariae</i>) conforme o tempo de lise eritrocitária."
+    },
+    {
+        "id": 117,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A espécie de Plasmodium associada às formas mais graves de malária humana, capaz de induzir citoaderência e sequestro capilar de hemácias, provocando a malária cerebral, é o ___.",
+        "opcoes": [
+            "Plasmodium vivax",
+            "Plasmodium falciparum",
+            "Plasmodium malariae",
+            "Plasmodium ovale"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Plasmodium falciparum</b> induz a formação de 'knobs' na membrana da hemácia, gerando oclusão microvascular e isquemia em órgãos vitais."
+    },
+    {
+        "id": 118,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O método laboratorial padrão-ouro preconizado pelo Ministério da Saúde para o diagnóstico definitivo e contagem da parasitemia da malária na bancada é a ___.",
+        "opcoes": [
+            "Gota espessa sanguínea",
+            "Sorologia por ELISA",
+            "Pesquisa de ovos nas fezes",
+            "Intradermorreação cutânea"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>gota espessa</b> permite concentrar os parasitas em um espaço menor após a deshemoglobinização, facilitando a visualização e contagem de plasmódios."
+    },
+    {
+        "id": 119,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O teste cutâneo de leitura tardia (48h) utilizado como ferramenta diagnóstica de triagem epidemiológica para avaliar a imunidade celular na leishmaniose cutânea é a intradermorreação de ___.",
+        "opcoes": [
+            "Montenegro",
+            "Machado-Guerreiro",
+            "Mazzotti",
+            "Sabouraud"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>Intradermorreação de Montenegro (IDRM)</b> pesquisa a resposta de hipersensibilidade tardia a antígenos de <i>Leishmania</i>, dando positiva nas formas cutâneas."
+    },
+    {
+        "id": 120,
+        "topico": "protozoarios_tec",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual a principal via de contaminação e transmissão da Doença de Chagas aguda na Amazônia brasileira atualmente, superando a picada vetorial clássica?",
+        "opcoes": [
+            "Transmissão oral por ingestão de alimentos triturados com triatomíneos (açaí / caldo de cana)",
+            "Transmissão respiratória por poeiras de cavernas",
+            "Mordedura de mamíferos reservatórios domésticos",
+            "Transmissão iatrogênica por agulhas reutilizadas"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A **via oral** por contaminação de alimentos com fezes ou com o próprio inseto triturado provoca surtos agudos de Doença de Chagas com alta carga parasitária inicial."
+    },
+    {
+        "id": 121,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os insetos vetores que apresentam metamorfose incompleta, passando diretamente pelas fases de ovo, ninfa e adulto, são classificados biologicamente como ___.",
+        "opcoes": [
+            "Holometábolos",
+            "Hemimetábolos",
+            "Ametábolos",
+            "Monometábolos"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os insetos **hemimetábolos** (como os barbeiros) não passam pela fase de pupa; as ninfas já se assemelham morfologicamente aos adultos, diferindo apenas no tamanho e na maturação das asas."
+    },
+    {
+        "id": 122,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual díptero hematófago apresenta como característica biológica marcante o repasto sanguíneo diurno e o hábito de depositar ovos em coleções de água limpa e parada artificiais?",
+        "opcoes": [
+            "Anopheles darlingi",
+            "Aedes aegypti",
+            "Culex quinquefasciatus",
+            "Lutzomyia longipalpis"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Aedes aegypti</b> é um vetor eminentemente urbano, sinantrópico e de atividade picadora predominantemente diurna, crucial na transmissão de arboviroses."
+    },
+    {
+        "id": 123,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O inseto vetor pertencente à ordem Hemiptera que transmite o Trypanosoma cruzi através da contaminação da pele lesionada com as suas fezes e urina infectadas é o ___.",
+        "opcoes": [
+            "Flebotomíneo",
+            "Triatomíneo (Barbeiro)",
+            "Simúlio",
+            "Anofelino"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os **triatomíneos** (barbeiros) atuam no ciclo de transmissão eliminando os tripomastigotas metacíclicos nas dejeções logo após picarem o hospedeiro."
+    },
+    {
+        "id": 124,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual gênero de mosquitos hematófagos atua como vetor biológico obrigatório dos nematódeos causadores da filariose linfática (elefantíase) em áreas urbanas brasileiras?",
+        "opcoes": [
+            "Aedes",
+            "Culex",
+            "Simulium",
+            "Lutzomyia"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Culex quinquefasciatus</b> (pernilongo doméstico) é o vetor urbano da <i>Wuchereria bancrofti</i>, adaptado a procriar em coleções de água ricas em matéria orgânica."
+    },
+    {
+        "id": 125,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os dípteros da subfamília Phlebotominae, que transmitem as leishmanioses cutânea e visceral, necessitam de matéria orgânica húmida e abrigo da luz solar para o desenvolvimento das suas ___.",
+        "opcoes": [
+            "Larvas terrestres",
+            "Ninfas aquáticas",
+            "Pupas hialinas imaturas",
+            "Microfilárias periféricas"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Ao contrário de outros mosquitos, as **larvas dos flebotomíneos** desenvolvem-se na terra úmida, ricas em folhas em decomposição ou detritos orgânicos animais."
+    },
+    {
+        "id": 126,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O principal díptero vetor biológico do gênero Anopheles encarregado de transmitir o Plasmodium (malária) na região da bacia amazônica brasileira é a espécie ___.",
+        "opcoes": [
+            "Anopheles darlingi",
+            "Anopheles aquasalis",
+            "Anopheles albitarsis",
+            "Anopheles cruzii"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>Anopheles darlingi</b> é considerado o vetor primário e mais eficiente da malária no Brasil devido ao seu alto grau de antropofilia e hábitos de picada."
+    },
+    {
+        "id": 127,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os ectoparasitas ápteros (sem asas) comprimidos lateralmente, pertencentes à ordem Siphonaptera, que utilizam o salto mecânico para infestar mamíferos, são denominados ___.",
+        "opcoes": [
+            "Piolhos (Anoplura)",
+            "Pulgas",
+            "Percevejos de cama",
+            "Ácaros da sarna"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "As **pulgas** possuem pernas posteriores altamente adaptadas ao salto e atuam como vetores biológicos ou hospedeiros intermediários de parasitas (ex: <i>Dipylidium caninum</i>)."
+    },
+    {
+        "id": 128,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A infestação cutânea provocada pela fêmea grávida da pulga Tunga penetrans, que perfura a epiderme (geralmente nos pés) para se alimentar de sangue e hipertrofiar, chama-se ___.",
+        "opcoes": [
+            "Pediculose capilar",
+            "Tungíase (Bicho-de-pé)",
+            "Miíase furunculóide",
+            "Escabiose severa"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A <b>tungíase</b> ocorre quando a fêmea penetra na pele do hospedeiro, provocando dor local, inflamação e risco de infecções bacterianas secundárias."
+    },
+    {
+        "id": 129,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os piolhos sugadores do corpo humano, pertencentes à ordem Anoplura (como o Pediculus humanus), realizam a fixação dos seus ovos nos fios de cabelo, estruturas conhecidas como ___.",
+        "opcoes": [
+            "Lêndeas",
+            "Cisticercos",
+            "Pupas quitinosas",
+            "Oncosferas"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "As **lêndeas** são ovos firmemente aderidos à haste capilar por meio de uma substância cimentante insolúvel secretada pela fêmea do piolho."
+    },
+    {
+        "id": 130,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A patologia tecidual cutânea ou cavitária caracterizada pela infestação e destruição de tecidos vivos ou necrosados do hospedeiro por larvas de moscas (varejeiras) é denominada ___.",
+        "opcoes": [
+            "Miíase (Bicheira)",
+            "Tungíase localizada",
+            "Dermatite cercariana",
+            "Pediculose sistêmica"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <b>miíase</b> pode ser primária (quando as moscas depositam ovos em tecidos sadios) ou secundária (quando larvas se alimentam de tecidos necrosados em feridas expostas)."
+    },
+    {
+        "id": 131,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os dípteros hematófagos da família Simulidae, que se desenvolvem em águas correntes e encachoeiradas, atuando como vetores da oncocercose na América Latina, são chamados de ___.",
+        "opcoes": [
+            "Borrachudos / Simúlios",
+            "Mosquitos-palha",
+            "Mutucas",
+            "Moscas-varejeiras"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Os **simúlios (borrachudos)** necessitam de rios caudalosos e oxigenados para as suas fases larvárias e transmitem microfilárias de <i>Onchocerca volvulus</i>."
+    },
+    {
+        "id": 132,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual espécie de mosca hematófaga (díptero da família Tabanidae) apresenta fêmeas com picada extremamente dolorosa, atuando principalmente como vetor mecânico de patógenos sanguíneos?",
+        "opcoes": [
+            "Mosca doméstica",
+            "Mutuca",
+            "Mosca do estábulo",
+            "Mosca tsé-tsé"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "As <b>mutucas</b> possuem peças bucais robustas adaptadas para rasgar os tecidos da pele e sugar o sangue que se acumula na ferida resultante."
+    },
+    {
+        "id": 133,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O inseto vetor Phthirus pubis, um piolho de corpo achatado e garras potentes adaptado à colonização da região de pelos pubianos humanos, é conhecido popularmente como ___.",
+        "opcoes": [
+            "Muquirão",
+            "Chato",
+            "Carrapatinho",
+            "Percevejo"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Phthirus pubis (chato)</b> é transmitido predominantemente por contacto íntimo ou sexual, fixando-se fortemente na base dos pelos pubianos."
+    },
+    {
+        "id": 134,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Insetos vetores holometábolos são aqueles que apresentam um ciclo biológico evolutivo complexo, passando obrigatoriamente pelas quatro fases sequenciais de ___.",
+        "opcoes": [
+            "Ovo, Ninfa, Pré-adulto e Adulto",
+            "Ovo, Larva, Pupa e Adulto",
+            "Cisto, Trofozoíto, Esquizonte e Merozoíto",
+            "Ovo, Miracídio, Cercária e Adulto"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O termo **holometábolo** descreve a metamorfose completa (como a das moscas, pulgas e mosquitos), onde a larva é morfologicamente distinta do adulto."
+    },
+    {
+        "id": 135,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o principal mecanismo de ação do inseto barbeiro (triatomíneo) que estimula o hospedeiro humano a coçar o local da picada, facilitando a penetração do Trypanosoma cruzi?",
+        "opcoes": [
+            "Inoculação de enzimas histolíticas na derme",
+            "Presença de substâncias irritantes e alérgenas na saliva do inseto",
+            "Perfuração mecânica profunda dos vasos linfáticos",
+            "Liberação de toxinas neurotrópicas láticas"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A saliva do barbeiro contém substâncias anticoagulantes e inflamatórias que induzem o prurido (coceira), fazendo com que o hospedeiro arraste as fezes contaminadas para a lesão."
+    },
+    {
+        "id": 136,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os percevejos de cama da família Cimicidae (como o Cimex lectularius) diferem dos barbeiros triatomíneos porque os cimicídeos ___.",
+        "opcoes": [
+            "Transmitem o Trypanosoma cruzi por via salivar",
+            "Não são vetores biológicos comprovados de doenças humanas (causam apenas dermatite)",
+            "Possuem asas desenvolvidas para voos longos",
+            "São parasitas intracelulares obrigatórios"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Embora os **percevejos de cama** causem incômodo e dermatite alérgica devido às picadas noturnas, eles não atuam como vetores biológicos de patógenos na rotina clínica."
+    },
+    {
+        "id": 137,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O controle vetorial focado na eliminação física de criadouros de mosquitos (como pratos de vasos, pneus e caixas d'água destampadas) constitui uma medida de ___.",
+        "opcoes": [
+            "Manejo ambiental sanitário",
+            "Controle químico por piretróides",
+            "Controle biológico por predadores",
+            "Imunoprofilaxia comunitária"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O **manejo ambiental** é a estratégia mais sustentável e eficaz a longo prazo para o controle de vetores aquáticos, reduzindo fisicamente os locais de oviposição."
+    },
+    {
+        "id": 138,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "As moscas domésticas saprófagas (Musca domestica) atuam de forma relevante no perfil epidemiológico de parasitoses intestinais funcionando primariamente como ___.",
+        "opcoes": [
+            "Hospedeiros intermediários obrigatórios",
+            "Vetores puramente mecânicos (carreiam cistos e ovos nas cerdas e patas)",
+            "Vetores biológicos por transmissão salivar",
+            "Reservatórios naturais silvestres"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A mosca doméstica atua como um **vetor mecânico** eficiente ao pousar em dejetos fecais e, posteriormente, transferir cistos e ovos para alimentos de consumo humano."
+    },
+    {
+        "id": 139,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o nome da pulga de roedores (Xenopsylla cheopis) famosa na história da saúde pública por atuar como vetor biológico da bactéria Yersinia pestis (Peste Bubônica)?",
+        "opcoes": [
+            "Pulga do rato",
+            "Pulga do homem",
+            "Pulga do cão",
+            "Bicho-de-pé"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A <i>Xenopsylla cheopis</i> (**pulga do rato**) adquire a bactéria ao sugar roedores infetados e a transmite aos humanos quando o bloqueio esofágico provocado pela bactéria força a regurgitação."
+    },
+    {
+        "id": 140,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A aplicação de larvicidas biológicos à base de endotoxinas de Bacillus thuringiensis israelensis constitui uma modalidade de controle de vetores classificada como ___.",
+        "opcoes": [
+            "Controle biológico",
+            "Controle químico orgânico",
+            "Manejo físico estrutural",
+            "Melhoramento genético"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O **controle biológico** utiliza organismos vivos ou os seus produtos metabólicos específicos (como as toxinas bacterianas) para eliminar larvas de mosquitos de forma seletiva."
+    },
+    {
+        "id": 141,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os carrapatos e ácaros diferenciam-se macroscopicamente e morfologicamente dos insetos vetores porque os aracnídeos adultos apresentam exatamente ___.",
+        "opcoes": [
+            "Três pares de pernas e corpo dividido em cabeça, tórax e abdómen",
+            "Quatro pares de pernas e fusão das regiões corporais (gnatossoma e idiossoma)",
+            "Um par de antenas longas articuladas",
+            "Asas membranosas no estágio de ninfa"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os aracnídeos (classe Arachnida) são caracterizados pela ausência de antenas e asas, além de possuírem **quatro pares de pernas (octópodes)** na fase adulta."
+    },
+    {
+        "id": 142,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O carrapato da família Ixodidae, vetor biológico da bactéria Rickettsia rickettsii (causadora da Febre Maculosa), conhecido vulgarmente no Brasil como carrapato-estrela, pertence à espécie ___.",
+        "opcoes": [
+            "Amblyomma sculptum (Amblyomma cajennense)",
+            "Rhipicephalus sanguineus",
+            "Ixodes ricinus",
+            "Argas miniatus"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>Amblyomma sculptum</b> (complexo <i>A. cajennense</i>) é o principal vetor da febre maculosa no Brasil, tendo capivaras e cavalos como hospedeiros primários."
+    },
+    {
+        "id": 143,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O ácaro parasita microscópico que escava túneis (tocas) na camada córnea da epiderme humana, alimentando-se de queratina e desencadeando a escabiose (sarna), é o ___.",
+        "opcoes": [
+            "Sarcoptes scabiei",
+            "Demodex folliculorum",
+            "Dermatophagoides pteronyssinus",
+            "Ornithodoros moubata"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>Sarcoptes scabiei var. hominis</b> provoca a sarna humana. A atividade da fêmea ao escavar a epiderme induz uma intensa reação de hipersensibilidade com prurido noturno severo."
+    },
+    {
+        "id": 144,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual espécie de carrapato urbano (família Ixodidae) é altamente adaptada ao ambiente doméstico, parasitando preferencialmente cães e atuando como vetor de hemoparasitoses caninas?",
+        "opcoes": [
+            "Amblyomma sculptum",
+            "Rhipicephalus sanguineus",
+            "Argas miniatus",
+            "Ixodes scapularis"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Rhipicephalus sanguineus</b> (carrapato marrom do cão) realiza o seu ciclo em frestas de canis e paredes residenciais, escalando superfícies para realizar as ecdises."
+    },
+    {
+        "id": 145,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O fenômeno biológico em que agentes patogênicos (como vírus ou bactérias) são transmitidos do carrapato fêmea diretamente para os seus ovos, infectando a próxima geração de larvas, chama-se ___.",
+        "opcoes": [
+            "Transmissão transovariana",
+            "Transmissão transestadial",
+            "Poliembrionia biológica",
+            "Metamorfose direta"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A **transmissão transovariana** perpetua o patógeno na população de carrapatos sem a necessidade de passar por um hospedeiro vertebrado a cada ciclo."
+    },
+    {
+        "id": 146,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A transmissão em que um carrapato adquire um patógeno na fase de larva e o mantém ativo após a troca de pele para as fases de ninfa e adulto chama-se ___.",
+        "opcoes": [
+            "Transmissão transestadial",
+            "Transmissão transovariana",
+            "Ecdise mecânica reversa",
+            "Pedogênese vetorial"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A **transmissão transestadial** garante que o carrapato continue sendo um vetor infectante ao longo de todo o seu desenvolvimento pós-embrionário."
+    },
+    {
+        "id": 147,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os carrapatos da família Argasidae, que possuem o tegumento flexível, ausência de escudo quitinoso dorsal rígido e peças bucais ventrais escondidas, são classificados como carrapatos ___.",
+        "opcoes": [
+            "Duros",
+            "Moles",
+            "Intermediários",
+            "Subcutâneos"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os **carrapatos moles (argasídeos)** alimentam-se rapidamente e realizam múltiplas posturas ao longo da vida, habitando principalmente ninhos de aves ou tocas de animais."
+    },
+    {
+        "id": 148,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O carrapato mole Argas miniatus constitui um problema sanitário relevante na avicultura industrial brasileira pois atua como o vetor biológico de ___.",
+        "opcoes": [
+            "Borrelia anserina (Espiroquetose aviária)",
+            "Febre Maculosa das aves",
+            "Escabiose de galinheiros",
+            "Anaplasmosi bovina atípica"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <i>Argas miniatus</i> (carrapato de galinha) ataca aves à noite e transmite a **espiroquetose aviária**, gerando anemia crônica e quebra na produção de ovos."
+    },
+    {
+        "id": 149,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual ácaro microscópico comensal habita os folículos pilosos e glândulas sebáceas da face humana (principalmente nariz e testa), podendo estar associado à rosácea?",
+        "opcoes": [
+            "Sarcoptes scabiei",
+            "Demodex folliculorum",
+            "Dermatophagoides farinae",
+            "Amblyomma sculptum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O <b>Demodex folliculorum</b> (ácaro dos cílios/face) é um organismo alongado que vive de forma comensal na pele humana, mas a sua superpopulação pode desencadear quadros inflamatórios de blefarite e rosácea."
+    },
+    {
+        "id": 150,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A principal manifestação imunológica clínica exacerbada nos seres humanos provocada pela inalação crônica de fezes e proteínas desidratadas de ácaros da poeira doméstica (gênero Dermatophagoides) é a ___.",
+        "opcoes": [
+            "Sarna crostosa norueguesa",
+            "Alergia respiratória (Asma e Rinite alérgica)",
+            "Febre maculosa respiratória",
+            "Dermatite serpiginosa ulcerada"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os **ácaros da poeira** não são parasitas ativos, mas os seus fragmentos corporais e excretas contêm potentes alérgenos (como o peptídeo Der p 1) indutores de **alergias respiratórias**."
+    },
+    {
+        "id": 151,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A estrutura anatômica dorsal rígida composta por quitina e proteínas que recobre parcial ou totalmente o corpo dos carrapatos da família Ixodidae chama-se ___.",
+        "opcoes": [
+            "Capítulo",
+            "Escudo dorsal",
+            "Idiossoma",
+            "Gnatossoma"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O **escudo dorsal** protege o artrópode. Nos machos ixodídeos, ele recobre todo o dorso, impedindo uma grande distensão; nas fêmeas, ocupa apenas a porção anterior para permitir a engorda massiva com sangue durante a postura."
+    },
+    {
+        "id": 152,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O complexo de peças bucais dos carrapatos e ácaros, especializado na perfuração e sucção de sangue ou fluidos corporais, recebe o nome técnico de ___.",
+        "opcoes": [
+            "Gnatossoma (ou Capítulo)",
+            "Idiossoma",
+            "Pedipalpo distal",
+            "Quelícera interna"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O **gnatossoma** abriga o hipostômio armado com dentes retrorsos, as quelíceras e os palpos, funcionando como o aparelho sugador do aracnídeo."
+    },
+    {
+        "id": 153,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "O quadro clínico grave de paralisia flácida ascendente que pode ocorrer quando um carrapato duro fêmea permanece fixado por dias injetando neurotoxinas salivares na pele é conhecido como ___.",
+        "opcoes": [
+            "Paralisia do carrapato",
+            "Febre maculosa neurotrópica",
+            "Escabiose nodular crônica",
+            "Doença de Lyme neurológica"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A **paralisia do carrapato** é provocada por toxinas presentes na saliva de certas fêmeas de ixodídeos durante o repasto prolongado, revertendo-se rapidamente após a remoção mecânica do artrópode."
+    },
+    {
+        "id": 154,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A sarna crostosa (ou sarna norueguesa) constitui uma forma hiperinfestante e altamente contagiosa de escabiose que se desenvolve preferencialmente em pacientes ___.",
+        "opcoes": [
+            "Imunocomprometidos ou portadores de HIV",
+            "Trabalhadores rurais de canaviais",
+            "Atletas de alto rendimento físico",
+            "Pacientes com anemia ferropriva crônica"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Na **sarna crostosa**, a falha na imunidade celular permite a multiplicação descontrolada de milhões de ácaros <i>Sarcoptes scabiei</i>, gerando crostas hiperqueratósicas na pele."
+    },
+    {
+        "id": 155,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A remoção correta e segura de um carrapato ixodídeo fixado na pele humana deve ser realizada utilizando uma pinça através do mecanismo de ___.",
+        "opcoes": [
+            "Tracionamento firme e contínuo rente à pele (pela base do capítulo)",
+            "Torção rápida no sentido horário",
+            "Aplicação de calor ou álcool sobre o corpo do artrópode antes de puxar",
+            "Esmagamento imediato do idiossoma com os dedos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Puxar o carrapato firmemente pela base evita que o aparelho bucal (hipostômio) quebre e permaneça retido na derme, o que provocaria granulomas e infecções secundárias."
+    },
+    {
+        "id": 156,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A principal substância cimentante proteica secretada pelas glândulas salivares dos carrapatos duros para garantir a sua fixação mecânica crônica na pele do hospedeiro por dias chama-se ___.",
+        "opcoes": [
+            "Cimento / Cemento salivary",
+            "Substância anticoagulante hialina",
+            "Lêndea quitinosa proteica",
+            "Histamina modificada"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O **cimento salivar** endurece ao redor das peças bucais do carrapato, selando a fixação na derme e protegendo o parasita contra tentativas de remoção pelo hospedeiro."
+    },
+    {
+        "id": 157,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Qual o principal método diagnóstico laboratorial parasitológico aplicado de rotina para confirmar a suspeita clínica de escabiose (sarna) na bancada?",
+        "opcoes": [
+            "Raspado cutâneo de lesões (sulcos) com visualização microscópica direta",
+            "Exame de fezes por sedimentação espontânea",
+            "Gota espessa sanguínea corada pelo Giemsa",
+            "Cultura em ágar Sabouraud"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O **raspado cutâneo** colhe o material depositado nos sulcos epidérmicos, permitindo a identificação microscópica direta de espécimes, ovos ou fezes (escíbalas) de <i>Sarcoptes scabiei</i>."
+    },
+    {
+        "id": 158,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A transmissão da escabiose (sarna humana) no ambiente familiar e escolar ocorre predominantemente através de qual via de contato epidemiológico?",
+        "opcoes": [
+            "Contato direto prolongado pele a pele com o indivíduo infetado",
+            "Inalação de bioaerossóis suspensos no ar ambiente",
+            "Picada mecânica de carrapatos ixodídeos urbanos",
+            "Ingestão de cistos hialinos em águas sem tratamento"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <i>Sarcoptes scabiei</i> é transmitido pelo **contato direto próximo**, sendo comum o contágio entre membros do mesmo domicílio ou através do compartilhamento de roupas e lençóis."
+    },
+    {
+        "id": 159,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "Os carrapatos ixodídeos passam por três estágios evolutivos pós-embrionários obrigatórios após eclodirem dos ovos, os quais recebem a denominação sequencial de ___.",
+        "opcoes": [
+            "Larva (hexápode), Ninfa (octópode) e Adulto",
+            "Miracídio, Cercária e Adulto",
+            "Trofozoíto, Cisto e Esquizonte",
+            "Larva, Pupa e Adulto imaturo"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A **larva do carrapato** nasce com apenas 6 pernas (hexápode). Após alimentar-se, realiza a ecdise para o estágio de **ninfa**, que já possui 8 pernas (octópode), mas ainda carece de poro genital maduro."
+    },
+    {
+        "id": 160,
+        "topico": "vetores",
+        "urlImagem": "images/background-parasito.png",
+        "enunciado": "A principal medida profilática individual recomendada para profissionais que realizam trabalhos de campo em áreas florestais ou de pastagens endêmicas para carrapatos-estrela consiste em ___.",
+        "opcoes": [
+            "Uso de roupas claras, calças compridas por dentro das botas e vistorias corporais a cada 3 horas",
+            "Aplicação de larvicidas biológicos nas pastagens",
+            "Uso de máscaras de proteção respiratória N95",
+            "Ingestão prévia de antibióticos profiláticos de amplo espectro"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O uso de **vestimentas de proteção claras** facilita a visualização rápida dos carrapatos antes que estes consigam aderir à pele. Realizar vistorias constantes diminui drasticamente o tempo de fixação e o risco de transmissão de riquétsias."
     }
+    
 ]

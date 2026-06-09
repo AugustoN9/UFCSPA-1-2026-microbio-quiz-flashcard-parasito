@@ -1,15 +1,26 @@
 // Estado Global da Aplicação
-let bancoQuestoesJSON = [];
+let bancoQuestoesCompleto = []; 
+let bancoQuestoesFiltrado = []; 
 let indiceAtual = 0;
 let acertos = 0;
 let respondido = false;
+let topicoSelecionadoTemporario = ""; // Guarda o tópico escolhido entre as transições de tela
 
-// Seletores das Telas de Fluxo (Welcome vs Quiz)
+// Seletores das Telas de Fluxo (Containers Principais)
 const welcomeContainer = document.getElementById('welcome-container');
+const topicsContainer = document.getElementById('topics-container');
+const difficultyContainer = document.getElementById('difficulty-container');
 const quizContainer = document.getElementById('quiz-container');
-const btnStart = document.getElementById('btn-start');
 
-// Seletores do DOM Operacionais
+// Seletores de Ação de Fluxo Global
+const btnStart = document.getElementById('btn-start');
+const btnBackWelcome = document.getElementById('btn-back-welcome');
+const btnBackTopicsMenu = document.getElementById('btn-back-topics-menu');
+const btnBackTopics = document.getElementById('btn-back-topics');
+const btnExit = document.getElementById('btn-exit');
+const btnAction = document.getElementById('btn-action');
+
+// Seletores do Painel Operacional do Quiz
 const microscopeContainer = document.getElementById('microscope-container');
 const microscopeScreen = document.getElementById('microscope-screen');
 const questionText = document.getElementById('question-text');
@@ -17,151 +28,299 @@ const optionsContainer = document.getElementById('options-container');
 const feedbackPanel = document.getElementById('feedback-panel');
 const feedbackStatus = document.getElementById('feedback-status');
 const rationaleText = document.getElementById('rationale-text');
-const btnAction = document.getElementById('btn-action');
-const btnExit = document.getElementById('btn-exit');
+const topicBadge = document.getElementById('topic-badge');
+
+// Seletores de Indicadores de Progresso
 const progressText = document.getElementById('progress-text');
 const scoreText = document.getElementById('score-text');
 const progressBar = document.getElementById('progress-bar');
 
-// Função Assíncrona para buscar os dados do arquivo JSON externo
+// Dicionário de Formatação de Nomes de Tópicos para exibição amigável na Badge
+const nomesFormatadosTopicos = {
+    "introducao": "01. Relação Parasito-Hospedeiro",
+    "protozoarios_int": "02. Protozoários Intestinais",
+    "nematoideos": "03. Nematódeos Médicos",
+    "cestodeos": "04. Cestódeos Médicos",
+    "schistosoma": "05. Esquistossomose",
+    "protozoarios_tec": "06. Protozoários Teciduais",
+    "vetores": "07. Vetores (Artrópodes)"
+};
+
+// Inicialização Assíncrona do Sistema
 async function inicializarAplicacao() {
     try {
         const resposta = await fetch('js/questoes.json');
         if (!resposta.ok) {
             throw new Error(`Erro HTTP! status: ${resposta.status}`);
         }
-        bancoQuestoesJSON = await resposta.json();
-        
-        // Mapeamento reativo do clique no botão INICIAR da Welcome Screen
-        if (btnStart) {
-            btnStart.onclick = () => {
-                if (welcomeContainer) welcomeContainer.classList.add('d-none'); // Oculta Boas-Vindas
-                if (quizContainer) quizContainer.classList.remove('d-none');   // Exibe o Simulador
-                carregarCard(); // Agora sim monta e exibe a primeira lâmina biológica
-            };
-        }
-
-        // Atribui com segurança o evento de clique do botão Sair no rodapé inferior
-        if (btnExit) {
-            btnExit.onclick = () => encerrarSimuladoPrematuro();
-        }
-
+        bancoQuestoesCompleto = await resposta.json();
+        configurarEventosNavegacao();
     } catch (erro) {
         console.error("Falha ao carregar o banco de questões JSON:", erro);
         if (questionText) {
-            questionText.textContent = "Erro ao carregar o simulador. Certifique-se de usar o Live Server.";
+            questionText.innerHTML = "<span class='text-danger fw-bold'>Erro de Sintaxe no JSON! Verifique o arquivo de questões.</span>";
         }
     }
 }
 
-function carregarCard() {
-    if (bancoQuestoesJSON.length === 0) return;
-
-    respondido = false;
-    if (btnAction) btnAction.classList.add('d-none');
-    if (feedbackPanel) feedbackPanel.classList.add('d-none');
-    if (optionsContainer) optionsContainer.innerHTML = '';
-
-    const questao = bancoQuestoesJSON[indiceAtual];
-    
-    // Controle do microscópio virtual
-    if (questao.urlImagem) {
-        if (microscopeScreen) microscopeScreen.src = questao.urlImagem;
-        if (microscopeContainer) microscopeContainer.classList.remove('d-none');
-    } else {
-        if (microscopeContainer) microscopeContainer.classList.add('d-none');
-    }
-    
-    if (questionText) questionText.innerHTML = questao.enunciado;
-    if (progressText) progressText.textContent = `Questão ${indiceAtual + 1} de ${bancoQuestoesJSON.length}`;
-    if (scoreText) scoreText.textContent = `Acertos: ${acertos}`;
-    
-    if (progressBar) {
-        const porcentagem = ((indiceAtual + 1) / bancoQuestoesJSON.length) * 100;
-        progressBar.style.width = `${porcentagem}%`;
+// Configuração de ouvintes de eventos (Cliques)
+function configurarEventosNavegacao() {
+    // Boas-Vindas -> Menu de Tópicos
+    if (btnStart) {
+        btnStart.onclick = () => {
+            welcomeContainer.classList.add('d-none');
+            topicsContainer.classList.remove('d-none');
+        };
     }
 
-    // Geração dinâmica das alternativas de múltipla escolha
-    if (optionsContainer) {
-        questao.opcoes.forEach((opcao, index) => {
-            const botao = document.createElement('button');
-            botao.className = 'btn btn-option p-3 text-start rounded-3';
-            botao.textContent = opcao;
-            botao.onclick = () => verificarResposta(index);
-            optionsContainer.appendChild(botao);
-        });
+    // Menu de Tópicos -> Boas-Vindas
+    if (btnBackWelcome) {
+        btnBackWelcome.onclick = () => {
+            topicsContainer.classList.add('d-none');
+            welcomeContainer.classList.remove('d-none');
+        };
+    }
+
+    // Menu de Dificuldade -> Volta para Menu de Tópicos
+    if (btnBackTopicsMenu) {
+        btnBackTopicsMenu.onclick = () => {
+            difficultyContainer.classList.add('d-none');
+            topicsContainer.classList.remove('d-none');
+        };
+    }
+
+    // Quiz (Primeira pergunta) -> Menu de Tópicos
+    if (btnBackTopics) {
+        btnBackTopics.onclick = () => {
+            quizContainer.classList.add('d-none');
+            topicsContainer.classList.remove('d-none');
+            indiceAtual = 0;
+            acertos = 0;
+        };
+    }
+
+    // Interceptação dos botões de tópicos acadêmicos (.btn-topic)
+    const botoesTopicos = document.querySelectorAll('.btn-topic');
+    botoesTopicos.forEach(botao => {
+        botao.onclick = () => {
+            topicoSelecionadoTemporario = botao.getAttribute('data-topic');
+            // Avança para a nova tela de definição de tamanho/dificuldade
+            topicsContainer.classList.add('d-none');
+            difficultyContainer.classList.remove('d-none');
+        };
+    });
+
+    // Interceptação dos botões de quantidade/dificuldade (.btn-difficulty)
+    const botoesDificuldade = document.querySelectorAll('.btn-difficulty');
+    botoesDificuldade.forEach(botao => {
+        botao.onclick = () => {
+            const quantidadePorTopico = parseInt(botao.getAttribute('data-size'), 10);
+            gerarEIniciarSimuladoRandomico(quantidadePorTopico);
+        };
+    });
+
+    // Sair prematuramente durante o Quiz -> Abre Relatório Parcial
+    if (btnExit) {
+        btnExit.onclick = () => encerrarSimuladoPrematuro();
     }
 }
 
-function verificarResposta(opcaoSelecionada) {
-    if (respondido) return;
+// Função Utilitária: Algoritmo Fisher-Yates para embaralhar arrays de forma justa
+function embaralharArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Filtra as questões por tópico, embaralha e extrai a amostra do tamanho selecionado
+function gerarEIniciarSimuladoRandomico(cardsPorTopico) {
+    let poolQuestoesSorteio = [];
+
+    if (topicoSelecionadoTemporario === 'geral') {
+        // Se for o simulado geral, agrupa a quantidade escolhida de cada um dos tópicos existentes
+        const listaChavesTopicos = Object.keys(nomesFormatadosTopicos);
+        
+        listaChavesTopicos.forEach(chaveTopico => {
+            let questoesDoTopico = bancoQuestoesCompleto.filter(q => q.topico === chaveTopico);
+            if (questoesDoTopico.length > 0) {
+                embaralharArray(questoesDoTopico);
+                // Extrai o pedaço estipulado pelo nível de dificuldade para este tópico específico
+                poolQuestoesSorteio = poolQuestoesSorteio.concat(questoesDoTopico.slice(0, cardsPorTopico));
+            }
+        });
+        
+        // Embaralha o montante final combinado para mesclar as matérias na tela
+        embaralharArray(poolQuestoesSorteio);
+    } else {
+        // Se for um tópico único isolado
+        poolQuestoesSorteio = bancoQuestoesCompleto.filter(q => q.topico === topicoSelecionadoTemporario);
+        if (poolQuestoesSorteio.length === 0) {
+            alert("Excelente escolha! Este tópico específico está agendado e as questões entrarão no próximo upload.");
+            return;
+        }
+        embaralharArray(poolQuestoesSorteio);
+        // Limita o array filtrado ao tamanho máximo escolhido na tela de dificuldade
+        poolQuestoesSorteio = poolQuestoesSorteio.slice(0, cardsPorTopico);
+    }
+
+    bancoQuestoesFiltrado = poolQuestoesSorteio;
+
+    // Reinicializa ponteiros de execução
+    indiceAtual = 0;
+    acertos = 0;
+
+    // Transição visual para a arena do Quiz
+    difficultyContainer.classList.add('d-none');
+    quizContainer.classList.remove('d-none');
+
+    carregarCard();
+}
+
+function carregarCard() {
+    respondido = false;
+
+    if (feedbackPanel) feedbackPanel.classList.add('d-none');
+    if (btnAction) btnAction.classList.add('d-none');
+    if (btnExit) btnExit.classList.remove('d-none');
+
+    // CONTROLE DO BOTÃO VOLTAR: Visível apenas na primeira pergunta (índice 0)
+    if (btnBackTopics) {
+        if (indiceAtual === 0) {
+            btnBackTopics.classList.remove('d-none');
+        } else {
+            btnBackTopics.classList.add('d-none');
+        }
+    }
+
+    const questaoAtual = bancoQuestoesFiltrado[indiceAtual];
+
+    if (topicBadge) {
+        topicBadge.textContent = nomesFormatadosTopicos[questaoAtual.topico] || "SIMULADO GERAL";
+    }
+
+    if (questionText) {
+        questionText.innerHTML = questaoAtual.enunciado;
+    }
+
+    if (microscopeContainer && microscopeScreen) {
+        if (questaoAtual.urlImagem) {
+            microscopeScreen.src = questaoAtual.urlImagem;
+            microscopeContainer.classList.remove('d-none');
+        } else {
+            microscopeScreen.src = "images/background-parasito.png";
+            microscopeContainer.classList.remove('d-none');
+        }
+    }
+
+    if (optionsContainer) {
+        optionsContainer.innerHTML = '';
+        questaoAtual.opcoes.forEach((alternativa, idx) => {
+            const botaoOpcao = document.createElement('button');
+            botaoOpcao.className = 'btn btn-option p-3 text-start w-100 rounded-3';
+            botaoOpcao.textContent = alternativa;
+            botaoOpcao.onclick = () => avaliarRespostaUsuario(idx, botaoOpcao);
+            optionsContainer.appendChild(botaoOpcao);
+        });
+    }
+
+    atualizarIndicadoresProgresso();
+}
+
+function avaliarRespostaUsuario(indexSelecionado, botaoClicado) {
+    if (respondido) return; 
     respondido = true;
 
-    const questao = bancoQuestoesJSON[indiceAtual];
-    const botoes = optionsContainer.getElementsByTagName('button');
+    const questaoAtual = bancoQuestoesFiltrado[indiceAtual];
+    const todosOsBotoes = optionsContainer.querySelectorAll('.btn-option');
 
-    // Sempre destaca a alternativa correta em verde utilitário
-    botoes[questao.indexCorreto].classList.add('correct-answer');
+    todosOsBotoes.forEach(btn => btn.setAttribute('disabled', 'true'));
 
-    if (opcaoSelecionada === questao.indexCorreto) {
-        acertos++;
-        if (scoreText) scoreText.textContent = `Acertos: ${acertos}`;
+    if (btnBackTopics) btnBackTopics.classList.add('d-none');
+
+    if (indexSelecionado === questaoAtual.indexCorreto) {
+        botaoClicado.classList.add('correct-answer');
         if (feedbackStatus) {
             feedbackStatus.textContent = "🎉 Parabéns, você ACERTOU!";
             feedbackStatus.className = "fw-bold mb-3 text-center text-success";
         }
+        acertos++;
     } else {
-        // Destaca a alternativa errada clicada em vermelho utilitário
-        botoes[opcaoSelecionada].classList.add('wrong-answer');
+        botaoClicado.classList.add('wrong-answer');
         if (feedbackStatus) {
             feedbackStatus.textContent = "❌ Não foi desta vez, você ERROU! Mas não desanime, continue estudando.";
             feedbackStatus.className = "fw-bold mb-3 text-center text-danger";
         }
+        if (todosOsBotoes[questaoAtual.indexCorreto]) {
+            todosOsBotoes[questaoAtual.indexCorreto].classList.add('correct-answer');
+        }
     }
 
-    // Bloqueia interações adicionais nas outras alternativas
-    for (let i = 0; i < botoes.length; i++) {
-        botoes[i].setAttribute('disabled', 'true');
+    if (rationaleText) {
+        rationaleText.innerHTML = questaoAtual.justificativa;
     }
-
-    // Exibe a análise morfológica interpretando negritos em HTML (innerHTML)
-    if (rationaleText) rationaleText.innerHTML = questao.justificativa;
     if (feedbackPanel) feedbackPanel.classList.remove('d-none');
 
     if (btnAction) {
-        if (indiceAtual < bancoQuestoesJSON.length - 1) {
-            btnAction.textContent = "Próximo Card →";
-        } else {
-            btnAction.textContent = "Finalizar Treinamento 🏁";
-        }
         btnAction.classList.remove('d-none');
+        if (indiceAtual === bancoQuestoesFiltrado.length - 1) {
+            btnAction.textContent = "Finalizar e Ver Relatório 📊";
+            btnAction.onclick = () => exibirTelaDeRelatorioFinal(bancoQuestoesFiltrado.length, Math.round((acertos / bancoQuestoesFiltrado.length) * 100));
+        } else {
+            btnAction.textContent = "Próximo Card →";
+            btnAction.onclick = () => {
+                indiceAtual++;
+                carregarCard();
+            };
+        }
+    }
+
+    atualizarIndicadoresProgresso();
+}
+
+function atualizarIndicadoresProgresso() {
+    const totalQuestoes = bancoQuestoesFiltrado.length;
+    const progressoAtual = indiceAtual + 1;
+
+    if (progressText) {
+        progressText.textContent = `Questão ${progressoAtual} de ${totalQuestoes}`;
+    }
+    if (scoreText) {
+        scoreText.textContent = `Acertos: ${acertos}`;
+    }
+    if (progressBar) {
+        const percentual = (progressoAtual / totalQuestoes) * 100;
+        progressBar.style.width = `${percentual}%`;
     }
 }
 
 function encerrarSimuladoPrematuro() {
-    // Oculta os painéis operacionais do quiz
+    const respondidas = respondido ? indiceAtual + 1 : indiceAtual;
+    const taxaAproveitamento = respondidas > 0 ? Math.round((acertos / respondidas) * 100) : 0;
+
+    exibirTelaDeRelatorioFinal(respondidas, taxaAproveitamento, true);
+}
+
+function exibirTelaDeRelatorioFinal(totalQuestoesAnalisadas, taxaAproveitamento, foiInterrompido = false) {
     if (microscopeContainer) microscopeContainer.classList.add('d-none');
     if (feedbackPanel) feedbackPanel.classList.add('d-none');
     if (btnAction) btnAction.classList.add('d-none');
     if (btnExit) btnExit.classList.add('d-none');
+    if (btnBackTopics) btnBackTopics.classList.add('d-none');
 
-    const respondidas = respondido ? indiceAtual + 1 : indiceAtual;
-    const taxaAproveitamento = respondidas > 0 ? Math.round((acertos / respondidas) * 100) : 0;
-
-    exibirTelaDeRelatorio(respondidas, taxaAproveitamento);
-}
-
-function exibirTelaDeRelatorio(respondidas, taxaAproveitamento) {
     if (questionText) {
         questionText.innerHTML = `
             <div class="text-center py-3">
-                <h4 class="fw-bold text-dark mb-3">Treinamento Concluído</h4>
-                <p class="text-muted small">Desempenho consolidado obtido na análise das lâminas microscópicas.</p>
+                <h4 class="fw-bold text-dark mb-3">${foiInterrompido ? 'Sessão Interrompida' : 'Treinamento Concluído'}</h4>
+                <p class="text-muted small">
+                    ${foiInterrompido ? 'Você optou por encerrar o treinamento antes do fim do lote de lâminas.' : 'Desempenho consolidado obtido na análise das lâminas microscópicas.'}
+                </p>
                 <hr class="my-4">
                 <div class="row g-3 mb-4">
                     <div class="col-6 border-end">
                         <span class="text-muted small d-block">Cards Analisados</span>
-                        <strong class="fs-4 text-dark">${respondidas} / ${bancoQuestoesJSON.length}</strong>
+                        <strong class="fs-4 text-dark">${totalQuestoesAnalisadas} / ${bancoQuestoesFiltrado.length}</strong>
                     </div>
                     <div class="col-6">
                         <span class="text-muted small d-block">Taxa de Acerto</span>
@@ -176,36 +335,17 @@ function exibirTelaDeRelatorio(respondidas, taxaAproveitamento) {
     if (optionsContainer) {
         optionsContainer.innerHTML = '';
         const btnRestart = document.createElement('button');
-        btnRestart.className = 'btn btn-primary p-3 rounded-pill fw-bold mt-2 w-100';
-        btnRestart.textContent = 'Voltar à Tela Inicial 🔄';
-        
+        btnRestart.className = 'btn btn-primary p-3 rounded-pill fw-bold mt-2 w-100 shadow-sm';
+        btnRestart.textContent = 'Voltar ao Menu de Tópicos 🔄';
         btnRestart.onclick = () => {
+            if (quizContainer) quizContainer.classList.add('d-none');
+            if (topicsContainer) topicsContainer.classList.remove('d-none');
             indiceAtual = 0;
             acertos = 0;
-            if (btnExit) btnExit.classList.remove('d-none');
-            if (quizContainer) quizContainer.classList.add('d-none');
-            if (welcomeContainer) welcomeContainer.classList.remove('d-none'); // Retorna para o início
         };
         optionsContainer.appendChild(btnRestart);
     }
 }
 
-// Configuração do botão principal de ação/avanço
-if (btnAction) {
-    btnAction.onclick = () => {
-        if (indiceAtual < bancoQuestoesJSON.length - 1) {
-            indiceAtual++;
-            carregarCard();
-        } else {
-            if (microscopeContainer) microscopeContainer.classList.add('d-none');
-            if (feedbackPanel) feedbackPanel.classList.add('d-none');
-            if (btnAction) btnAction.classList.add('d-none');
-            if (btnExit) btnExit.classList.add('d-none');
-            
-            exibirTelaDeRelatorio(bancoQuestoesJSON.length, Math.round((acertos / bancoQuestoesJSON.length) * 100));
-        }
-    };
-}
-
-// Inicialização segura ao carregar a página
-window.onload = inicializarAplicacao;
+// Execução imediata no carregamento do script
+inicializarAplicacao();

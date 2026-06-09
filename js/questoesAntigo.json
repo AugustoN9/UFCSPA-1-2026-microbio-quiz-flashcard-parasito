@@ -1,0 +1,198 @@
+[
+    {
+        "id": 1,
+        "topico": "nematoideos",
+        "urlImagem": "images/parasito003-ovo fértil de Ascaris lumbricoides.png",
+        "enunciado": "Analise a estrutura centralizada na lâmina microscópica. Apresenta formato elíptico e alongado com a presença proeminente de dois tampões polares mucilaginosos e transparentes nas extremidades, assemelhando-se a um limão. Qual é o diagnóstico?",
+        "opcoes": [
+            "Ovo de Enterobius vermicularis",
+            "Ovo de Trichuris trichiura",
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo de Schistosoma mansoni"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O formato simétrico de <b>limão ou bandeja</b> associado aos nítidos <b>tampões polares mucilaginosos</b> salientes nas duas extremidades define a morfologia clássica do ovo de <b>Trichuris trichiura</b>."
+    },
+    {
+        "id": 2,
+        "topico": "nematoideos",
+        "urlImagem": "images/parasito011-ovo Taenia solium.png",
+        "enunciado": "Examine o ovo de nematódeo presente na lâmina sob aumento de 40x. Ele mostra-se consideravelmente alongado, elíptico e com uma membrana externa mamilonada bastante irregular. Seu interior é preenchido por grânulos refractários dispersos, sem massa celular organizada. Trata-se de um:",
+        "opcoes": [
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo infértil de Ascaris lumbricoides",
+            "Ovo de Fasciola hepatica",
+            "Ovo de Diphyllobothrium latum"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os <b>ovos inférteis de Ascaris lumbricoides</b> são mais compridos, estreitos e bizarros. Como não houve fertilização, eles <b>não desenvolvem a massa embrionária</b> central organizada, contendo apenas grânulos amorfos."
+    },
+    {
+        "id": 3,
+        "topico": "nematoideos",
+        "urlImagem": "images/parasito002-ovo infértil de Ascaris.png",
+        "enunciado": "Observe os critérios morfológicos desta estrutura arredondada: apresenta uma cápsula espessa envolvida por uma evidente membrana mamilonada (irregular e rugosa) de coloração castanha. No centro, nota-se uma massa única e compacta de células germinativas. Qual é o diagnóstico?",
+        "opcoes": [
+            "Ovo fértil de Ascaris lumbricoides",
+            "Ovo decorticado de Ascaris lumbricoides",
+            "Ovo de Taenia solium",
+            "Ovo de Hymenolepis nana"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A cápsula espessa com o <b>córtex mamilonado rugoso</b> externo (impregnado pelos pigmentos biliares intestinais) abrigando uma <b>massa celular germinativa compacta</b> é o padrão patognomônico do <b>ovo fértil de Ascaris lumbricoides</b>."
+    },
+    {
+        "id": 4,
+        "topico": "cestodeos",
+        "urlImagem": "images/parasito004-Diphyllobothrium latum .png",
+        "enunciado": "Durante a análise de uma lâmina fecal, o laboratório identificou um ovo ovoide de coloração castanho-amarelada, medindo cerca de 60-70 µm, com uma parede lisa e apresentando uma estrutura de 'tampa' bem nítida em um de seus polos (opérculo). Trata-se de um ovo de:",
+        "opcoes": [
+            "Taenia solium",
+            "Schistosoma mansoni",
+            "Diphyllobothrium latum",
+            "Hymenolepis nana"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "Os ovos de <b>Diphyllobothrium latum</b> (a tênia do peixe) são caracteristicamente ovoides, <b>operculados</b> (possuem o opérculo, uma portinha polar de ejeção) e contêm um embrião imaturo no momento da eliminação fecal."
+    },
+    {
+        "id": 5,
+        "topico": "nematoideos",
+        "urlImagem": "images/parasito006-arva rabditóide de Strongyloides stercoralis.png",
+        "enunciado": "Focalizando a forma larval activa presente nesta amostra fresca de fezes, nota-se um nematóide alongado que exibe vestíbulo bucal curto, esôfago rhabditóide e um primórdio genital nítido e altamente visível em seu terço médio. Trata-se de uma:",
+        "opcoes": [
+            "Larva de Ancylostoma duodenale",
+            "Larva de Necator americanus",
+            "Larva rhabditóide de Strongyloides stercoralis",
+            "Larva filarióide de Strongyloides stercoralis"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "A <b>larva rhabditóide</b> é a forma comumente eliminada nas fezes na estrongiloidíase. Ela diferencia-se das larvas de ancilostomídeos na rotina prática por dois biomarcadores nítidos: o <b>vestíbulo bucal muito curto</b> e o <b>primórdio genital volumoso e visível</b>."
+    },
+    {
+        "id": 6,
+        "topico": "nematoideos",
+        "urlImagem": "images/parasito007-ovo fértil de Ascaris lumbricoides.png",
+        "enunciado": "Análise este ovo fértil específico. Caso ele passe por um processo mecânico de lavagem ou falha de secreção onde ocorra a perda completa da sua camada proteica mamilonada externa, tornando a sua superfície externa 100% lisa e transparente, ele receberá a denominação técnica de:",
+        "opcoes": [
+            "Ovo infértil",
+            "Ovo decorticado",
+            "Ovo embrionado",
+            "Mórula hialina"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O termo <b>'decorticado'</b> refere-se especificamente ao ovo fértil de <b>Ascaris lumbricoides</b> que não possui ou perdeu o <b>córtex mamilonado rugoso</b> protetor, expondo a sua parede interna totalmente lisa."
+    },
+    {
+        "id": 7,
+        "topico": "cestodeos",
+        "urlImagem": "images/parasito008-ovo Hymenolepis nana.png",
+        "enunciado": "Observe a estrutura transparente e ovalada centralizada nesta lâmina de objetiva de 40x. Nota-se uma membrana dupla fina e hialina, separada por um espaço claro de onde emergem pequenos filamentos polares flexíveis que sustentam uma oncosfera interna com pequenos ganchos. Trata-se de um ovo de:",
+        "opcoes": [
+            "Hymenolepis nana",
+            "Taenia solium",
+            "Diphyllobothrium latum",
+            "Enterobius vermicularis"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "Ovos de <b>Hymenolepis nana</b> (tênia anã) caracterizam-se por ser transparentes, possuir membrana interna com duas protuberâncias polares de onde nascem de 4 a 8 <b>filamentos polares flexíveis</b> que preenchem o espaço intermembranar."
+    },
+    {
+        "id": 8,
+        "topico": "schistosoma",
+        "urlImagem": "images/parasito009-ovo de Schistosoma mansoni.png",
+        "enunciado": "Examine a estrutura volumosa vermelha no microscópio. Trata-se de um ovo alongado, oval, de grandes dimensões, contendo um miracídio totalmente formado em seu interior e exibindo um espículo lateral agudo e pontiagudo muito evidente. Qual o diagnóstico?",
+        "opcoes": [
+            "Ovo de Fasciola hepatica",
+            "Ovo de Trichuris trichiura",
+            "Ovo de Schistosoma mansoni",
+            "Ovo de Taenia saginata"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "O formato ovalado grande associado à presença obrigatória daquela espícula pontiaguda lateral (<b>espículo lateral</b>) voltada para trás é a marca registrada inequívoca do <b>Schistosoma mansoni</b>."
+    },
+    {
+        "id": 9,
+        "topico": "schistosoma",
+        "urlImagem": "images/parasito010-Cercariae de Schistosoma mansoni .png",
+        "enunciado": "Ao analisar amostras biológicas coletadas de coleções de água doce em regiões endêmicas, identificou-se a forma evolutiva de um trematódeo dotada de corpo alongado e uma cauda caracteristicamente bifurcada (cauda em 'Y'). Esta estrutura representa qual fase do ciclo do Schistosoma mansoni?",
+        "opcoes": [
+            "Miracídio",
+            "Esporocisto",
+            "Cercária",
+            "Metacercária"
+        ],
+        "indexCorreto": 2,
+        "justificativa": "A <b>cercária</b> é a forma larvária infectante do <b>Schistosoma mansoni</b> que emerge do caramujo (hospedeiro intermediário). Sua morfologia é inconfundível devido à presença da <b>cauda bifurcada (furcocercária)</b> que auxilia na natação ativa."
+    },
+    {
+        "id": 10,
+        "topico": "cestodeos",
+        "urlImagem": "images/parasito001-Trichuris trichiura..png",
+        "enunciado": "Observe a estrutura geométrica estritamente esférica centralizada na imagem abaixo. Apresenta dimensões reduzidas e uma parede espessa escura dotada de estriações radiais proeminentes (lembrando uma engrenagem), contendo três pares de ganchos internos (embrião hexacanto). Este achado representa um ovo de:",
+        "opcoes": [
+            "Ascaris lumbricoides",
+            "Taenia solium (ou Taenia saginata)",
+            "Hymenolepis nana",
+            "Trichuris trichiura"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "Os ovos pertencentes ao gênero <b>Taenia</b> possuem essa casca protetora radialmente estriada muito marcante. Microscopicamente, os ovos de <b>Taenia solium</b> e <b>Taenia saginata</b> são idênticos, sendo o diagnóstico laboratorial liberado genericamente como 'Ovo de <b>Taenia</b> spp.'."
+    },
+    {
+        "id": 11,
+        "topico": "introducao",
+        "urlImagem": null,
+        "enunciado": "11) [Teórica] No controle de qualidade do laboratório de análises clínicas, qual o método parasitológico de escolha baseado na centrifugação e flutuação em densidade utilizando sulfato de zinco para a recuperação ideal de cistos de protozoários?",
+        "opcoes": [
+            "Método de Faust e colaboradores",
+            "Método de Lutz (Hoffman, Pons e Janer)",
+            "Método de Rugai",
+            "Método de Graham (Fita Adesiva)"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "O <b>método de Faust</b> utiliza a centrifugo-flutuação em solução de <b>sulfato de zinco</b> com densidade ajustada, permitindo que cistos leves de protozoários flutuem para a superfície facilitando a coleta laboratorial."
+    },
+    {
+        "id": 12,
+        "topico": "introducao",
+        "urlImagem": null,
+        "enunciado": "12) [Teórica] Qual classe de imunoglobulinas (anticorpos) e qual tipo celular leucocitário encontram-se caracteristicamente elevados no hemograma e nos exames imunológicos de pacientes que enfrentam infecções por helmintos?",
+        "opcoes": [
+            "IgE / Eosinófilos",
+            "IgG / Neutrófilos",
+            "IgM / Linfócitos B",
+            "IgA / Basófilos"
+        ],
+        "indexCorreto": 0,
+        "justificativa": "A resposta imunitária contra helmintos é mediada pelo perfil celular Th2, induzindo a produção massiva de anticorpos da classe <b>IgE</b> e a ativação e recrutamento periférico de <b>eosinófilos</b> para atacar a parede do verme."
+    },
+    {
+        "id": 13,
+        "topico": "introducao",
+        "urlImagem": null,
+        "enunciado": "13) [Teórica] Como é classificado o ciclo biológico de um parasita que necessita obrigatoriamente passar por dois ou mais hospedeiros (um definitivo e pelo menos um intermediário) para completar o seu desenvolvimento total?",
+        "opcoes": [
+            "Ciclo Monoxênico",
+            "Ciclo Heteroxênico",
+            "Ciclo Facultativo",
+            "Ciclo Homogônico"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "O ciclo é denominado <b>heteroxênico (ou indireto)</b> quando o parasita exige mais de um hospedeiro para fechar seu ciclo, passando as fases larvais no <b>hospedeiro intermediário</b> e a fase adulta reprodutiva sexuada no <b>hospedeiro definitivo</b>."
+    },
+    {
+        "id": 14,
+        "topico": "cestodeos",
+        "urlImagem": null,
+        "enunciado": "14) [Teórica] A ingestão acidental de alimentos ou água contaminados com ovos viáveis de Taenia solium faz com que as oncosferas eclodam, caiam na circulação e se alojem nos tecidos humanos. Essa patologia grave é denominada:",
+        "opcoes": [
+            "Teníase intestinal",
+            "Cisticercose humana",
+            "Hidatidose sistêmica",
+            "Esquistossomose aguda"
+        ],
+        "indexCorreto": 1,
+        "justificativa": "A ingestão direta de ovos de <b>Taenia solium</b> leva ao desenvolvimento das formas larvares (cisticercos) nos tecidos do próprio homem, caracterizando a <b>cisticercose</b>, que difere da teníase (causada pela ingestão da larva na carne do porco)."
+    }
+]

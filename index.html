@@ -11,20 +11,17 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container py-5">
-      <div class="row justify-content-center">
-        <div class="col-md-8 col-lg-7">
-          
-          <div
-            id="welcome-container"
-            class="card card-flashcard p-5 text-center bg-white mb-4"
-          >
+    
+    <div class="container-fullscreen">
+      <div class="app-wrapper">
+        
+        <div id="welcome-container" class="card card-flashcard p-4 text-center bg-white">
+          <div class="card-body-flex justify-content-center py-4">
             <div class="mb-4">
               <img
                 src="images/LogoParasitoUFCSPA.png"
                 alt="Logo LabVirtual"
                 class="img-fluid"
-                style="max-height: 250px; object-fit: contain; align-items: flex-start;"
               />
             </div>
 
@@ -32,23 +29,14 @@
               🔬 LabVirtual: Parasitologia
             </h2>
 
-            <p class="text-muted px-3 mb-4">
+            <p class="text-muted px-2 mb-4">
               Bem-vindo ao ambiente virtual de treinamento microscópico. Este
               simulador tem como objetivo fixar os critérios morfológicos
               diagnósticos de helmintos e protozoários através de flashcards
               práticos e repetição espaçada.
             </p>
 
-            <div class="mb-4">
-              <img
-                src="images/qrcode_parasito_ufcspa.png"
-                alt="Logo QRcode"
-                class="img-fluid"
-                style="max-height: 250px; object-fit: contain; align-items: flex-start;"
-              />
-            </div>
-
-            <div class="d-grid gap-2 col-8 mx-auto">
+            <div class="d-grid gap-2 col-10 mx-auto mt-auto">
               <button
                 id="btn-start"
                 class="btn btn-primary btn-lg rounded-pill fw-bold p-3 shadow-sm"
@@ -57,79 +45,125 @@
               </button>
             </div>
           </div>
+        </div>
 
-          <div id="quiz-container" class="d-none">
-            <h2 class="fw-bold text-primary mb-3">
-              🔬 LabVirtual: Parasitologia
-            </h2>
-            
-            <div class="d-flex justify-content-between align-items-center mb-2">
-              <span class="text-muted small fw-bold" id="progress-text">Carregando progresso...</span>
-              <span class="badge bg-secondary" id="score-text">Acertos: 0</span>
-            </div>
-            <div class="progress mb-4" style="height: 8px">
-              <div
-                id="progress-bar"
-                class="progress-bar bg-success"
-                role="progressbar"
-                style="width: 0%"
-              ></div>
+        <div id="topics-container" class="card card-flashcard p-4 bg-white d-none">
+          <h4 class="fw-bold text-primary text-center mb-2">Selecione o Tópico de Estudo</h4>
+          <p class="text-muted small text-center mb-3">Escolha uma linha de pesquisa específica ou o simulado geral.</p>
+          
+          <div class="card-body-flex">
+            <div class="d-grid gap-2 menu-scroll-container">
+              <button class="btn btn-outline-primary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="geral">
+                🧠 01. Simulado Geral (Todos os Tópicos)
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="introducao">
+                📘 02. Parasitismo e Relação Parasito-Hospedeiro
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="protozoarios_int">
+                🧫 03. Protozoários Intestinais
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="nematoideos">
+                🐛 04. Helmintos Nematódeos de Interesse Médico
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="cestodeos">
+                🎗️ 05. Helmintos Cestódeos de Interesse Médico
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="schistosoma">
+                🐌 06. Schistosoma mansoni e Esquistossomose
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="protozoarios_tec">
+                🩸 07. Protozoários Teciduais (Leishmania, Chagas...)
+              </button>
+              <button class="btn btn-outline-secondary p-3 rounded-3 text-start fw-bold btn-topic" data-topic="vetores">
+                🕷️ 08. Vetores de Doenças (Insecta e Arachnida)
+              </button>
             </div>
 
-            <div class="card card-flashcard p-4 bg-white">
-              <div
-                id="microscope-container"
-                class="microscope-viewport mb-4 d-none"
-              >
-                <img
-                  id="microscope-screen"
-                  src=""
-                  alt="Lâmina de Parasitologia"
-                  class="microscope-img"
-                />
+            <div class="text-center pt-2 mt-auto">
+              <button id="btn-back-welcome" class="btn btn-link btn-sm text-decoration-none text-muted">← Voltar para o Início</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="difficulty-container" class="card card-flashcard p-4 bg-white d-none">
+          <h4 class="fw-bold text-primary text-center mb-2">Defina o Tamanho do Treinamento</h4>
+          <p class="text-muted small text-center mb-4">Escolha a quantidade de cards sorteados aleatoriamente para sua sessão de estudos.</p>
+          
+          <div class="card-body-flex justify-content-center">
+            <div class="d-grid gap-3 col-11 mx-auto">
+              <button class="btn btn-outline-success p-3 rounded-3 text-start fw-bold btn-difficulty" data-size="2">
+                🟢 Nível Rápido (2 Cards por Tópico)
+              </button>
+              <button class="btn btn-outline-warning p-3 rounded-3 text-start fw-bold btn-difficulty" data-size="3">
+                🟡 Nível Intermediário (3 Cards por Tópico)
+              </button>
+              <button class="btn btn-outline-danger p-3 rounded-3 text-start fw-bold btn-difficulty" data-size="5">
+                🔴 Nível Avançado (5 Cards por Tópico)
+              </button>
+            </div>
+
+            <div class="text-center pt-4 mt-auto">
+              <button id="btn-back-topics-menu" class="btn btn-link btn-sm text-decoration-none text-muted">← Voltar para Tópicos</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="quiz-container" class="card card-flashcard p-4 bg-white d-none">
+          
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <span class="text-muted small fw-bold" id="progress-text">Carregando...</span>
+            <span class="badge bg-secondary" id="score-text">Acertos: 0</span>
+          </div>
+          <div class="progress mb-3" style="height: 6px">
+            <div id="progress-bar" class="progress-bar bg-success" role="progressbar" style="width: 0%"></div>
+          </div>
+
+          <div class="card-body-flex">
+            <div class="quiz-scroll-container">
+              <div id="microscope-container" class="microscope-viewport mb-3 d-none">
+                <img id="microscope-screen" src="" alt="Lâmina de Parasitologia" class="microscope-img" />
               </div>
 
-              <div class="mb-4">
-                <span class="badge bg-primary mb-2">Enunciado Fecal</span>
-                <h5 id="question-text" class="card-title lh-base text-dark">
+              <div class="mb-3">
+                <span id="topic-badge" class="badge bg-info text-dark mb-2">TÓPICO</span>
+                <h5 id="question-text" class="card-title lh-base text-dark fs-6 fw-semibold">
                   Carregando pergunta...
                 </h5>
               </div>
 
-              <div id="options-container" class="d-grid gap-2 mb-4"></div>
+              <div id="options-container" class="d-grid gap-2 mb-3"></div>
 
-              <div id="feedback-panel" class="d-none mb-4">
-                <h4 id="feedback-status" class="fw-bold mb-3 text-center"></h4>
+              <div id="feedback-panel" class="d-none mb-2">
+                <h6 id="feedback-status" class="fw-bold mb-2 text-center"></h6>
                 <div class="justification-box p-3">
-                  <h6 class="fw-bold text-primary mb-1">Análise do Professor:</h6>
-                  <p id="rationale-text" class="small text-dark mb-0"></p>
-                </div>
-              </div>
-
-              <div class="row pt-2 align-items-center">
-                <div class="col-6 text-start">
-                  <button
-                    id="btn-exit"
-                    class="btn btn-outline-danger rounded-pill px-4"
-                  >
-                    Sair
-                  </button>
-                </div>
-                <div class="col-6 text-end">
-                  <button
-                    id="btn-action"
-                    class="btn btn-primary btn-lg px-4 rounded-pill d-none"
-                  >
-                    Próximo Card →
-                  </button>
+                  <h6 class="fw-bold text-primary mb-1 small">Análise do Professor:</h6>
+                  <p id="rationale-text" class="small text-dark mb-0 lh-sm"></p>
                 </div>
               </div>
             </div>
 
-          </div> </div>
-      </div>
-    </div>
+            <div class="row pt-2 align-items-center mt-auto border-top">
+              <div class="col-7 text-start d-flex gap-2">
+                <button id="btn-back-topics" class="btn btn-outline-secondary btn-sm rounded-pill px-3">
+                  ← Voltar
+                </button>
+                <button id="btn-exit" class="btn btn-outline-danger btn-sm rounded-pill px-3">
+                  Sair 🚪
+                </button>
+              </div>
+              <div class="col-5 text-end">
+                <button id="btn-action" class="btn btn-primary btn-sm px-4 rounded-pill d-none">
+                  Próximo Card →
+                </button>
+              </div>
+            </div>
+          </div>
 
+        </div> </div> <footer class="app-credits-footer">
+        Desenvolvido por @AugustoN9 &bull; UFCSPA &bull; 2026
+      </footer>
+
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>
