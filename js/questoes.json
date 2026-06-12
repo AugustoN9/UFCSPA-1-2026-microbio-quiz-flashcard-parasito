@@ -240,16 +240,16 @@
     {
         "id": 18,
         "topico": "introducao",
-        "urlImagem": "images/background-parasito.png",
-        "enunciado": "O bloqueio físico ou mecânico provocado pelo acúmulo físico ou fixação do parasita em ductos, vasos ou cavidades do hospedeiro constitui uma ação ___.",
+        "urlImagem": "images/vegetal-fiber.jpg",
+        "enunciado": "Durante a leitura microscópica de sedimentos fecais, estruturas ovais ou cilíndricas com paredes duplas espessas e irregulares, sem conteúdo interno celular organizado ou núcleos simétricos, devem ser identificadas corretamente como: ",
         "opcoes": [
-            "Espoliativa direta",
-            "Obstrutiva",
-            "Histolítica enzimática",
-            "Tóxica sistêmica"
+            "Artefatos biológicos (ex: fibras vegetais ou grãos de pólen)",
+            "Ovos inférteis de Ascaris lumbricoides",
+            "Cistos gigantes de Balantidium coli",
+            "Larvas mortas de Strongyloides stercoralis"
         ],
-        "indexCorreto": 1,
-        "justificativa": "A <b>ação obstrutiva</b> é a interferência mecânica crônica gerada por massas parasitárias, como o novelo de vermes na oclusão intestinal."
+        "indexCorreto": 0,
+        "justificativa": "As **fibras vegetais** e detritos alimentares são os principais causadores de falsos-positivos na microscopia parasitológica por mimetizarem ovos ou larvas; a ausência de simetria e de estruturas internas organizadas (como oncosferas ou miracídios) revela o artefato."
     },
     {
         "id": 19,
@@ -282,7 +282,7 @@
     {
         "id": 21,
         "topico": "protozoarios_int",
-        "urlImagem": "images/lamina-cisto-ameba.png",
+        "urlImagem": "images/cisto-simples-entamoeba-histolytica.png",
         "enunciado": "Examine a estrutura arredondada de 10-15 µm corada pelo lugol. Apresenta parede cística nítida e exibe exatamente **4 núcleos** com cariossomos centralizados e corpos cromatóides alongados. Trata-se de um cisto de ___.",
         "opcoes": [
             "Entamoeba coli",
@@ -296,7 +296,7 @@
     {
         "id": 22,
         "topico": "protozoarios_int",
-        "urlImagem": "images/lamina-trofozoito-giardia.png",
+        "urlImagem": "images/Giardia_trophozoites_Giemsa.png",
         "enunciado": "Durante o exame de fezes diarreicas a fresco, observa-se um protozoário flagelado com formato de gota ou pera, simetria bilateral, dois núcleos idênticos que lembram 'olhos' e motilidade em 'folha caindo'. Trata-se do trofozoíto de ___.",
         "opcoes": [
             "Chilomastix mesnili",
@@ -324,7 +324,7 @@
     {
         "id": 24,
         "topico": "protozoarios_int",
-        "urlImagem": "images/lamina-cisto-ecoli.png",
+        "urlImagem": "images/Entamoeba_histolytica_cyst.png",
         "enunciado": "Examine este cisto esférico volumoso (15-25 µm) corado pelo iodo. Foi possível contar com precisão **8 núcleos** em planos focais diferentes. Trata-se de um cisto de ___.",
         "opcoes": [
             "Entamoeba histolytica",
@@ -436,7 +436,7 @@
     {
         "id": 32,
         "topico": "protozoarios_int",
-        "urlImagem": "images/lamina-balantidium.png",
+        "urlImagem": "images/Balantidium_coli_trophozoite.jpg",
         "enunciado": "Examine este protozoário ciliado gigante (maior que 50 µm) isolado em amostra fecal de suinocultor. Ele exibe um macronúcleo volumoso em formato de **rim ou feijão**. Trata-se de ___.",
         "opcoes": [
             "Entamoeba coli",
@@ -492,7 +492,7 @@
     {
         "id": 36,
         "topico": "protozoarios_int",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/entamoeba-histolytica-cisto-trofozoíto.png",
         "enunciado": "Durante uma investigação diagnóstica, a distinção morfológica microscópica entre os trofozoítos de Entamoeba histolytica e Entamoeba dispar baseia-se estritamente na visualização de ___.",
         "opcoes": [
             "Diferença no número de núcleos celulares",
@@ -562,7 +562,7 @@
     {
         "id": 41,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito005-Enterobius vermicularis.jpg",
         "enunciado": "O nematódeo intestinal cuja fêmea adulta realiza a oviposição típica na região perianal do hospedeiro, principalmente durante o período noturno, é o ___.",
         "opcoes": [
             "Ascaris lumbricoides",
@@ -590,7 +590,7 @@
     {
         "id": 43,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/enterobius-vermicularis.jpg",
         "enunciado": "A penetração ativa de larvas filarióides na pele humana através do contato direto com o solo contaminado é o mecanismo clássico de transmissão da ___.",
         "opcoes": [
             "Ascaridíase",
@@ -618,7 +618,7 @@
     {
         "id": 45,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/ancilostomídeo.jpg",
         "enunciado": "Os vermes pertencentes à família Ancylostomatidae provocam um quadro grave de espoliação crônica no hospedeiro, levando o paciente a desenvolver principalmente ___.",
         "opcoes": [
             "Anemia ferropriva",
@@ -674,7 +674,7 @@
     {
         "id": 49,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito001-Trichuris trichiura..jpg",
         "enunciado": "O verme nematódeo que exibe formato característico de 'chicote', apresentando a porção anterior delgada e a posterior mais espessa, colonizando o intestino grosso (ceco), é o ___.",
         "opcoes": [
             "Ascaris lumbricoides",
@@ -688,7 +688,7 @@
     {
         "id": 50,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/trichuris-trichiura.jpg",
         "enunciado": "Nas infecções maciças por Trichuris trichiura em crianças desnutridas, o enfraquecimento da musculatura retal associado ao peristaltismo exacerbado pode induzir o quadro clínico de ___.",
         "opcoes": [
             "Prolapso retal",
@@ -702,7 +702,7 @@
     {
         "id": 51,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito006-arva rabditóide de Strongyloides stercoralis.jpg",
         "enunciado": "A distinção prática laboratorial entre a larva rhabditóide de Strongyloides stercoralis e uma larva de ancilostomídeo nas fezes baseia-se na presença, em Strongyloides, de um ___.",
         "opcoes": [
             "Esôfago do tipo filarióide longo",
@@ -716,7 +716,7 @@
     {
         "id": 52,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/strongyloides-stercoralis.jpg",
         "enunciado": "Qual o principal método qualitativo e quantitativo preconizado pela OMS para o diagnóstico laboratorial de geohelmintoses, utilizando um tamis metálico e uma lâmina de celofane impregnada com glicerina e verde de malaquita?",
         "opcoes": [
             "Método de Faust",
@@ -786,7 +786,7 @@
     {
         "id": 57,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito003-ovo fértil de Ascaris lumbricoides.jpg",
         "enunciado": "Qual o hospedeiro definitivo biológico e o habitat anatômico padrão dos espécimes adultos de Ascaris lumbricoides?",
         "opcoes": [
             "O cão / Tecido subcutâneo",
@@ -800,7 +800,7 @@
     {
         "id": 58,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/ascaris-lumbricoides.jpg",
         "enunciado": "A ingestão de carne de porco crua ou malcozida contendo larvas encistadas em células musculares estriadas modificadas é a via de transmissão da ___.",
         "opcoes": [
             "Ancilostomíase severa",
@@ -828,7 +828,7 @@
     {
         "id": 60,
         "topico": "nematoideos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito002-ovo infértil de Ascaris.jpg",
         "enunciado": "Quando um lote maciço de Ascaris lumbricoides se enovela no intestino de uma criança, obstruindo totalmente a passagem das fezes, o quadro é classificado como ___.",
         "opcoes": [
             "Suboclusão por bolo de Ascaris",
@@ -940,7 +940,7 @@
     {
         "id": 68,
         "topico": "cestodeos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito008-ovo Hymenolepis nana.jpg",
         "enunciado": "O menor cestódeo a parasitar o intestino humano, que dispensa hospedeiro intermediário obrigatório (ciclo monoxênico opcional), é o ___.",
         "opcoes": [
             "Hymenolepis diminuta",
@@ -954,7 +954,7 @@
     {
         "id": 69,
         "topico": "cestodeos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/hymenolepis-nana.jpg",
         "enunciado": "A distinção laboratorial definitiva entre proglotes grávidas de Taenia solium e Taenia saginata baseia-se na contagem do número de ___.",
         "opcoes": [
             "Ventosas e ganchos no escólex",
@@ -996,7 +996,7 @@
     {
         "id": 72,
         "topico": "cestodeos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito004-Diphyllobothrium latum .jpg",
         "enunciado": "O cestódeo gigante conhecido como 'tênia do peixe', que infecta humanos que consomem pescado cru em regiões lacustres, chama-se ___.",
         "opcoes": [
             "Taenia saginata",
@@ -1010,7 +1010,7 @@
     {
         "id": 73,
         "topico": "cestodeos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/diphyllobothrium-latum.jpg",
         "enunciado": "Nas infecções crônicas por Diphyllobothrium latum, a espoliação severa de qual vitamina essencial induz o desenvolvimento de anemia megaloblástica no paciente?",
         "opcoes": [
             "Vitamina C (Ácido ascórbico)",
@@ -1066,7 +1066,7 @@
     {
         "id": 77,
         "topico": "cestodeos",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito011-ovo Taenia solium.jpg",
         "enunciado": "Os ovos das espécies do gênero Taenia eliminados nas fezes humanas apresentam qual propriedade microscópica diagnóstica obrigatória?",
         "opcoes": [
             "Dois tampões polares mucilaginosos transparentes",
@@ -1164,7 +1164,7 @@
     {
         "id": 84,
         "topico": "schistosoma",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito010-Cercariae de Schistosoma mansoni .jpg",
         "enunciado": "Qual a forma evolutiva livre-nadadora do Schistosoma mansoni, dotada de cauda bifurcada, encarregada de abandonar o caramujo e penetrar ativamente na pele humana?",
         "opcoes": [
             "Miracídio",
@@ -1276,7 +1276,7 @@
     {
         "id": 92,
         "topico": "schistosoma",
-        "urlImagem": "images/background-parasito.png",
+        "urlImagem": "images/parasito009-ovo de Schistosoma mansoni.jpg",
         "enunciado": "A expulsão ativa dos ovos de Schistosoma mansoni do interior dos vasos sanguíneos em direção à luz intestinal é auxiliada morfologicamente pela presença de um ___ no ovo.",
         "opcoes": [
             "Opérculo polar",
@@ -1290,16 +1290,16 @@
     {
         "id": 93,
         "topico": "schistosoma",
-        "urlImagem": "images/background-parasito.png",
-        "enunciado": "Qual o teste imunológico ou molecular de alta sensibilidade que pesquisa frações de DNA do parasita na urina ou fezes do paciente para diagnóstico em áreas de baixa carga?",
+        "urlImagem": "images/schistosoma-mansoni.jpg",
+        "enunciado": "Focalizando o sedimento de fezes de paciente residente em área endêmica, identifica-se um ovo gigante (cerca de 140 µm) contendo um miracídio vivo e um espinho lateral voltado para trás. Qual o diagnóstico?",
         "opcoes": [
-            "Reação em Cadeia da Polimerase (PCR)",
-            "Intradermorreação de Montenegro",
-            "Reação de Machado-Guerreiro",
-            "Hemograma automatizado"
+            "Esquistossomose (Schistosoma mansoni)",
+            "Fasciolose hepática",
+            "Teníase intestinal",
+            "Ancilostomíase severa"
         ],
         "indexCorreto": 0,
-        "justificativa": "A <b>PCR</b> destaca-se em cenários epidemiológicos de baixa transmissão onde a carga de ovos nas fezes é flutuante ou indetetável pela microscopia."
+        "justificativa": "Os ovos de <i>Schistosoma mansoni</i> são os maiores encontrados na rotina de enteroparasitologia e sua identificação é imediata devido ao volumoso **espículo lateral** pontiagudo."
     },
     {
         "id": 94,
@@ -1458,16 +1458,16 @@
     {
         "id": 105,
         "topico": "protozoarios_tec",
-        "urlImagem": "images/background-parasito.png",
-        "enunciado": "A forma diagnóstica infectante do Trypanosoma cruzi eliminada nas fezes e urina do inseto vetor durante ou logo após a picada hematófaga é o ___.",
+        "urlImagem": "images/trypanosoma-cruzi.png",
+        "enunciado": "A análise de esfregaço sanguíneo corado revela um protozoário hemoflagelado extracelular com formato alongado em lâmina (em 'C' ou 'U'), dotado de um cinetoplasto volumoso em uma das extremidades e membrana ondulante. Trata-se de ___.",
         "opcoes": [
-            "Tripomastigota metacíclico",
-            "Tripomastigota sanguíneo",
-            "Epimastigota",
-            "Amastigota tecidual"
+            "Tripomastigota sanguíneo de Trypanosoma cruzi",
+            "Amastigota de Leishmania",
+            "Taquizoíto de Toxoplasma gondii",
+            "Trofozoíto de Plasmodium falciparum"
         ],
         "indexCorreto": 0,
-        "justificativa": "O <b>tripomastigota metacíclico</b> penetra através da lesão da picada ou de mucosas íntegras quando o hospedeiro coça o local."
+        "justificativa": "A forma **tripomastigota sanguínea** do <i>Trypanosoma cruzi</i> é encontrada livre no plasma durante a fase aguda da doença de Chagas, caracterizando-se por seu cinetoplasto proeminente na região posterior."
     },
     {
         "id": 106,
